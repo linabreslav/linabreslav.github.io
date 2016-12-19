@@ -138,7 +138,7 @@ footer {
 
   header .headname h1 {
     top: 20%;
-    left: 19%;
+    left: 17%;
     font-size: 30px; }
 
   header .headname h2 {
@@ -152,7 +152,7 @@ footer {
     font-size: 50px; }
 
   header .fullhead .socialmediaicons {
-    top: 150%;
+    top: 140%;
     left: 50%; }
 
   nav ul li a {
@@ -167,7 +167,7 @@ footer {
     section .meblurb {
       font-family: 'cajito';
       color: #3A3A3C;
-      font-size: 15px;
+      font-size: 12px;
       width: 44%;
       padding-left: 3%; }
     section .largecurlyicon img {
