@@ -16,7 +16,7 @@ $gray: #3A3A3C;
 $font: 'cajito';
 
 // GENERAL FIXES
-html, body, ul, li{
+html, body, ul, li, h1, h2, h3{
   margin: 0px;
   padding: 0px;
 }
@@ -37,11 +37,10 @@ header {
 // INSIDE HEADER NAME AND TITLE
   .headname {
     h1 {
-      color: red;
-      // @include fontStyleColor;
+      @include fontStyleColor;
       font-size: 40px;
-      position: absolute;
-      left: 8%;
+      padding-left: 8%;
+      padding-top: 2%;
       text-transform: uppercase;
     }
     h2{
@@ -50,17 +49,15 @@ header {
       color: #466C79;
       font-weight: 200;
       font-size: 20px;
-      position: absolute;
-      top: 45%;
-      left: 13%;
+      padding-left: 12%;
     }
     h3 {
       @include fontStyleColor;
       font-size: 70px;
-      font-weight: 300;
+      font-weight: 300px;
+      padding-left: 5%;
       position: absolute;
-      top: -37%;
-      left: 4%;
+      bottom: 10%;
     }
   }
 
@@ -239,8 +236,6 @@ footer {
   }
 
   header .headname h1 {
-    top: 20%;
-    // left: 17%;
     font-size: 30px;
     text-align: center;
   }
@@ -248,7 +243,6 @@ footer {
   header .headname h2 {
     top: 58%;
     font-size: 13px;
-    text-align: center;
   }
 
   header .headname h3 {

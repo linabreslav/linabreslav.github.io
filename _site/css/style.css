@@ -1,7 +1,7 @@
 @font-face {
   font-family: 'cajito';
   src: url("cajitoregular/cajito.otf"); }
-html, body, ul, li {
+html, body, ul, li, h1, h2, h3 {
   margin: 0px;
   padding: 0px; }
 
@@ -12,27 +12,26 @@ header {
   background-repeat: repeat;
   background-size: contain; }
   header .headname h1 {
-    color: red;
+    font-family: 'cajito';
+    color: #3A3A3C;
     font-size: 40px;
-    position: absolute;
-    left: 8%;
+    padding-left: 8%;
+    padding-top: 2%;
     text-transform: uppercase; }
   header .headname h2 {
     font-family: 'cajito';
     color: #466C79;
     font-weight: 200;
     font-size: 20px;
-    position: absolute;
-    top: 45%;
-    left: 13%; }
+    padding-left: 12%; }
   header .headname h3 {
     font-family: 'cajito';
     color: #3A3A3C;
     font-size: 70px;
-    font-weight: 300;
+    font-weight: 300px;
+    padding-left: 5%;
     position: absolute;
-    top: -37%;
-    left: 4%; }
+    bottom: 10%; }
   header .socialmediaicons {
     position: absolute;
     left: 85%;
@@ -136,14 +135,12 @@ footer {
     padding-top: 0%; }
 
   header .headname h1 {
-    top: 20%;
     font-size: 30px;
     text-align: center; }
 
   header .headname h2 {
     top: 58%;
-    font-size: 13px;
-    text-align: center; }
+    font-size: 13px; }
 
   header .headname h3 {
     top: -4%;
