@@ -292,6 +292,18 @@ footer {
     }
   }
 
+  .projectcontainer {
+    .project {
+      img {
+        }
+        h2 {
+          font-family: 'cajito';
+          color: $gray;
+          font-size: 15px;
+          text-transform: none;
+          font-weight: 200;
+        }
+
   footer {
     height: 15px;
     h3 {
