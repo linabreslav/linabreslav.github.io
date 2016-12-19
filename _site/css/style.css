@@ -138,22 +138,25 @@ footer {
 
   header .headname h1 {
     top: 20%;
-    left: 19%; }
+    left: 19%;
+    font-size: 30px; }
 
   header .headname h2 {
     left: 15%;
-    top: 62%; }
+    top: 62%;
+    font-size: 15px; }
 
   header .headname h3 {
     left: 8%;
-    top: -20%; }
+    top: -10%;
+    font-size: 50px; }
 
   header .fullhead .socialmediaicons {
     top: 150%;
-    left: 60%; }
+    left: 50%; }
 
   nav ul li a {
-    font-size: 19px;
+    font-size: 15px;
     padding: 2% 0;
     padding-top: 3%; }
 
@@ -164,11 +167,17 @@ footer {
     section .meblurb {
       font-family: 'cajito';
       color: #3A3A3C;
-      font-size: 16px;
-      width: 50%; }
+      font-size: 15px;
+      width: 44%;
+      padding-left: 3%; }
     section .largecurlyicon img {
       height: 70px;
-      padding: 17%; }
+      padding: 10%; }
     section .mephoto img {
       height: 130px;
-      padding: 8%; } }
+      padding: 5%; }
+
+  footer {
+    height: 15px; }
+    footer h3 {
+      font-size: 10px; } }
