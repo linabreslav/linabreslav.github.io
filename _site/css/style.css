@@ -138,8 +138,8 @@ footer {
 
   header .headname h1 {
     top: 20%;
-    left: 17%;
-    font-size: 30px; }
+    font-size: 30px;
+    padding: 2%; }
 
   header .headname h2 {
     left: 18%;
@@ -147,8 +147,7 @@ footer {
     font-size: 13px; }
 
   header .headname h3 {
-    left: 8%;
-    top: -10%;
+    top: -4%;
     font-size: 50px; }
 
   header .fullhead .socialmediaicons {
