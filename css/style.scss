@@ -38,7 +38,7 @@ header {
   .headname {
     h1 {
       @include fontStyleColor;
-      font-size: 40px;
+      font-size: 10vw;
       position: absolute;
       left: 8%;
       text-transform: uppercase;
