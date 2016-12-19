@@ -37,6 +37,7 @@ header {
 // INSIDE HEADER NAME AND TITLE
   .headname {
     h1 {
+      color: red;
       @include fontStyleColor;
       font-size: 40px;
       position: absolute;
@@ -241,13 +242,13 @@ footer {
     top: 20%;
     // left: 17%;
     font-size: 30px;
-    padding: 2%;
+    text-align: center;
   }
 
   header .headname h2 {
-    left: 18%;
     top: 58%;
     font-size: 13px;
+    text-align: center;
   }
 
   header .headname h3 {
@@ -305,7 +306,7 @@ footer {
         }
 
   footer {
-    height: 15px;
+    height: 18px;
     h3 {
       font-size: 10px;
     }
