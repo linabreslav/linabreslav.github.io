@@ -14,15 +14,16 @@ header {
   background: linear-gradient(rgba(70, 108, 121, 0.06), rgba(70, 108, 121, 0.06)), url("../images/whitediamond.png");
   background-repeat: repeat;
   background-size: contain; }
+  header .headname .nameslogan {
+    padding-top: 2.5%; }
   header .headname a {
+    text-decoration: none;
+    font-family: 'cajito';
+    color: #3A3A3C;
+    font-size: 40px;
+    padding-left: 8%;
+    text-transform: uppercase;
     text-decoration: none; }
-    header .headname a h1 {
-      font-family: 'cajito';
-      color: #3A3A3C;
-      font-size: 40px;
-      padding-left: 8%;
-      padding-top: 2.5%;
-      text-transform: uppercase; }
   header .headname h2 {
     font-family: 'cajito';
     color: #466C79;

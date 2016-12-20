@@ -42,32 +42,33 @@ header {
 
 // INSIDE HEADER NAME AND TITLE
   .headname {
-  a {
-    text-decoration: none;
-    h1 {
-      @include fontStyleColor;
-      font-size: 40px;
-      padding-left: 8%;
+    .nameslogan {
       padding-top: 2.5%;
-      text-transform: uppercase;
     }
-  }
-    h2{
-      // @include fontStyleColor;
-      font-family: 'cajito';
-      color: #466C79;
-      font-weight: 200;
-      font-size: 20px;
-      padding-left: 12%;
-    }
-    h3 {
-      @include fontStyleColor;
-      font-size: 70px;
-      font-weight: 300px;
-      padding-left: 5%;
-      bottom: 16%;
-      position: absolute;
-    }
+    a {
+      text-decoration: none;
+        @include fontStyleColor;
+        font-size: 40px;
+        padding-left: 8%;
+        text-transform: uppercase;
+        text-decoration: none;
+      }
+      h2{
+        // @include fontStyleColor;
+        font-family: 'cajito';
+        color: #466C79;
+        font-weight: 200;
+        font-size: 20px;
+        padding-left: 12%;
+      }
+      h3 {
+        @include fontStyleColor;
+        font-size: 70px;
+        font-weight: 300px;
+        padding-left: 5%;
+        bottom: 16%;
+        position: absolute;
+      }
   }
 
 // SOCIAL MEDIA ICONS
