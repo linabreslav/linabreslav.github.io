@@ -1,8 +1,8 @@
 @font-face {
   font-family: 'cajito';
   src: url("cajitoregular/cajito.otf"); }
-h1 {
-  color: red; }
+html {
+  max-width: 1440px; }
 
 html, body, ul, li, h1, h2, h3 {
   margin: 0px;
@@ -94,13 +94,15 @@ section {
 
 .secondsection {
   background-color: #fafafa;
-  margin: 2% 0; }
+  margin: 0;
+  margin-top: 2%;
+  padding-bottom: 2%; }
   .secondsection h2 {
     font-family: 'cajito';
     text-transform: uppercase;
     color: #466C79;
     font-size: 20px;
-    margin-left: 5%;
+    margin-left: 8%;
     padding-top: 2%; }
   .secondsection .projectcontainer {
     display: flex;
@@ -133,7 +135,32 @@ footer {
     text-align: center;
     padding-top: 1%; }
 
-@media (max-width: 699px) {
+@media (min-width: 768px) and (max-width: 1024px) {
+  header .headname h3 {
+    padding-left: 3%;
+    bottom: 23%; }
+
+  .secondsection .projectcontainer {
+    justify-content: space-around;
+    margin-top: 5%;
+    padding-bottom: 5%; }
+    .secondsection .projectcontainer .project {
+      width: 150px; }
+      .secondsection .projectcontainer .project img {
+        width: 150px;
+        height: 100px; }
+      .secondsection .projectcontainer .project h2 {
+        width: 150px; }
+
+  section {
+    padding: 15% 0;
+    margin: 0 auto;
+    width: 80%; }
+
+  section .meblurb {
+    width: 45%;
+    font-size: 20px; } }
+@media (max-width: 767px) {
   header {
     padding-top: 0%;
     height: 120px; }
