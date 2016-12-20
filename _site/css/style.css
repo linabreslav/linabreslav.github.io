@@ -14,13 +14,15 @@ header {
   background: linear-gradient(rgba(70, 108, 121, 0.06), rgba(70, 108, 121, 0.06)), url("../images/whitediamond.png");
   background-repeat: repeat;
   background-size: contain; }
-  header .headname h1 {
-    font-family: 'cajito';
-    color: #3A3A3C;
-    font-size: 40px;
-    padding-left: 8%;
-    padding-top: 2.5%;
-    text-transform: uppercase; }
+  header .headname a {
+    text-decoration: none; }
+    header .headname a h1 {
+      font-family: 'cajito';
+      color: #3A3A3C;
+      font-size: 40px;
+      padding-left: 8%;
+      padding-top: 2.5%;
+      text-transform: uppercase; }
   header .headname h2 {
     font-family: 'cajito';
     color: #466C79;
@@ -233,3 +235,35 @@ footer {
     height: 18px; }
     footer h3 {
       font-size: 10px; } }
+.aboutphoto img {
+  height: 320px;
+  display: block;
+  margin: 0 auto;
+  padding: 6% 0 2% 0; }
+
+.aboutalltext {
+  width: 540px;
+  display: block;
+  margin: 0 auto; }
+  .aboutalltext p {
+    font-family: 'cajito';
+    color: #3A3A3C;
+    font-size: 18px;
+    line-height: 1.4;
+    text-align: justify; }
+
+.skillscontainer {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5%; }
+  .skillscontainer .skills {
+    width: 450px;
+    position: relative; }
+    .skillscontainer .skills p {
+      font-family: 'cajito';
+      color: #3A3A3C;
+      font-size: 18px;
+      line-height: 1.4;
+      text-align: justify; }
+  .skillscontainer .abouticon img {
+    height: 200px; }

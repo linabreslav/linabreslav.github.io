@@ -1,6 +1,7 @@
 ---
 ---
 
+
 @font-face {
     font-family: 'cajito';
     src: url('cajitoregular/cajito.otf');
@@ -41,6 +42,8 @@ header {
 
 // INSIDE HEADER NAME AND TITLE
   .headname {
+  a {
+    text-decoration: none;
     h1 {
       @include fontStyleColor;
       font-size: 40px;
@@ -48,6 +51,7 @@ header {
       padding-top: 2.5%;
       text-transform: uppercase;
     }
+  }
     h2{
       // @include fontStyleColor;
       font-family: 'cajito';
@@ -365,5 +369,45 @@ height: 18px;
 h3 {
   font-size: 10px;
     }
+  }
+}
+
+// ABOUT PAGE
+
+.aboutphoto img {
+    height: 320px;
+    display: block;
+    margin: 0 auto;
+    padding: 6% 0 2% 0;
+  }
+
+.aboutalltext {
+  width: 540px;
+  display: block;
+  margin: 0 auto;
+  p {
+    @include fontStyleColor;
+    font-size: 18px;
+    line-height: 1.4;
+    text-align: justify;
+  }
+}
+
+.skillscontainer {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5%;
+  .skills{
+    width: 450px;
+    position: relative;
+    p {
+      @include fontStyleColor;
+      font-size: 18px;
+      line-height: 1.4;
+      text-align: justify;
+    }
+  }
+.abouticon img {
+  height: 200px;
   }
 }
