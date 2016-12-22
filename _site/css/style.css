@@ -127,17 +127,18 @@ section {
         color: #3A3A3C;
         font-size: 18px;
         text-transform: none;
-        font-weight: 200; }
+        font-weight: 200;
+        padding: 10% 0; }
 
 footer {
+  padding-top: 1%;
+  font-family: "cajito";
   background-color: #3A3A3C;
-  height: 35px; }
-  footer h3 {
-    font-size: 15px;
-    color: white;
-    font-family: 'cajito';
-    text-align: center;
-    padding-top: 1%; }
+  height: 35px;
+  font-size: 15px;
+  color: white;
+  font-family: 'cajito';
+  text-align: center; }
 
 @media (min-width: 631px) and (max-width: 1024px) {
   header .headname .headericon {
@@ -229,14 +230,12 @@ footer {
           text-transform: none;
           font-weight: 200;
           text-align: left;
-          margin: 0;
           text-align: center;
           padding: 10%; }
 
   footer {
-    height: 24px; }
-    footer h3 {
-      font-size: 9px; } }
+    height: 24px;
+    font-size: 9px; } }
 .aboutphoto img {
   height: 320px;
   display: block;
@@ -324,9 +323,8 @@ footer {
       font-size: 15px;
       text-align: left; }
   .skillscontainer footer {
-    height: 24px; }
-    .skillscontainer footer h3 {
-      font-size: 9px; } }
+    height: 24px;
+    font-size: 9px; } }
 .title {
   font-family: 'cajito';
   color: #3A3A3C;

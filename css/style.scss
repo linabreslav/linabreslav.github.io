@@ -190,6 +190,7 @@ section {
           font-size: 18px;
           text-transform: none;
           font-weight: 200;
+          padding:10% 0;
         }
       }
     }
@@ -197,16 +198,15 @@ section {
 
 // FOOTER
 footer {
+  padding-top: 1%;
+  font-family: "cajito";
   background-color: $gray;
   height: 35px;
-  h3 {
-    font-size: 15px;
-    color: white;
-    font-family: 'cajito';
-    text-align: center;
-    padding-top: 1%;
-    }
-  }
+  font-size: 15px;
+  color: white;
+  font-family: 'cajito';
+  text-align: center;
+}
 
 
 // BLOG SECTION: FEATURED POST
@@ -358,7 +358,6 @@ section {
           text-transform: none;
           font-weight: 200;
           text-align: left;
-          margin: 0;
           text-align: center;
           padding: 10%;
         }
@@ -368,9 +367,7 @@ section {
 
 footer {
 height: 24px;
-h3 {
-  font-size: 9px;
-    }
+font-size: 9px;
   }
 }
 
@@ -496,9 +493,7 @@ h3 {
 
   footer {
   height: 24px;
-  h3 {
-    font-size: 9px;
-      }
+  font-size: 9px;
     }
   }
 }
