@@ -22,7 +22,7 @@ $gray: #3A3A3C;
 $font: 'cajito';
 
 // GENERAL FIXES
-html, body, ul, li, h1, h2, h3{
+html, body, ul, li, h1, h2, h3, a{
   margin: 0px;
   padding: 0px;
 }
@@ -74,7 +74,7 @@ header {
 // SOCIAL MEDIA ICONS
 .socialmediaicons {
   position: absolute;
-  left: 70%;
+  left: 76%;
   top: 70%;
   font-size: 30px;
     ul {
@@ -281,9 +281,9 @@ section {
     height: 120px;
   }
 
-  header .headname h1 {
+  header .headname a {
     font-size: 30px;
-    text-align: center;
+    display: block;
     padding: 0;
     padding-top: 10%;
   }
@@ -410,5 +410,102 @@ h3 {
   }
 .abouticon img {
   height: 200px;
+  }
+}
+
+
+
+// ABOUT PAGE MEDIA QUERIES
+
+// ABOUT TABLET MEDIA QUERIE
+@media (min-width: 631px) and (max-width: 1024px) {
+  header .headname h3 {
+    padding-left: 3%;
+    bottom: 23%;
+  }
+
+}
+
+
+
+
+// ABOUT MOBILE MEDIA QUERY
+
+@media (max-width: 630px) {
+
+  header {
+    padding-top: 0%;
+    height: 120px;
+  }
+
+  header .headname a {
+    font-size: 30px;
+    text-align: center;
+    padding: 0;
+    padding-top: 10%;
+  }
+
+  header .headname h2 {
+    text-align: center;
+    font-size: 15px;
+    padding: 0;
+    padding-top: 1%;
+  }
+
+  header .headname h3 {
+    display: none;
+  }
+
+
+  nav ul li a {
+    font-size: 15px;
+    padding: 2% 0;
+    padding-top: 2.5%;
+    text-decoration: none;
+  }
+
+  header .socialmediaicons {
+    position: absolute;
+    left: 53%;
+    top: 140%;
+    font-size: 20px;
+    padding: 0 3%;
+    width: 30%;
+    }
+
+  .aboutphoto img {
+      height: 200px;
+      display: block;
+      margin: 0 auto;
+      padding: 20% 0 2% 0;
+    }
+
+  .aboutalltext {
+    width: 220px;
+    p {
+      font-size: 15px;
+      text-align: left;
+    }
+  }
+
+  .skillscontainer {
+    .skills{
+      width: 220px;
+      p {
+        font-size: 15px;
+        text-align: left;
+      }
+    }
+
+    .abouticon img {
+      display: none;
+      }
+
+  footer {
+  height: 18px;
+  h3 {
+    font-size: 10px;
+      }
+    }
   }
 }
