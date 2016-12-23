@@ -100,7 +100,7 @@ header {
 nav {
   text-align: center;
   background-color: $gray;
-  height: 30px;
+  height: 28px;
   ul {
     li {
       display: inline;
@@ -116,10 +116,7 @@ nav {
         padding: .4% 4% 0 %4;
         font-size: 20px;
       }
-      a:hover {
-        color: $mustard;
-      }
-      a:after {
+      a:active, a:hover, a:after, a:focus {
         color: $mustard;
       }
     }
