@@ -100,7 +100,6 @@ header {
 nav {
   text-align: center;
   background-color: $gray;
-  height: 28px;
   ul {
     li {
       display: inline;
@@ -113,8 +112,8 @@ nav {
         background-color: $gray;
         color: white;
         font-family: $font;
-        padding: .4% 4% 0 %4;
-        font-size: 20px;
+        padding: 0 4%;
+        font-size: 17px;
       }
       a:active, a:hover, a:after, a:focus {
         color: $mustard;
@@ -303,7 +302,6 @@ section {
     font-size: 15px;
     padding-left: 1.5%;
     padding-right: 1.5%;
-    padding-top: 1%;
     text-decoration: none;
   }
 
@@ -452,7 +450,6 @@ font-size: 9px;
     font-size: 15px;
     padding-left: 1.5%;
     padding-right: 1.5%;
-    padding-top: 1%;
     text-decoration: none;
   }
 
@@ -589,7 +586,6 @@ h4 {
     font-size: 15px;
     padding-left: 1.5%;
     padding-right: 1.5%;
-    padding-top: 1%;
     text-decoration: none;
   }
 
