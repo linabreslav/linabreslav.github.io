@@ -55,7 +55,8 @@ header {
 
 nav {
   text-align: center;
-  background-color: #3A3A3C; }
+  background-color: #3A3A3C;
+  height: 30px; }
   nav ul li {
     display: inline;
     list-style: none;
@@ -67,10 +68,11 @@ nav {
       background-color: #3A3A3C;
       color: white;
       font-family: "cajito";
-      padding: 1% 4%;
+      padding: 0.4% 4% 0;
       font-size: 20px; }
     nav ul li a:hover {
-      font-weight: 900;
+      color: #e0b412; }
+    nav ul li a:after {
       color: #e0b412; }
 
 section {
@@ -184,9 +186,10 @@ footer {
     display: none; }
 
   nav ul li a {
-    font-size: 13px;
-    padding: 1.5% 0;
-    padding-top: 2.5%;
+    font-size: 15px;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+    padding-top: 1%;
     text-decoration: none; }
 
   header .socialmediaicons {
@@ -290,9 +293,10 @@ footer {
     display: none; }
 
   nav ul li a {
-    font-size: 13px;
-    padding: 1.5% 0;
-    padding-top: 2.5%;
+    font-size: 15px;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+    padding-top: 1%;
     text-decoration: none; }
 
   header .socialmediaicons {
@@ -394,9 +398,10 @@ h4 {
     display: none; }
 
   nav ul li a {
-    font-size: 13px;
-    padding: 1.5% 0;
-    padding-top: 2.5%;
+    font-size: 15px;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+    padding-top: 1%;
     text-decoration: none; }
 
   header .socialmediaicons {
