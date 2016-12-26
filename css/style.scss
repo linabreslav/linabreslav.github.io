@@ -76,10 +76,11 @@ header {
 // SOCIAL MEDIA ICONS
 .socialmediaicons {
   position: absolute;
-  left: 70%;
+  left: 64%;
   top: 70%;
   font-size: 30px;
     ul {
+      width: 100%;
       li {
         display: inline;
         list-style: none;
@@ -309,7 +310,7 @@ section {
 
   header .socialmediaicons {
     position: absolute;
-    left: 45%;
+    left: 40%;
     top: 140%;
     font-size: 20px;
     padding: 0 1%;
@@ -456,7 +457,7 @@ font-size: 9px;
 
   header .socialmediaicons {
     position: absolute;
-    left: 45%;
+    left: 40%;
     top: 140%;
     font-size: 20px;
     padding: 0 1%;
@@ -591,7 +592,7 @@ h4 {
 
   header .socialmediaicons {
     position: absolute;
-    left: 45%;
+    left: 40%;
     top: 140%;
     font-size: 20px;
     padding: 0 1%;
