@@ -73,14 +73,20 @@ header {
         padding-left: 12%;
       }
       .headericon {
-        font-family: 'cajito';
-        color: white;
-        font-size: 70px;
-        font-weight: 300px;
-        padding-left: 5%;
-        bottom: 16%;
-        position: absolute;
+        // font-family: 'cajito';
+        // color: white;
+        // font-size: 70px;
+        // font-weight: 300px;
+        // padding-left: 5%;
+        // bottom: 16%;
+        // position: absolute;
+        img {
+          height: 90px;
+          position: absolute;
+          top: 13%;
+          left: 5%;
       }
+    }
   }
 
 // SOCIAL MEDIA ICONS
@@ -127,7 +133,7 @@ nav {
         background-color: #708090;
         color: white;
         font-family: $font;
-        padding: 0 4%;
+        padding: 0 1%;
         font-size: 17px;
         text-transform: uppercase;
       }
