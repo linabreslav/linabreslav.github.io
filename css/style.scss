@@ -8,14 +8,10 @@
 }
 
 @font-face {
-    font-family: 'sketchblock';
+    font-family: 'fabfelt';
     src: url('Sketch_Block.ttf');
 }
 
-@font-face {
-  font-family: 'staywriter';
-  src: url('Stay_Writer.ttf')
-}
 
 // MIXINS
 @mixin fontStyleColor {
@@ -42,16 +38,17 @@ html, body, ul, li, h1, h2, h3, a{
 
 // HEADER STYLING: NAME
 header {
-  height: 125px;
+  height: 130px;
   position: relative;
-  background:
-  linear-gradient(
-    rgba(#466C79, 0.06),
-    rgba(#466C79, 0.06)
-  ),
-  url("../images/whitediamond.png");
-  background-repeat: repeat;
-  background-size: contain;
+  background-color: #708090;
+  // background:
+  // linear-gradient(
+  //   rgba(#466C79, 0.06),
+  //   rgba(#466C79, 0.06)
+  // ),
+  // url("../images/whitediamond.png");
+  // background-repeat: repeat;
+  // background-size: contain;
 
 // INSIDE HEADER NAME AND TITLE
   .headname {
@@ -59,24 +56,25 @@ header {
       padding-top: 2.5%;
     }
     a {
-      text-decoration: none;
-        color: $gray;
-        font-family: 'sketchblock';
+        text-decoration: none;
+        font-family: 'cajito';
         font-size: 40px;
         padding-left: 8%;
-        text-transform: uppercase;
         text-decoration: none;
+        text-transform: uppercase;
+        color: white;
       }
       h2{
         // @include fontStyleColor;
         font-family: 'cajito';
-        color: $gray;
+        color: white;
         font-weight: 200;
         font-size: 20px;
         padding-left: 12%;
       }
       .headericon {
-        @include fontStyleColor;
+        font-family: 'cajito';
+        color: white;
         font-size: 70px;
         font-weight: 300px;
         padding-left: 5%;
@@ -88,7 +86,7 @@ header {
 // SOCIAL MEDIA ICONS
 .socialmediaicons {
   position: absolute;
-  left: 81%;
+  left: 85%;
   top: 130%;
   font-size: 25px;
     ul {
@@ -125,13 +123,13 @@ nav {
       text-decoration: none;
       a {
         text-decoration: none;
-        text-transform: uppercase;
         display: inline-block;
         background-color: #708090;
         color: white;
         font-family: $font;
         padding: 0 4%;
         font-size: 17px;
+        text-transform: uppercase;
       }
       a:active, a:hover, a:after, a:focus {
         color: $mustard;
@@ -145,7 +143,7 @@ nav {
 
 // MIDDLE CONTENT/ SHORTENED ABOUT ME
 section {
-  width: 60%;
+  width: 95%;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -153,13 +151,14 @@ section {
   justify-content: space-around;
   margin: 0 auto;
   margin-top: 3%;
-  padding: 4%;
 
   .meblurb {
     color: $gray;
     font-family: 'cajito';
-    font-size: 23px;
+    font-size: 17px;
     text-transform: lowercase;
+    text-align: left;
+    margin: 2%;
   }
 
   .largecurlyicon {
@@ -178,14 +177,14 @@ section {
   margin-top: 2%;
   padding-bottom: 2%;
   .projectstitle {
-    font-family: 'sketchblock';
-    text-transform: uppercase;
+    font-family: 'cajito';
     color: $gray;
     font-size: 20px;
     padding-top: 1%;
     padding-left: 6%;
     padding-bottom: 1%;
     text-align: left;
+    text-transform: uppercase;
     }
   .projectcontainer {
     display: flex;
@@ -197,19 +196,20 @@ section {
     .project {
       padding: 1% 2%;
       img {
-        width: 290px;
-        height: 155px;
+        width: 375px;
+        height: 220px;
         text-align: center;
-        object-fit: contain;
+        object-fit: cover;
         }
         h2 {
-          font-family: 'sketchblock';
+          font-family: 'cajito';
           color: $gray;
-          font-size: 20px;
+          font-size: 17px;
           text-align: center;
           text-transform: none;
           font-weight: 200;
           padding-top: 5%;
+          text-transform: uppercase;
         }
         p {
           font-family: 'cajito';
@@ -217,7 +217,6 @@ section {
           text-align: center;
           text-transform: none;
           font-weight: 200;
-          padding: 5% 0;
         }
       }
     }
@@ -225,12 +224,10 @@ section {
 
 // FOOTER
 footer {
-  padding-top: 1%;
   font-family: "cajito";
-  background-color: #708090;
-  height: 30px;
+  height: 18px;
   font-size: 15px;
-  color: white;
+  color: $gray;
   font-family: 'cajito';
   text-align: center;
 }
@@ -339,7 +336,7 @@ section {
     position: absolute;
     left: 65%;
     top: 140%;
-    font-size: 18px;
+    font-size: 20px;
     padding: 0 1%;
     }
 
@@ -349,8 +346,6 @@ section {
     margin-top: 20%;
 
     .meblurb {
-      color: $gray;
-      font-family: 'cajito';
       font-size: 17px;
       width: 80%;
       padding-left: 1%;
@@ -373,20 +368,21 @@ section {
 .secondsection {
   padding: 2%;
   .projectcontainer {
-    padding: 2%;
+    padding: 10%;
     .project {
       padding: 1%;
       img {
         height: 130px;
         }
         h2 {
-          font-family: 'sketchblock';
+          font-family: 'cajito';
           color: $gray;
           font-size: 20px;
           text-transform: none;
           font-weight: 200;
           text-align: left;
           text-align: center;
+          text-transform: uppercase;
         }
         p {
           padding: 1%;
@@ -491,7 +487,7 @@ font-size: 9px;
     position: absolute;
     left: 65%;
     top: 140%;
-    font-size: 18px;
+    font-size: 20px;
     padding: 0 1%;
     }
 
@@ -534,7 +530,6 @@ font-size: 9px;
   @include fontStyleColor;
   font-size: 30px;
   text-align: center;
-  text-transform: uppercase;
   margin-top: 5%;
 }
 
@@ -551,7 +546,6 @@ h3 {
   font-size: 20px;
   margin-top: 5%;
   margin-left: 10%;
-  text-transform: uppercase;
 }
 
 h4 {
@@ -559,7 +553,6 @@ h4 {
   font-size: 20px;
   margin-top: 5%;
   margin-left: 10%;
-  text-transform: uppercase;
   font-weight: 900;
 }
 
@@ -626,7 +619,7 @@ h4 {
     position: absolute;
     left: 65%;
     top: 140%;
-    font-size: 18px;
+    font-size: 20px;
     padding: 0 1%;
     }
 

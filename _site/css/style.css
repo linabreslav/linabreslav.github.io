@@ -2,11 +2,8 @@
   font-family: 'cajito';
   src: url("cajitoregular/cajito.otf"); }
 @font-face {
-  font-family: 'sketchblock';
+  font-family: 'fabfelt';
   src: url("Sketch_Block.ttf"); }
-@font-face {
-  font-family: 'staywriter';
-  src: url("Stay_Writer.ttf"); }
 html {
   max-width: 1440px; }
 
@@ -15,30 +12,28 @@ html, body, ul, li, h1, h2, h3, a {
   padding: 0px; }
 
 header {
-  height: 125px;
+  height: 130px;
   position: relative;
-  background: linear-gradient(rgba(70, 108, 121, 0.06), rgba(70, 108, 121, 0.06)), url("../images/whitediamond.png");
-  background-repeat: repeat;
-  background-size: contain; }
+  background-color: #708090; }
   header .headname .nameslogan {
     padding-top: 2.5%; }
   header .headname a {
     text-decoration: none;
-    color: #3A3A3C;
-    font-family: 'sketchblock';
+    font-family: 'cajito';
     font-size: 40px;
     padding-left: 8%;
+    text-decoration: none;
     text-transform: uppercase;
-    text-decoration: none; }
+    color: white; }
   header .headname h2 {
     font-family: 'cajito';
-    color: #3A3A3C;
+    color: white;
     font-weight: 200;
     font-size: 20px;
     padding-left: 12%; }
   header .headname .headericon {
     font-family: 'cajito';
-    color: #3A3A3C;
+    color: white;
     font-size: 70px;
     font-weight: 300px;
     padding-left: 5%;
@@ -46,7 +41,7 @@ header {
     position: absolute; }
   header .socialmediaicons {
     position: absolute;
-    left: 81%;
+    left: 85%;
     top: 130%;
     font-size: 25px; }
     header .socialmediaicons ul {
@@ -74,13 +69,13 @@ nav {
     text-decoration: none; }
     nav ul li a {
       text-decoration: none;
-      text-transform: uppercase;
       display: inline-block;
       background-color: #708090;
       color: white;
       font-family: "cajito";
       padding: 0 4%;
-      font-size: 17px; }
+      font-size: 17px;
+      text-transform: uppercase; }
     nav ul li a:active, nav ul li a:hover, nav ul li a:after, nav ul li a:focus {
       color: #e0b412;
       -webkit-transition: color 500ms ease .01s;
@@ -88,20 +83,21 @@ nav {
       transition: color 500ms ease .01s; }
 
 section {
-  width: 60%;
+  width: 95%;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-around;
   margin: 0 auto;
-  margin-top: 3%;
-  padding: 4%; }
+  margin-top: 3%; }
   section .meblurb {
     color: #3A3A3C;
     font-family: 'cajito';
-    font-size: 23px;
-    text-transform: lowercase; }
+    font-size: 17px;
+    text-transform: lowercase;
+    text-align: left;
+    margin: 2%; }
   section .largecurlyicon img {
     height: 65px;
     opacity: 0.17; }
@@ -112,14 +108,14 @@ section {
   margin-top: 2%;
   padding-bottom: 2%; }
   .secondsection .projectstitle {
-    font-family: 'sketchblock';
-    text-transform: uppercase;
+    font-family: 'cajito';
     color: #3A3A3C;
     font-size: 20px;
     padding-top: 1%;
     padding-left: 6%;
     padding-bottom: 1%;
-    text-align: left; }
+    text-align: left;
+    text-transform: uppercase; }
   .secondsection .projectcontainer {
     display: flex;
     flex-direction: row;
@@ -130,33 +126,31 @@ section {
     .secondsection .projectcontainer .project {
       padding: 1% 2%; }
       .secondsection .projectcontainer .project img {
-        width: 290px;
-        height: 155px;
+        width: 375px;
+        height: 220px;
         text-align: center;
-        object-fit: contain; }
+        object-fit: cover; }
       .secondsection .projectcontainer .project h2 {
-        font-family: 'sketchblock';
+        font-family: 'cajito';
         color: #3A3A3C;
-        font-size: 20px;
+        font-size: 17px;
         text-align: center;
         text-transform: none;
         font-weight: 200;
-        padding-top: 5%; }
+        padding-top: 5%;
+        text-transform: uppercase; }
       .secondsection .projectcontainer .project p {
         font-family: 'cajito';
         font-size: 20px;
         text-align: center;
         text-transform: none;
-        font-weight: 200;
-        padding: 5% 0; }
+        font-weight: 200; }
 
 footer {
-  padding-top: 1%;
   font-family: "cajito";
-  background-color: #708090;
-  height: 30px;
+  height: 18px;
   font-size: 15px;
-  color: white;
+  color: #3A3A3C;
   font-family: 'cajito';
   text-align: center; }
 
@@ -215,7 +209,7 @@ footer {
     position: absolute;
     left: 65%;
     top: 140%;
-    font-size: 18px;
+    font-size: 20px;
     padding: 0 1%; }
 
   section {
@@ -223,8 +217,6 @@ footer {
     margin: 0 auto;
     margin-top: 20%; }
     section .meblurb {
-      color: #3A3A3C;
-      font-family: 'cajito';
       font-size: 17px;
       width: 80%;
       padding-left: 1%; }
@@ -239,19 +231,20 @@ footer {
   .secondsection {
     padding: 2%; }
     .secondsection .projectcontainer {
-      padding: 2%; }
+      padding: 10%; }
       .secondsection .projectcontainer .project {
         padding: 1%; }
         .secondsection .projectcontainer .project img {
           height: 130px; }
         .secondsection .projectcontainer .project h2 {
-          font-family: 'sketchblock';
+          font-family: 'cajito';
           color: #3A3A3C;
           font-size: 20px;
           text-transform: none;
           font-weight: 200;
           text-align: left;
-          text-align: center; }
+          text-align: center;
+          text-transform: uppercase; }
         .secondsection .projectcontainer .project p {
           padding: 1%;
           font-size: 17px; }
@@ -324,7 +317,7 @@ footer {
     position: absolute;
     left: 65%;
     top: 140%;
-    font-size: 18px;
+    font-size: 20px;
     padding: 0 1%; }
 
   .aboutphoto img {
@@ -352,7 +345,6 @@ footer {
   color: #3A3A3C;
   font-size: 30px;
   text-align: center;
-  text-transform: uppercase;
   margin-top: 5%; }
 
 .subtitle {
@@ -367,8 +359,7 @@ h3 {
   color: #3A3A3C;
   font-size: 20px;
   margin-top: 5%;
-  margin-left: 10%;
-  text-transform: uppercase; }
+  margin-left: 10%; }
 
 h4 {
   font-family: 'cajito';
@@ -376,7 +367,6 @@ h4 {
   font-size: 20px;
   margin-top: 5%;
   margin-left: 10%;
-  text-transform: uppercase;
   font-weight: 900; }
 
 .abouttext {
@@ -427,7 +417,7 @@ h4 {
     position: absolute;
     left: 65%;
     top: 140%;
-    font-size: 18px;
+    font-size: 20px;
     padding: 0 1%; }
 
   .title {
