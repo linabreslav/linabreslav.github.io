@@ -50,7 +50,7 @@ header {
       header .socialmediaicons ul li a {
         color: #3A3A3C;
         text-decoration: none; }
-      header .socialmediaicons ul li a:focus {
+      header .socialmediaicons ul li a:hover {
         color: #e0b412; }
 
 nav {
