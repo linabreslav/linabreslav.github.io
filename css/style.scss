@@ -6,6 +6,16 @@
     font-family: 'cajito';
     src: url('cajitoregular/cajito.otf');
 }
+
+@font-face {
+    font-family: 'sketchblock';
+    src: url('Sketch_Block.ttf');
+}
+
+@font-face {
+  font-family: 'staywriter';
+  src: url('Stay_Writer.ttf')
+}
 // MIXINS
 @mixin fontStyleColor {
   font-family: 'cajito';
@@ -49,7 +59,8 @@ header {
     }
     a {
       text-decoration: none;
-        @include fontStyleColor;
+        color: $gray;
+        font-family: 'sketchblock';
         font-size: 40px;
         padding-left: 8%;
         text-transform: uppercase;
@@ -58,7 +69,7 @@ header {
       h2{
         // @include fontStyleColor;
         font-family: 'cajito';
-        color: #466C79;
+        color: $gray;
         font-weight: 200;
         font-size: 20px;
         padding-left: 12%;
@@ -76,9 +87,9 @@ header {
 // SOCIAL MEDIA ICONS
 .socialmediaicons {
   position: absolute;
-  left: 70%;
-  top: 70%;
-  font-size: 30px;
+  left: 81%;
+  top: 130%;
+  font-size: 25px;
     ul {
       width: 100%;
       li {
@@ -86,11 +97,14 @@ header {
         list-style: none;
         // padding: 3%;
         a {
-          color: $gray;
+          color: #708090;
           text-decoration: none;
         }
         a:hover {
           color: $mustard;
+          -webkit-transition: color 500ms ease .01s;
+          -moz-transition: color 500ms ease .01s;
+          transition: color 500ms ease .01s;
         }
       }
     }
@@ -100,7 +114,7 @@ header {
 // NAVIGATION
 nav {
   text-align: center;
-  background-color: $gray;
+  background-color: #708090;
   padding-top: .5%;
   padding-bottom: .3%;
   ul {
@@ -112,7 +126,7 @@ nav {
         text-decoration: none;
         text-transform: uppercase;
         display: inline-block;
-        background-color: $gray;
+        background-color: #708090;
         color: white;
         font-family: $font;
         padding: 0 4%;
@@ -120,6 +134,9 @@ nav {
       }
       a:active, a:hover, a:after, a:focus {
         color: $mustard;
+        -webkit-transition: color 500ms ease .01s;
+        -moz-transition: color 500ms ease .01s;
+        transition: color 500ms ease .01s;
       }
     }
   }
@@ -127,32 +144,31 @@ nav {
 
 // MIDDLE CONTENT/ SHORTENED ABOUT ME
 section {
-  width: 65%;
+  width: 60%;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-around;
   margin: 0 auto;
-  margin-top: 5%;
+  margin-top: 3%;
+  padding: 4%;
 
   .meblurb {
-    @include fontStyleColor;
-    font-size: 22px;
-    width: 38%;
+    color: $gray;
+    font-family: 'cajito';
+    font-size: 23px;
+    text-transform: lowercase;
   }
+
   .largecurlyicon {
     img {
-      height: 190px;
-    }
-  }
-  .mephoto {
-    img{
-      box-sizing: border-box;
-      height: 180px;
+      height: 65px;
+      opacity: 0.17;
     }
   }
 }
+
 
 // PROJECT SECTION
 .secondsection {
@@ -161,12 +177,13 @@ section {
   margin-top: 2%;
   padding-bottom: 2%;
   .projectstitle {
-    font-family: 'cajito';
+    font-family: 'sketchblock';
     text-transform: uppercase;
-    color: #466C79;
+    color: $gray;
     font-size: 20px;
-    padding-top: 2%;
+    padding-top: 1%;
     padding-left: 6%;
+    padding-bottom: 1%;
     text-align: left;
     }
   .projectcontainer {
@@ -185,12 +202,21 @@ section {
         object-fit: contain;
         }
         h2 {
-          font-family: 'cajito';
+          font-family: 'sketchblock';
           color: $gray;
-          font-size: 18px;
+          font-size: 20px;
+          text-align: center;
           text-transform: none;
           font-weight: 200;
-          padding:10% 0;
+          padding-top: 5%;
+        }
+        p {
+          font-family: 'cajito';
+          font-size: 20px;
+          text-align: center;
+          text-transform: none;
+          font-weight: 200;
+          padding: 5% 0;
         }
       }
     }
@@ -200,8 +226,8 @@ section {
 footer {
   padding-top: 1%;
   font-family: "cajito";
-  background-color: $gray;
-  height: 35px;
+  background-color: #708090;
+  height: 30px;
   font-size: 15px;
   color: white;
   font-family: 'cajito';
@@ -267,8 +293,8 @@ section {
   width: 80%;
 }
   section .meblurb {
-    width: 45%;
-    font-size: 20px;
+    width: 75%;
+    font-size: 30px;
   }
 }
 
@@ -291,7 +317,7 @@ section {
 
   header .headname h2 {
     text-align: center;
-    font-size: 15px;
+    font-size: 20px;
     padding: 0;
     padding-top: 1%;
   }
@@ -312,7 +338,7 @@ section {
     position: absolute;
     left: 65%;
     top: 140%;
-    font-size: 20px;
+    font-size: 18px;
     padding: 0 1%;
     }
 
@@ -322,15 +348,16 @@ section {
     margin-top: 20%;
 
     .meblurb {
-      @include fontStyleColor;
-      font-size: 14px;
-      width: 47%;
-      padding-left: 3%;
+      color: $gray;
+      font-family: 'cajito';
+      font-size: 17px;
+      width: 80%;
+      padding-left: 1%;
     }
     .largecurlyicon {
       img {
         height: 70px;
-        padding: 11%;
+        padding: 5%;
         padding-right: 13%;
       }
     }
@@ -349,16 +376,20 @@ section {
     .project {
       padding: 1%;
       img {
+        height: 130px;
         }
         h2 {
-          font-family: 'cajito';
+          font-family: 'sketchblock';
           color: $gray;
-          font-size: 14px;
+          font-size: 20px;
           text-transform: none;
           font-weight: 200;
           text-align: left;
           text-align: center;
-          padding: 10%;
+        }
+        p {
+          padding: 1%;
+          font-size: 17px;
         }
       }
     }
@@ -439,7 +470,7 @@ font-size: 9px;
 
   header .headname h2 {
     text-align: center;
-    font-size: 15px;
+    font-size: 20px;
     padding: 0;
     padding-top: 1%;
   }
@@ -459,7 +490,7 @@ font-size: 9px;
     position: absolute;
     left: 65%;
     top: 140%;
-    font-size: 20px;
+    font-size: 18px;
     padding: 0 1%;
     }
 
@@ -574,7 +605,7 @@ h4 {
 
   header .headname h2 {
     text-align: center;
-    font-size: 15px;
+    font-size: 20px;
     padding: 0;
     padding-top: 1%;
   }
@@ -594,7 +625,7 @@ h4 {
     position: absolute;
     left: 65%;
     top: 140%;
-    font-size: 20px;
+    font-size: 18px;
     padding: 0 1%;
     }
 
