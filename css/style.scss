@@ -76,15 +76,15 @@ header {
 // SOCIAL MEDIA ICONS
 .socialmediaicons {
   position: absolute;
-  left: 64%;
+  left: 63%;
   top: 70%;
   font-size: 30px;
     ul {
-      width: 100%;
+      width: 300px;
       li {
         display: inline;
         list-style: none;
-        padding: 5%;
+        padding: 3%;
         a {
           color: $gray;
           text-decoration: none;
