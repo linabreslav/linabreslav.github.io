@@ -21,7 +21,7 @@ header {
     text-decoration: none;
     font-family: 'cajito';
     font-size: 40px;
-    padding-left: 8%;
+    padding-left: 6%;
     text-decoration: none;
     text-transform: uppercase;
     color: white; }
@@ -30,12 +30,12 @@ header {
     color: white;
     font-weight: 200;
     font-size: 20px;
-    padding-left: 12%; }
+    padding-left: 10%; }
   header .headname .headericon img {
     height: 90px;
     position: absolute;
-    top: 13%;
-    left: 5%; }
+    top: 12%;
+    left: 2.5%; }
   header .socialmediaicons {
     position: absolute;
     left: 85%;
@@ -121,10 +121,10 @@ section {
     justify-content: center;
     margin: 0 auto; }
     .secondsection .projectcontainer .project {
-      padding: 1% 2%; }
+      padding: 1% 1%; }
       .secondsection .projectcontainer .project img {
-        width: 375px;
-        height: 220px;
+        width: 370px;
+        height: 215px;
         text-align: center;
         object-fit: cover; }
       .secondsection .projectcontainer .project h2 {
@@ -160,22 +160,16 @@ footer {
     justify-content: space-around;
     margin-top: 5%;
     padding-bottom: 5%; }
-    .secondsection .projectcontainer .project {
-      width: 190px; }
-      .secondsection .projectcontainer .project img {
-        width: 190px;
-        height: 140px; }
-      .secondsection .projectcontainer .project .secondsection {
-        width: 190px; }
+    .secondsection .projectcontainer .project img {
+      width: 270px;
+      height: auto; }
 
   section {
-    padding: 12% 0;
+    padding: 7% 0;
     margin: 0 auto;
-    width: 80%; }
-
-  section .meblurb {
-    width: 75%;
-    font-size: 30px; } }
+    width: 55%; }
+    section section .meblurb {
+      font-size: 20px; } }
 @media (max-width: 630px) {
   header {
     padding-top: 0%;
@@ -215,8 +209,9 @@ footer {
     margin-top: 20%; }
     section .meblurb {
       font-size: 17px;
-      width: 80%;
-      padding-left: 1%; }
+      width: 90%;
+      padding-left: 1%;
+      text-align: center; }
     section .largecurlyicon img {
       height: 70px;
       padding: 5%;
@@ -230,13 +225,13 @@ footer {
     .secondsection .projectcontainer {
       padding: 10%; }
       .secondsection .projectcontainer .project {
-        padding: 1%; }
+        margin-bottom: 15%; }
         .secondsection .projectcontainer .project img {
-          height: 130px; }
+          width: 320px; }
         .secondsection .projectcontainer .project h2 {
           font-family: 'cajito';
           color: #3A3A3C;
-          font-size: 20px;
+          font-size: 17px;
           text-transform: none;
           font-weight: 200;
           text-align: left;

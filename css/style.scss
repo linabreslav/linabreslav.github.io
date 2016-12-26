@@ -59,7 +59,7 @@ header {
         text-decoration: none;
         font-family: 'cajito';
         font-size: 40px;
-        padding-left: 8%;
+        padding-left: 6%;
         text-decoration: none;
         text-transform: uppercase;
         color: white;
@@ -70,7 +70,7 @@ header {
         color: white;
         font-weight: 200;
         font-size: 20px;
-        padding-left: 12%;
+        padding-left: 10%;
       }
       .headericon {
         // font-family: 'cajito';
@@ -83,8 +83,8 @@ header {
         img {
           height: 90px;
           position: absolute;
-          top: 13%;
-          left: 5%;
+          top: 12%;
+          left: 2.5%;
       }
     }
   }
@@ -200,10 +200,10 @@ section {
     justify-content: center;
     margin: 0 auto;
     .project {
-      padding: 1% 2%;
+      padding: 1% 1%;
       img {
-        width: 375px;
-        height: 220px;
+        width: 370px;
+        height: 215px;
         text-align: center;
         object-fit: cover;
         }
@@ -280,28 +280,23 @@ footer {
   margin-top: 5%;
   padding-bottom: 5%;
     .project {
-      width: 190px;
       img {
-        width: 190px;
-        height: 140px;
-      }
-      .secondsection {
-        width: 190px;
+          width: 270px;
+          height: auto;
+        }
       }
     }
-  }
 
 section {
-  padding: 12% 0;
+  padding: 7% 0;
   margin: 0 auto;
-  width: 80%;
-}
-  section .meblurb {
-    width: 75%;
-    font-size: 30px;
+  width: 55%;
+
+    section .meblurb {
+      font-size: 20px;
+    }
   }
 }
-
 
 // MOBILE MEDIA QUERY
 
@@ -338,6 +333,7 @@ section {
     text-decoration: none;
   }
 
+
   header .socialmediaicons {
     position: absolute;
     left: 65%;
@@ -353,8 +349,9 @@ section {
 
     .meblurb {
       font-size: 17px;
-      width: 80%;
+      width: 90%;
       padding-left: 1%;
+      text-align: center;
     }
     .largecurlyicon {
       img {
@@ -376,14 +373,14 @@ section {
   .projectcontainer {
     padding: 10%;
     .project {
-      padding: 1%;
+      margin-bottom: 15%;
       img {
-        height: 130px;
+        width: 320px;
         }
         h2 {
           font-family: 'cajito';
           color: $gray;
-          font-size: 20px;
+          font-size: 17px;
           text-transform: none;
           font-weight: 200;
           text-align: left;
