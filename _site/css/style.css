@@ -103,7 +103,7 @@ section {
     font-family: 'cajito';
     color: #3A3A3C;
     font-size: 20px;
-    padding-top: 1%;
+    padding-top: 4%;
     padding-left: 6%;
     padding-bottom: 1%;
     text-align: left;
@@ -129,7 +129,7 @@ section {
         text-align: center;
         text-transform: none;
         font-weight: 200;
-        padding-top: 5%;
+        padding-top: 3%;
         text-transform: uppercase; }
       .secondsection .projectcontainer .project p {
         font-family: 'cajito';
