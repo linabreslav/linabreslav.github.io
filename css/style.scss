@@ -150,21 +150,16 @@ nav {
 // MIDDLE CONTENT/ SHORTENED ABOUT ME
 section {
   width: 95%;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-around;
   margin: 0 auto;
-  margin-top: 3%;
+  margin: 5%;
+  margin-top: 7%;
 
   .meblurb {
     color: $gray;
     font-family: 'cajito';
-    font-size: 17px;
+    font-size: 22px;
     text-transform: lowercase;
     text-align: left;
-    margin: 2%;
   }
 
   .largecurlyicon {
@@ -178,10 +173,11 @@ section {
 
 // PROJECT SECTION
 .secondsection {
-  background-color: #F7F7F7;
+  // background-color: #F7F7F7;
+  background: url("../images/light_wool.png") repeat;
   margin: 0;
   margin-top: 2%;
-  padding-bottom: 2%;
+  padding-bottom: 5%;
   .projectstitle {
     font-family: 'cajito';
     color: $gray;
@@ -231,12 +227,12 @@ section {
 // FOOTER
 footer {
   font-family: "cajito";
+  background: url("../images/light_wool.png") repeat;
   height: 15px;
   font-size: 15px;
   color: $gray;
   font-family: 'cajito';
   text-align: center;
-  padding-top: 2%;
 }
 
 
@@ -349,10 +345,9 @@ section {
     margin-top: 20%;
 
     .meblurb {
-      font-size: 17px;
-      width: 90%;
-      padding-left: 1%;
-      text-align: left;
+      font-size: 20px;
+      text-align: center;
+      margin: 6%;
     }
     .largecurlyicon {
       img {
