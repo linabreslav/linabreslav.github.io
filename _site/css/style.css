@@ -64,8 +64,6 @@ header {
   position: absolute;
   top: 160%;
   left: 85%; }
-  .emailme p a a:hover {
-    color: #e0b412; }
 
 nav {
   text-align: center;
@@ -92,16 +90,24 @@ nav {
       transition: color 500ms ease .01s; }
 
 section {
-  width: 95%;
+  width: 60%;
   margin: 0 auto;
-  margin: 5%;
-  margin-top: 7%; }
+  margin: 3%;
+  margin-top: 5%; }
   section .meblurb {
     color: #3A3A3C;
     font-family: 'cajito';
-    font-size: 22px;
-    text-transform: lowercase;
-    text-align: center; }
+    font-size: 21px;
+    text-align: left;
+    padding-left: 14%; }
+    section .meblurb a {
+      text-decoration: underline;
+      color: #3A3A3C; }
+    section .meblurb a:hover {
+      color: #e0b412;
+      -webkit-transition: color 500ms ease .01s;
+      -moz-transition: color 500ms ease .01s;
+      transition: color 500ms ease .01s; }
   section .largecurlyicon img {
     height: 65px;
     opacity: 0.17; }
@@ -182,9 +188,10 @@ footer {
   section {
     padding: 7% 0;
     margin: 0 auto;
-    width: 55%; }
+    width: 70%; }
     section section .meblurb {
-      font-size: 20px; } }
+      font-size: 20px;
+      padding-left: 0; } }
 @media (max-width: 630px) {
   header {
     padding-top: 0%;
@@ -232,7 +239,8 @@ footer {
     section .meblurb {
       font-size: 20px;
       text-align: center;
-      margin: 6%; }
+      margin: 6%;
+      padding-left: 0; }
     section .largecurlyicon img {
       height: 70px;
       padding: 5%;
