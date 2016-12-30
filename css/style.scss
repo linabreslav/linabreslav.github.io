@@ -199,6 +199,7 @@ section {
   margin: 0;
   margin-top: 2%;
   padding-bottom: 5%;
+  padding-left: 2%;
   .projectstitle {
     font-family: 'cajito';
     color: $gray;
@@ -224,15 +225,21 @@ section {
         text-align: center;
         object-fit: cover;
         }
-        h2 {
+        a {
           font-family: 'cajito';
           color: $gray;
           font-size: 17px;
           text-align: center;
           text-transform: none;
-          font-weight: 200;
-          padding-top: 3%;
+          font-weight: 900;
+          padding-top: 4%;
           text-transform: uppercase;
+        }
+        a:hover {
+          color: $mustard;
+          -webkit-transition: color 500ms ease .01s;
+          -moz-transition: color 500ms ease .01s;
+          transition: color 500ms ease .01s;
         }
         p {
           font-family: 'cajito';
@@ -302,26 +309,22 @@ footer {
 
   }
 
-.secondsection .projectcontainer {
-  justify-content: space-around;
-  margin-top: 5%;
-  padding-bottom: 5%;
-    .project {
-      img {
-          width: 270px;
-          height: auto;
-        }
+  section {
+    margin: 0 auto;
+    width: 70%;
+    padding-top: 10%;
+       .meblurb {
+        font-size: 20px;
+        padding-left: 0;
+        padding-top: 15%;
       }
     }
 
-section {
-  padding: 7% 0;
-  margin: 0 auto;
-  width: 70%;
-    section .meblurb {
-      font-size: 20px;
-      padding-left: 0;
-    }
+.secondsection .projectcontainer {
+  align-items: left;
+  justify-content: flex-start;
+  margin-top: 5%;
+  padding-bottom: 5%;
   }
 }
 
@@ -384,7 +387,7 @@ section {
 
     .meblurb {
       font-size: 20px;
-      text-align: center;
+      text-align: left;
       margin: 6%;
       padding-left: 0;
     }
