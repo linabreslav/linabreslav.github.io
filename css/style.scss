@@ -116,6 +116,20 @@ header {
   }
 }
 
+// EMAIL
+.emailme p a {
+  @include fontStyleColor;
+  font-size: 17px;
+  text-decoration: none;
+  color: #708090;
+  position: absolute;
+  top: 160%;
+  left: 85%;
+  a:hover {
+    color: $mustard;
+  }
+}
+
 // NAVIGATION
 nav {
   text-align: center;
@@ -198,8 +212,8 @@ section {
     .project {
       padding: 1% 1%;
       img {
-        width: 370px;
-        height: 215px;
+        width: 310px;
+        height: 190px;
         text-align: center;
         object-fit: cover;
         }
@@ -268,8 +282,16 @@ footer {
 
 @media (min-width: 631px) and (max-width: 1024px) {
   header .headname .headericon {
-    padding-left: 3%;
-    bottom: 23%;
+    padding-left: 2%;
+    bottom: 25%;
+  }
+
+  header .emailme p a {
+    position: absolute;
+    left: 4%;
+    top: 135%;
+    font-size: 17px;
+    padding: 0 1%;
   }
 
 .secondsection .projectcontainer {
@@ -338,6 +360,14 @@ section {
     font-size: 20px;
     padding: 0 1%;
     }
+
+  header .emailme p a {
+    position: absolute;
+    left: 4%;
+    top: 135%;
+    font-size: 17px;
+    padding: 0 1%;
+  }
 
   section {
     width: 97%;

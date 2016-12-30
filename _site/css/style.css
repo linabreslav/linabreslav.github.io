@@ -55,6 +55,18 @@ header {
           -moz-transition: color 500ms ease .01s;
           transition: color 500ms ease .01s; }
 
+.emailme p a {
+  font-family: 'cajito';
+  color: #3A3A3C;
+  font-size: 17px;
+  text-decoration: none;
+  color: #708090;
+  position: absolute;
+  top: 160%;
+  left: 85%; }
+  .emailme p a a:hover {
+    color: #e0b412; }
+
 nav {
   text-align: center;
   background-color: #708090;
@@ -118,8 +130,8 @@ section {
     .secondsection .projectcontainer .project {
       padding: 1% 1%; }
       .secondsection .projectcontainer .project img {
-        width: 370px;
-        height: 215px;
+        width: 310px;
+        height: 190px;
         text-align: center;
         object-fit: cover; }
       .secondsection .projectcontainer .project h2 {
@@ -149,8 +161,15 @@ footer {
 
 @media (min-width: 631px) and (max-width: 1024px) {
   header .headname .headericon {
-    padding-left: 3%;
-    bottom: 23%; }
+    padding-left: 2%;
+    bottom: 25%; }
+
+  header .emailme p a {
+    position: absolute;
+    left: 4%;
+    top: 135%;
+    font-size: 17px;
+    padding: 0 1%; }
 
   .secondsection .projectcontainer {
     justify-content: space-around;
@@ -197,6 +216,13 @@ footer {
     left: 65%;
     top: 140%;
     font-size: 20px;
+    padding: 0 1%; }
+
+  header .emailme p a {
+    position: absolute;
+    left: 4%;
+    top: 135%;
+    font-size: 17px;
     padding: 0 1%; }
 
   section {
