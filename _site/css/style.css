@@ -107,7 +107,7 @@ section {
     opacity: 0.17; }
 
 .secondsection {
-  background: url("../images/tiny_grid.png") repeat;
+  background-color: #fcfcfc;
   margin: 0;
   margin-top: 2%;
   padding-bottom: 5%; }
