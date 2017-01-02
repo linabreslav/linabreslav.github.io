@@ -714,47 +714,83 @@ h4 {
 
 p {
   @include fontStyleColor;
-  margin: 0;
-  margin-right: 5%;
+}
+
+.livelink {
+  @include fontStyleColor;
+  font-size: 17px;
+  text-align: center;
+  a {
+    color: $gray;
+  }
+  a:hover {
+    color: $mustard;
+  }
 }
 
 .aboutcontainer{
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  width: 80%;
   padding-top: 2%;
+  width: 80%;
   margin: 0 auto;
   h3 {
     margin: 0;
   }
   img {
-    width: 350px;
+    width: 330px;
     padding-top: 4%;
   }
 }
 
 .challenges {
+  padding-left: 5%;
+  padding-bottom: 2%;
   h3 {
     margin-top: 1%;
+    margin-left: 5%;
   }
   p {
-    padding-left: 12%;
-    padding-right: 40%;
+    padding-left: 5%;
+    padding-right: 20%;
     margin: 0;
   }
 }
 
-.sketches {
+.screenshots {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  div {
+    padding: 2%;
+  }
   p {
-    padding-left: 10%;
     margin: 0;
   }
   img {
-    width: 300px;
-    height: 350px;
-  }
-  .sketchImages {
-    padding-left: 10%;
+    width: 350px;
+    object-fit: contain;
+    padding: 0;
   }
 }
+
+// MOBILE GOODREADS BOOKSHELF
+
+.screenshots {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  div {
+    padding: 2%;
+  }
+  p {
+    margin: 0;
+  }
+    img {
+      width: 270px;
+      object-fit: contain;
+    }
+  }

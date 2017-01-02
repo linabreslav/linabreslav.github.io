@@ -487,35 +487,65 @@ h4 {
       font-size: 15px; } }
 p {
   font-family: 'cajito';
+  color: #3A3A3C; }
+
+.livelink {
+  font-family: 'cajito';
   color: #3A3A3C;
-  margin: 0;
-  margin-right: 5%; }
+  font-size: 17px;
+  text-align: center; }
+  .livelink a {
+    color: #3A3A3C; }
+  .livelink a:hover {
+    color: #e0b412; }
 
 .aboutcontainer {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  width: 80%;
   padding-top: 2%;
+  width: 80%;
   margin: 0 auto; }
   .aboutcontainer h3 {
     margin: 0; }
   .aboutcontainer img {
-    width: 350px;
+    width: 330px;
     padding-top: 4%; }
 
-.challenges h3 {
-  margin-top: 1%; }
-.challenges p {
-  padding-left: 12%;
-  padding-right: 40%;
-  margin: 0; }
+.challenges {
+  padding-left: 5%;
+  padding-bottom: 2%; }
+  .challenges h3 {
+    margin-top: 1%;
+    margin-left: 5%; }
+  .challenges p {
+    padding-left: 5%;
+    padding-right: 20%;
+    margin: 0; }
 
-.sketches p {
-  padding-left: 10%;
-  margin: 0; }
-.sketches img {
-  width: 300px;
-  height: 350px; }
-.sketches .sketchImages {
-  padding-left: 10%; }
+.screenshots {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center; }
+  .screenshots div {
+    padding: 2%; }
+  .screenshots p {
+    margin: 0; }
+  .screenshots img {
+    width: 350px;
+    object-fit: contain;
+    padding: 0; }
+
+.screenshots {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center; }
+  .screenshots div {
+    padding: 2%; }
+  .screenshots p {
+    margin: 0; }
+  .screenshots img {
+    width: 270px;
+    object-fit: contain; }
