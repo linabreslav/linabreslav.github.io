@@ -64,6 +64,12 @@ header {
         text-transform: uppercase;
         color: white;
       }
+      a:hover {
+        color: $mustard;
+        -webkit-transition: color 500ms ease .01s;
+        -moz-transition: color 500ms ease .01s;
+        transition: color 500ms ease .01s;
+      }
       h2{
         // @include fontStyleColor;
         font-family: 'cajito';
@@ -220,8 +226,8 @@ section {
     .project {
       padding: 1% 1%;
       img {
-        width: 310px;
-        height: 190px;
+        width: 315px;
+        height: 210px;
         text-align: center;
         object-fit: cover;
         }
@@ -383,7 +389,7 @@ footer {
   section {
     width: 97%;
     margin: 0 auto;
-    margin-top: 20%;
+    margin-top: 25%;
 
     .meblurb {
       font-size: 20px;
@@ -411,7 +417,10 @@ footer {
   .projectcontainer {
     padding: 10%;
     .project {
-      margin-bottom: 15%;
+      margin-bottom: 10%;
+      a {
+        padding-top: 0;
+      }
       img {
         width: 280px;
         object-fit: contain;
@@ -596,6 +605,7 @@ h4 {
   margin-top: 5%;
   margin-left: 10%;
   font-weight: 900;
+  width: 70%;
 }
 
 .abouttext {
@@ -687,7 +697,8 @@ h4 {
     margin-left: 5%;
     margin-right: 2%;
     font-size: 15px;
-    text-align: center;
+    text-align: left;
+    width: 90%;
   }
 
   .abouttext {
@@ -696,5 +707,54 @@ h4 {
     a{
       font-size: 15px;
     }
+  }
+}
+
+// GOODREADS BOOKSHELF
+
+p {
+  @include fontStyleColor;
+  margin: 0;
+  margin-right: 5%;
+}
+
+.aboutcontainer{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 80%;
+  padding-top: 2%;
+  margin: 0 auto;
+  h3 {
+    margin: 0;
+  }
+  img {
+    width: 350px;
+    padding-top: 4%;
+  }
+}
+
+.challenges {
+  h3 {
+    margin-top: 1%;
+  }
+  p {
+    padding-left: 12%;
+    padding-right: 40%;
+    margin: 0;
+  }
+}
+
+.sketches {
+  p {
+    padding-left: 10%;
+    margin: 0;
+  }
+  img {
+    width: 300px;
+    height: 350px;
+  }
+  .sketchImages {
+    padding-left: 10%;
   }
 }

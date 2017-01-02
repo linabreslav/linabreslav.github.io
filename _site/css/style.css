@@ -25,6 +25,11 @@ header {
     text-decoration: none;
     text-transform: uppercase;
     color: white; }
+  header .headname a:hover {
+    color: #e0b412;
+    -webkit-transition: color 500ms ease .01s;
+    -moz-transition: color 500ms ease .01s;
+    transition: color 500ms ease .01s; }
   header .headname h2 {
     font-family: 'cajito';
     color: white;
@@ -137,8 +142,8 @@ section {
     .secondsection .projectcontainer .project {
       padding: 1% 1%; }
       .secondsection .projectcontainer .project img {
-        width: 310px;
-        height: 190px;
+        width: 315px;
+        height: 210px;
         text-align: center;
         object-fit: cover; }
       .secondsection .projectcontainer .project a {
@@ -240,7 +245,7 @@ footer {
   section {
     width: 97%;
     margin: 0 auto;
-    margin-top: 20%; }
+    margin-top: 25%; }
     section .meblurb {
       font-size: 20px;
       text-align: left;
@@ -259,7 +264,9 @@ footer {
     .secondsection .projectcontainer {
       padding: 10%; }
       .secondsection .projectcontainer .project {
-        margin-bottom: 15%; }
+        margin-bottom: 10%; }
+        .secondsection .projectcontainer .project a {
+          padding-top: 0; }
         .secondsection .projectcontainer .project img {
           width: 280px;
           object-fit: contain; }
@@ -394,7 +401,8 @@ h4 {
   font-size: 20px;
   margin-top: 5%;
   margin-left: 10%;
-  font-weight: 900; }
+  font-weight: 900;
+  width: 70%; }
 
 .abouttext {
   font-family: 'cajito';
@@ -469,10 +477,45 @@ h4 {
     margin-left: 5%;
     margin-right: 2%;
     font-size: 15px;
-    text-align: center; }
+    text-align: left;
+    width: 90%; }
 
   .abouttext {
     margin-left: 5%;
     margin-right: 5%; }
     .abouttext a {
       font-size: 15px; } }
+p {
+  font-family: 'cajito';
+  color: #3A3A3C;
+  margin: 0;
+  margin-right: 5%; }
+
+.aboutcontainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 80%;
+  padding-top: 2%;
+  margin: 0 auto; }
+  .aboutcontainer h3 {
+    margin: 0; }
+  .aboutcontainer img {
+    width: 350px;
+    padding-top: 4%; }
+
+.challenges h3 {
+  margin-top: 1%; }
+.challenges p {
+  padding-left: 12%;
+  padding-right: 40%;
+  margin: 0; }
+
+.sketches p {
+  padding-left: 10%;
+  margin: 0; }
+.sketches img {
+  width: 300px;
+  height: 350px; }
+.sketches .sketchImages {
+  padding-left: 10%; }
