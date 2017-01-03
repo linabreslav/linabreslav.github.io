@@ -38,7 +38,7 @@ html, body, ul, li, h1, h2, h3, a{
 
 // HEADER STYLING: NAME
 header {
-  height: 130px;
+  height: 145px;
   position: relative;
   background-color: #708090;
   // background:
@@ -52,6 +52,7 @@ header {
 
 // INSIDE HEADER NAME AND TITLE
   .headname {
+    padding-left: 8%;
     .nameslogan {
       padding-top: 2.5%;
     }
@@ -90,7 +91,7 @@ header {
           height: 90px;
           position: absolute;
           top: 12%;
-          left: 2.5%;
+          left: 10%;
       }
     }
   }
@@ -98,8 +99,8 @@ header {
 // SOCIAL MEDIA ICONS
 .socialmediaicons {
   position: absolute;
-  left: 85%;
-  top: 130%;
+  left: 81%;
+  top: 166%;
   font-size: 25px;
     ul {
       width: 100%;
@@ -125,12 +126,13 @@ header {
 // EMAIL
 .emailme p a {
   @include fontStyleColor;
-  font-size: 17px;
+  font-size: 15px;
   text-decoration: none;
   color: #708090;
   position: absolute;
-  top: 160%;
-  left: 85%;
+  text-align: right;
+  top: 194%;
+  left: 83.5%;
 }
 
 // NAVIGATION
@@ -211,8 +213,7 @@ section {
     color: $gray;
     font-size: 20px;
     padding-top: 4%;
-    padding-left: 6%;
-    padding-bottom: 1%;
+    padding-left: 9.5%;
     text-align: left;
     text-transform: uppercase;
     }
@@ -226,8 +227,8 @@ section {
     .project {
       padding: 1% 1%;
       img {
-        width: 315px;
-        height: 210px;
+        width: 380px;
+        height: 240px;
         text-align: center;
         object-fit: cover;
         }
@@ -301,6 +302,11 @@ footer {
 // TABLET MEDIA QUERY
 
 @media (min-width: 631px) and (max-width: 1024px) {
+
+  header .headname a {
+    padding-left: 8%;
+  }
+
   header .headname .headericon {
     padding-left: 2%;
     bottom: 25%;
@@ -308,29 +314,41 @@ footer {
 
   header .emailme p a {
     position: absolute;
-    left: 4%;
-    top: 135%;
-    font-size: 17px;
+    left: 82%;
+    top: 130%;
+    font-size: 15px;
     padding: 0 1%;
+    text-align: right;
 
+  }
+
+  header .socialmediaicons {
+    left: 82%;
+    top: 156%;
+    font-size: 20px;
   }
 
   section {
     margin: 0 auto;
-    width: 70%;
+    width: 83.5%;
     padding-top: 10%;
        .meblurb {
         font-size: 20px;
         padding-left: 0;
-        padding-top: 15%;
+        padding-top: 12%;
       }
     }
 
-.secondsection .projectcontainer {
-  align-items: left;
-  justify-content: flex-start;
-  margin-top: 5%;
-  padding-bottom: 5%;
+  .secondsection .projectcontainer {
+    align-items: left;
+    justify-content: flex-start;
+    margin-top: 5%;
+    margin-left: 5%;
+    padding-bottom: 5%;
+    }
+
+  .secondsection .projectstitle {
+    padding-left: 6%;
   }
 }
 
@@ -341,6 +359,10 @@ footer {
   header {
     padding-top: 0%;
     height: 120px;
+  }
+
+  header .headname {
+    padding-left: 0;
   }
 
   header .headname a {
@@ -363,7 +385,7 @@ footer {
 
 
   nav ul li a {
-    font-size: 15px;
+    font-size: 14px;
     padding-left: 1.5%;
     padding-right: 1.5%;
     text-decoration: none;
@@ -372,17 +394,18 @@ footer {
 
   header .socialmediaicons {
     position: absolute;
-    left: 65%;
-    top: 140%;
+    left: 63%;
+    top: 143%;
     font-size: 20px;
     padding: 0 1%;
     }
 
   header .emailme p a {
     position: absolute;
-    left: 4%;
-    top: 135%;
-    font-size: 17px;
+    text-align: left;
+    left: 6%;
+    top: 140%;
+    font-size: 15px;
     padding: 0 1%;
   }
 
@@ -392,7 +415,7 @@ footer {
     margin-top: 25%;
 
     .meblurb {
-      font-size: 20px;
+      font-size: 17px;
       text-align: left;
       margin: 6%;
       padding-left: 0;
@@ -414,15 +437,17 @@ footer {
 
 .secondsection {
   padding: 2%;
+  .projectstitle {
+    padding-left: 5%;
+  }
   .projectcontainer {
-    padding: 10%;
     .project {
       margin-bottom: 10%;
       a {
         padding-top: 0;
       }
       img {
-        width: 280px;
+        width: 328px;
         object-fit: contain;
         }
         h2 {
@@ -459,7 +484,7 @@ font-size: 9px;
   }
 
 .aboutalltext {
-  width: 540px;
+  width: 50%;
   display: block;
   margin: 0 auto;
   p {
@@ -495,6 +520,11 @@ font-size: 9px;
   header .headname .headericon {
     padding-left: 3%;
     bottom: 23%;
+  }
+
+
+  .aboutalltext {
+    width: 615px;
   }
 }
 
@@ -550,9 +580,9 @@ font-size: 9px;
     }
 
   .aboutalltext {
-    width: 220px;
+    width: 87%;
     p {
-      font-size: 15px;
+      font-size: 16px;
       text-align: left;
     }
   }
@@ -601,18 +631,21 @@ h3 {
 
 h4 {
   @include fontStyleColor;
-  font-size: 20px;
-  margin-top: 5%;
-  margin-left: 10%;
-  font-weight: 900;
-  width: 70%;
+  font-size: 18px;
+  width: 50%;
+  padding-top: 3%;
+  padding-bottom: 2%;
+  display: block;
+  margin: 0 auto;
+
 }
 
 .abouttext {
   @include fontStyleColor;
   font-size: 15px;
-  margin-left: 10%;
-  margin-right: 40%;
+  width: 50%;
+  display: block;
+  margin: 0 auto;
 
   a{
     text-decoration: underline;
@@ -681,7 +714,7 @@ h4 {
 
   .subtitle {
     @include fontStyleColor;
-    font-size: 20px;
+    font-size: 18px;
     text-align: center;
     text-transform: lowercase;
   }
@@ -694,16 +727,13 @@ h4 {
 
   h4 {
     @include fontStyleColor;
-    margin-left: 5%;
-    margin-right: 2%;
     font-size: 15px;
     text-align: left;
-    width: 90%;
+    width: 87%;
   }
 
   .abouttext {
-    margin-left: 5%;
-    margin-right: 5%;
+    width: 87%;
     a{
       font-size: 15px;
     }
@@ -737,6 +767,7 @@ p {
   margin: 0 auto;
   h3 {
     margin: 0;
+    text-transform: uppercase;
   }
   img {
     width: 330px;
@@ -750,6 +781,7 @@ p {
   h3 {
     margin-top: 1%;
     margin-left: 5%;
+    text-transform: uppercase;
   }
   p {
     padding-left: 5%;
@@ -770,13 +802,14 @@ p {
     margin: 0;
   }
   img {
-    width: 350px;
+    width: 250px;
+    height: 350px;
     object-fit: contain;
     padding: 0;
   }
 }
 
-// MOBILE GOODREADS BOOKSHELF
+// TABLET GOODREADS BOOKSHELF
 
 .screenshots {
   display: flex;
@@ -790,7 +823,24 @@ p {
     margin: 0;
   }
     img {
-      width: 270px;
+      width: 200px;
+      object-fit: contain;
+    }
+  }
+
+// MOBILE GOODREADS BOOKSHELF
+
+.screenshots {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+    p {
+      text-align: center;
+    }
+    img {
+      height: 250px;
+      padding-bottom: 1%;
       object-fit: contain;
     }
   }

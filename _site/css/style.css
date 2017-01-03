@@ -12,39 +12,41 @@ html, body, ul, li, h1, h2, h3, a {
   padding: 0px; }
 
 header {
-  height: 130px;
+  height: 145px;
   position: relative;
   background-color: #708090; }
-  header .headname .nameslogan {
-    padding-top: 2.5%; }
-  header .headname a {
-    text-decoration: none;
-    font-family: 'cajito';
-    font-size: 40px;
-    padding-left: 6%;
-    text-decoration: none;
-    text-transform: uppercase;
-    color: white; }
-  header .headname a:hover {
-    color: #e0b412;
-    -webkit-transition: color 500ms ease .01s;
-    -moz-transition: color 500ms ease .01s;
-    transition: color 500ms ease .01s; }
-  header .headname h2 {
-    font-family: 'cajito';
-    color: white;
-    font-weight: 200;
-    font-size: 20px;
-    padding-left: 10%; }
-  header .headname .headericon img {
-    height: 90px;
-    position: absolute;
-    top: 12%;
-    left: 2.5%; }
+  header .headname {
+    padding-left: 8%; }
+    header .headname .nameslogan {
+      padding-top: 2.5%; }
+    header .headname a {
+      text-decoration: none;
+      font-family: 'cajito';
+      font-size: 40px;
+      padding-left: 6%;
+      text-decoration: none;
+      text-transform: uppercase;
+      color: white; }
+    header .headname a:hover {
+      color: #e0b412;
+      -webkit-transition: color 500ms ease .01s;
+      -moz-transition: color 500ms ease .01s;
+      transition: color 500ms ease .01s; }
+    header .headname h2 {
+      font-family: 'cajito';
+      color: white;
+      font-weight: 200;
+      font-size: 20px;
+      padding-left: 10%; }
+    header .headname .headericon img {
+      height: 90px;
+      position: absolute;
+      top: 12%;
+      left: 10%; }
   header .socialmediaicons {
     position: absolute;
-    left: 85%;
-    top: 130%;
+    left: 81%;
+    top: 166%;
     font-size: 25px; }
     header .socialmediaicons ul {
       width: 100%; }
@@ -63,12 +65,13 @@ header {
 .emailme p a {
   font-family: 'cajito';
   color: #3A3A3C;
-  font-size: 17px;
+  font-size: 15px;
   text-decoration: none;
   color: #708090;
   position: absolute;
-  top: 160%;
-  left: 85%; }
+  text-align: right;
+  top: 194%;
+  left: 83.5%; }
 
 nav {
   text-align: center;
@@ -128,8 +131,7 @@ section {
     color: #3A3A3C;
     font-size: 20px;
     padding-top: 4%;
-    padding-left: 6%;
-    padding-bottom: 1%;
+    padding-left: 9.5%;
     text-align: left;
     text-transform: uppercase; }
   .secondsection .projectcontainer {
@@ -142,8 +144,8 @@ section {
     .secondsection .projectcontainer .project {
       padding: 1% 1%; }
       .secondsection .projectcontainer .project img {
-        width: 315px;
-        height: 210px;
+        width: 380px;
+        height: 240px;
         text-align: center;
         object-fit: cover; }
       .secondsection .projectcontainer .project a {
@@ -177,35 +179,51 @@ footer {
   text-align: center; }
 
 @media (min-width: 631px) and (max-width: 1024px) {
+  header .headname a {
+    padding-left: 8%; }
+
   header .headname .headericon {
     padding-left: 2%;
     bottom: 25%; }
 
   header .emailme p a {
     position: absolute;
-    left: 4%;
-    top: 135%;
-    font-size: 17px;
-    padding: 0 1%; }
+    left: 82%;
+    top: 130%;
+    font-size: 15px;
+    padding: 0 1%;
+    text-align: right; }
+
+  header .socialmediaicons {
+    left: 82%;
+    top: 156%;
+    font-size: 20px; }
 
   section {
     margin: 0 auto;
-    width: 70%;
+    width: 83.5%;
     padding-top: 10%; }
     section .meblurb {
       font-size: 20px;
       padding-left: 0;
-      padding-top: 15%; }
+      padding-top: 12%; }
 
   .secondsection .projectcontainer {
     align-items: left;
     justify-content: flex-start;
     margin-top: 5%;
-    padding-bottom: 5%; } }
+    margin-left: 5%;
+    padding-bottom: 5%; }
+
+  .secondsection .projectstitle {
+    padding-left: 6%; } }
 @media (max-width: 630px) {
   header {
     padding-top: 0%;
     height: 120px; }
+
+  header .headname {
+    padding-left: 0; }
 
   header .headname a {
     font-size: 30px;
@@ -223,23 +241,24 @@ footer {
     display: none; }
 
   nav ul li a {
-    font-size: 15px;
+    font-size: 14px;
     padding-left: 1.5%;
     padding-right: 1.5%;
     text-decoration: none; }
 
   header .socialmediaicons {
     position: absolute;
-    left: 65%;
-    top: 140%;
+    left: 63%;
+    top: 143%;
     font-size: 20px;
     padding: 0 1%; }
 
   header .emailme p a {
     position: absolute;
-    left: 4%;
-    top: 135%;
-    font-size: 17px;
+    text-align: left;
+    left: 6%;
+    top: 140%;
+    font-size: 15px;
     padding: 0 1%; }
 
   section {
@@ -247,7 +266,7 @@ footer {
     margin: 0 auto;
     margin-top: 25%; }
     section .meblurb {
-      font-size: 20px;
+      font-size: 17px;
       text-align: left;
       margin: 6%;
       padding-left: 0; }
@@ -261,27 +280,27 @@ footer {
 
   .secondsection {
     padding: 2%; }
-    .secondsection .projectcontainer {
-      padding: 10%; }
-      .secondsection .projectcontainer .project {
-        margin-bottom: 10%; }
-        .secondsection .projectcontainer .project a {
-          padding-top: 0; }
-        .secondsection .projectcontainer .project img {
-          width: 280px;
-          object-fit: contain; }
-        .secondsection .projectcontainer .project h2 {
-          font-family: 'cajito';
-          color: #3A3A3C;
-          font-size: 17px;
-          text-transform: none;
-          font-weight: 200;
-          text-align: left;
-          text-align: center;
-          text-transform: uppercase; }
-        .secondsection .projectcontainer .project p {
-          padding: 1%;
-          font-size: 17px; }
+    .secondsection .projectstitle {
+      padding-left: 5%; }
+    .secondsection .projectcontainer .project {
+      margin-bottom: 10%; }
+      .secondsection .projectcontainer .project a {
+        padding-top: 0; }
+      .secondsection .projectcontainer .project img {
+        width: 328px;
+        object-fit: contain; }
+      .secondsection .projectcontainer .project h2 {
+        font-family: 'cajito';
+        color: #3A3A3C;
+        font-size: 17px;
+        text-transform: none;
+        font-weight: 200;
+        text-align: left;
+        text-align: center;
+        text-transform: uppercase; }
+      .secondsection .projectcontainer .project p {
+        padding: 1%;
+        font-size: 17px; }
 
   footer {
     height: 24px;
@@ -293,7 +312,7 @@ footer {
   padding: 6% 0 2% 0; }
 
 .aboutalltext {
-  width: 540px;
+  width: 50%;
   display: block;
   margin: 0 auto; }
   .aboutalltext p {
@@ -320,7 +339,10 @@ footer {
 @media (min-width: 631px) and (max-width: 1024px) {
   header .headname .headericon {
     padding-left: 3%;
-    bottom: 23%; } }
+    bottom: 23%; }
+
+  .aboutalltext {
+    width: 615px; } }
 @media (max-width: 630px) {
   header {
     padding-top: 0%;
@@ -361,9 +383,9 @@ footer {
     padding: 20% 0 2% 0; }
 
   .aboutalltext {
-    width: 220px; }
+    width: 87%; }
     .aboutalltext p {
-      font-size: 15px;
+      font-size: 16px;
       text-align: left; }
 
   .skillscontainer .skills {
@@ -398,18 +420,20 @@ h3 {
 h4 {
   font-family: 'cajito';
   color: #3A3A3C;
-  font-size: 20px;
-  margin-top: 5%;
-  margin-left: 10%;
-  font-weight: 900;
-  width: 70%; }
+  font-size: 18px;
+  width: 50%;
+  padding-top: 3%;
+  padding-bottom: 2%;
+  display: block;
+  margin: 0 auto; }
 
 .abouttext {
   font-family: 'cajito';
   color: #3A3A3C;
   font-size: 15px;
-  margin-left: 10%;
-  margin-right: 40%; }
+  width: 50%;
+  display: block;
+  margin: 0 auto; }
   .abouttext a {
     text-decoration: underline;
     font-size: 20px;
@@ -461,7 +485,7 @@ h4 {
   .subtitle {
     font-family: 'cajito';
     color: #3A3A3C;
-    font-size: 20px;
+    font-size: 18px;
     text-align: center;
     text-transform: lowercase; }
 
@@ -474,15 +498,12 @@ h4 {
   h4 {
     font-family: 'cajito';
     color: #3A3A3C;
-    margin-left: 5%;
-    margin-right: 2%;
     font-size: 15px;
     text-align: left;
-    width: 90%; }
+    width: 87%; }
 
   .abouttext {
-    margin-left: 5%;
-    margin-right: 5%; }
+    width: 87%; }
     .abouttext a {
       font-size: 15px; } }
 p {
@@ -507,7 +528,8 @@ p {
   width: 80%;
   margin: 0 auto; }
   .aboutcontainer h3 {
-    margin: 0; }
+    margin: 0;
+    text-transform: uppercase; }
   .aboutcontainer img {
     width: 330px;
     padding-top: 4%; }
@@ -517,7 +539,8 @@ p {
   padding-bottom: 2%; }
   .challenges h3 {
     margin-top: 1%;
-    margin-left: 5%; }
+    margin-left: 5%;
+    text-transform: uppercase; }
   .challenges p {
     padding-left: 5%;
     padding-right: 20%;
@@ -533,7 +556,8 @@ p {
   .screenshots p {
     margin: 0; }
   .screenshots img {
-    width: 350px;
+    width: 250px;
+    height: 350px;
     object-fit: contain;
     padding: 0; }
 
@@ -547,5 +571,17 @@ p {
   .screenshots p {
     margin: 0; }
   .screenshots img {
-    width: 270px;
+    width: 200px;
+    object-fit: contain; }
+
+.screenshots {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center; }
+  .screenshots p {
+    text-align: center; }
+  .screenshots img {
+    height: 250px;
+    padding-bottom: 1%;
     object-fit: contain; }
