@@ -131,7 +131,7 @@ section {
     color: #3A3A3C;
     font-size: 20px;
     padding-top: 4%;
-    padding-left: 9.5%;
+    padding-left: 9%;
     text-align: left;
     text-transform: uppercase; }
   .secondsection .projectcontainer {
@@ -142,10 +142,10 @@ section {
     justify-content: center;
     margin: 0 auto; }
     .secondsection .projectcontainer .project {
-      padding: 1% 1%; }
+      padding: .5% .5%; }
       .secondsection .projectcontainer .project img {
-        width: 380px;
-        height: 240px;
+        width: 328px;
+        height: 215px;
         text-align: center;
         object-fit: cover; }
       .secondsection .projectcontainer .project a {
@@ -401,7 +401,7 @@ footer {
   color: #3A3A3C;
   font-size: 30px;
   text-align: center;
-  margin-top: 5%; }
+  margin-top: 4%; }
 
 .subtitle {
   font-family: 'cajito';
@@ -433,7 +433,8 @@ h4 {
   font-size: 15px;
   width: 50%;
   display: block;
-  margin: 0 auto; }
+  margin: 0 auto;
+  padding-bottom: 1%; }
   .abouttext a {
     text-decoration: underline;
     font-size: 20px;
@@ -520,68 +521,33 @@ p {
   .livelink a:hover {
     color: #e0b412; }
 
-.aboutcontainer {
+.projectinfo {
   display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  padding-top: 2%;
-  width: 80%;
-  margin: 0 auto; }
-  .aboutcontainer h3 {
+  justify-content: left;
+  align-items: left;
+  flex-direction: row;
+  padding-top: 1%;
+  width: 85%;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 4%; }
+  .projectinfo h3 {
     margin: 0;
     text-transform: uppercase; }
-  .aboutcontainer img {
-    width: 330px;
-    padding-top: 4%; }
-
-.challenges {
-  padding-left: 5%;
-  padding-bottom: 2%; }
-  .challenges h3 {
-    margin-top: 1%;
-    margin-left: 5%;
-    text-transform: uppercase; }
-  .challenges p {
-    padding-left: 5%;
-    padding-right: 20%;
-    margin: 0; }
+  .projectinfo div {
+    margin: 1%; }
 
 .screenshots {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: center; }
-  .screenshots div {
-    padding: 2%; }
-  .screenshots p {
-    margin: 0; }
-  .screenshots img {
-    width: 250px;
-    height: 350px;
-    object-fit: contain;
-    padding: 0; }
-
-.screenshots {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center; }
-  .screenshots div {
-    padding: 2%; }
-  .screenshots p {
-    margin: 0; }
-  .screenshots img {
-    width: 200px;
-    object-fit: contain; }
-
-.screenshots {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center; }
+  align-items: left;
+  padding-top: 2%;
+  background-color: #f9f9f9; }
   .screenshots p {
     text-align: center; }
   .screenshots img {
-    height: 250px;
-    padding-bottom: 1%;
-    object-fit: contain; }
+    width: 350px;
+    height: 350px;
+    object-fit: contain;
+    padding: 0; }
