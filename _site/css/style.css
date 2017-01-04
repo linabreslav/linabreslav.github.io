@@ -12,18 +12,18 @@ html, body, ul, li, h1, h2, h3, a {
   padding: 0px; }
 
 header {
-  height: 145px;
+  height: 90px;
   position: relative;
   background-color: #708090; }
   header .headname {
     padding-left: 8%; }
     header .headname .nameslogan {
-      padding-top: 2.5%; }
+      padding-top: 4%; }
     header .headname a {
       text-decoration: none;
       font-family: 'cajito';
       font-size: 40px;
-      padding-left: 6%;
+      padding-left: 3%;
       text-decoration: none;
       text-transform: uppercase;
       color: white; }
@@ -37,17 +37,17 @@ header {
       color: white;
       font-weight: 200;
       font-size: 20px;
-      padding-left: 10%; }
+      padding-left: 3%; }
     header .headname .headericon img {
-      height: 90px;
+      height: 65px;
       position: absolute;
-      top: 12%;
-      left: 10%; }
+      top: 53%;
+      left: 7%; }
   header .socialmediaicons {
     position: absolute;
-    left: 81%;
-    top: 166%;
-    font-size: 25px; }
+    left: 83%;
+    top: 132%;
+    font-size: 20px; }
     header .socialmediaicons ul {
       width: 100%; }
       header .socialmediaicons ul li {
@@ -65,19 +65,27 @@ header {
 .emailme p a {
   font-family: 'cajito';
   color: #3A3A3C;
-  font-size: 15px;
+  font-size: 17px;
   text-decoration: none;
   color: #708090;
   position: absolute;
+  text-transform: uppercase;
   text-align: right;
-  top: 194%;
-  left: 83.5%; }
+  top: 135%;
+  left: 65%; }
+
+.emailme p a:hover {
+  color: #e0b412;
+  -webkit-transition: color 500ms ease .01s;
+  -moz-transition: color 500ms ease .01s;
+  transition: color 500ms ease .01s; }
 
 nav {
-  text-align: center;
+  text-align: right;
   background-color: #708090;
   padding-top: .5%;
-  padding-bottom: .3%; }
+  padding-bottom: .3%;
+  padding-right: 9%; }
   nav ul li {
     display: inline;
     list-style: none;
@@ -196,7 +204,7 @@ footer {
 
   header .socialmediaicons {
     left: 82%;
-    top: 156%;
+    top: 130%;
     font-size: 20px; }
 
   section {
@@ -218,6 +226,22 @@ footer {
   .secondsection .projectstitle {
     padding-left: 6%; } }
 @media (max-width: 630px) {
+  nav {
+    text-align: center;
+    padding: 0; }
+
+  .title {
+    font-family: 'cajito';
+    color: #3A3A3C;
+    text-align: center;
+    margin-left: 0; }
+
+  .subtitle {
+    font-family: 'cajito';
+    color: #3A3A3C;
+    text-align: center;
+    margin-left: 0; }
+
   header {
     padding-top: 0%;
     height: 120px; }
@@ -233,7 +257,7 @@ footer {
 
   header .headname h2 {
     text-align: center;
-    font-size: 20px;
+    font-size: 15px;
     padding: 0;
     padding-top: 1%; }
 
@@ -245,21 +269,6 @@ footer {
     padding-left: 1.5%;
     padding-right: 1.5%;
     text-decoration: none; }
-
-  header .socialmediaicons {
-    position: absolute;
-    left: 67%;
-    top: 143%;
-    font-size: 20px;
-    padding: 0 1%; }
-
-  header .emailme p a {
-    position: absolute;
-    text-align: left;
-    left: 6%;
-    top: 140%;
-    font-size: 15px;
-    padding: 0 1%; }
 
   section {
     width: 97%;
@@ -306,10 +315,10 @@ footer {
     height: 24px;
     font-size: 9px; } }
 .aboutphoto img {
-  height: 320px;
+  height: 230px;
   display: block;
   margin: 0 auto;
-  padding: 6% 0 2% 0; }
+  padding: 3.5% 0 2% 0; }
 
 .aboutalltext {
   width: 50%;
@@ -344,6 +353,18 @@ footer {
   .aboutalltext {
     width: 615px; } }
 @media (max-width: 630px) {
+  .title {
+    font-family: 'cajito';
+    color: #3A3A3C;
+    text-align: center;
+    margin-left: 0; }
+
+  .subtitle {
+    font-family: 'cajito';
+    color: #3A3A3C;
+    text-align: center;
+    margin-left: 0; }
+
   header {
     padding-top: 0%;
     height: 120px; }
@@ -368,13 +389,6 @@ footer {
     padding-left: 1.5%;
     padding-right: 1.5%;
     text-decoration: none; }
-
-  header .socialmediaicons {
-    position: absolute;
-    left: 67%;
-    top: 140%;
-    font-size: 20px;
-    padding: 0 1%; }
 
   .aboutphoto img {
     height: 200px;
@@ -400,22 +414,23 @@ footer {
   font-family: 'cajito';
   color: #3A3A3C;
   font-size: 30px;
-  text-align: center;
-  margin-top: 4%; }
+  text-align: left;
+  margin-top: 4%;
+  margin-left: 14%; }
 
 .subtitle {
   font-family: 'cajito';
   color: #3A3A3C;
   font-size: 20px;
-  text-align: center;
-  text-transform: lowercase; }
+  text-align: left;
+  text-transform: lowercase;
+  margin-left: 14%; }
 
 h3 {
   font-family: 'cajito';
   color: #3A3A3C;
   font-size: 20px;
-  margin-top: 5%;
-  margin-left: 10%; }
+  margin-top: 5%; }
 
 h4 {
   font-family: 'cajito';
@@ -424,8 +439,7 @@ h4 {
   width: 50%;
   padding-top: 3%;
   padding-bottom: 2%;
-  display: block;
-  margin: 0 auto; }
+  padding-left: 14%; }
 
 .abouttext {
   font-family: 'cajito';
@@ -433,8 +447,8 @@ h4 {
   font-size: 15px;
   width: 50%;
   display: block;
-  margin: 0 auto;
-  padding-bottom: 1%; }
+  padding-bottom: 1%;
+  padding-left: 14%; }
   .abouttext a {
     text-decoration: underline;
     font-size: 20px;
@@ -448,6 +462,18 @@ h4 {
     padding-left: 3%;
     bottom: 23%; } }
 @media (max-width: 630px) {
+  .title {
+    font-family: 'cajito';
+    color: #3A3A3C;
+    text-align: center;
+    margin-left: 0; }
+
+  .subtitle {
+    font-family: 'cajito';
+    color: #3A3A3C;
+    text-align: center;
+    margin-left: 0; }
+
   header {
     padding-top: 0%;
     height: 120px; }
@@ -473,13 +499,6 @@ h4 {
     padding-right: 1.5%;
     text-decoration: none; }
 
-  header .socialmediaicons {
-    position: absolute;
-    left: 67%;
-    top: 140%;
-    font-size: 20px;
-    padding: 0 1%; }
-
   .title {
     margin-top: 20%; }
 
@@ -501,10 +520,12 @@ h4 {
     color: #3A3A3C;
     font-size: 15px;
     text-align: left;
-    width: 87%; }
+    width: 87%;
+    padding-left: 10%; }
 
   .abouttext {
-    width: 87%; }
+    width: 87%;
+    padding-left: 10%; }
     .abouttext a {
       font-size: 15px; } }
 p {
@@ -515,7 +536,8 @@ p {
   font-family: 'cajito';
   color: #3A3A3C;
   font-size: 17px;
-  text-align: center; }
+  text-align: left;
+  padding-left: 14%; }
   .livelink a {
     color: #3A3A3C; }
   .livelink a:hover {
@@ -545,9 +567,8 @@ p {
   padding-top: 2%;
   background-color: #f9f9f9; }
   .screenshots p {
-    text-align: center; }
+    text-align: left; }
   .screenshots img {
-    width: 350px;
-    height: 350px;
-    object-fit: contain;
-    padding: 0; }
+    width: 270px;
+    height: 270px;
+    object-fit: contain; }
