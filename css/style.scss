@@ -77,27 +77,19 @@ header {
         font-size: 20px;
         padding-left: 3%;
       }
-      .headericon {
-        img {
-          height: 55px;
-          position: absolute;
-          top: 142%;
-          left: 92%;
-          -moz-transform: scaleX(-1);
-          -o-transform: scaleX(-1);
-          -webkit-transform: scaleX(-1);
-          transform: scaleX(-1);
-          filter: FlipH;
-          -ms-filter: "FlipH";
-      }
     }
   }
 
+// SOCIAL MEDIA AND EMAIL CONTAINER
+.socialmediaandemail {
+  float: right;
+  text-align: right;
+  padding-right: 7%;
+  padding-top: 1.5%;
+}
+
 // SOCIAL MEDIA ICONS
 .socialmediaicons {
-  position: absolute;
-  left: 83%;
-  top: 145%;
   font-size: 20px;
     ul {
       width: 100%;
@@ -118,7 +110,9 @@ header {
       }
     }
   }
-}
+
+
+
 
 // EMAIL
 .emailme p a {
@@ -126,11 +120,7 @@ header {
   font-size: 17px;
   text-decoration: none;
   color: white;
-  position: absolute;
   text-transform: uppercase;
-  text-align: right;
-  top: 175%;
-  left: 73%;
 }
 .emailme p a:hover {
   color: $mustard;
@@ -195,14 +185,8 @@ section {
       transition: color 500ms ease .01s;
     }
   }
-
-  .largecurlyicon {
-    img {
-      height: 65px;
-      opacity: 0.17;
-    }
-  }
 }
+
 
 
 // PROJECT SECTION
@@ -306,40 +290,20 @@ footer {
 
 
 // TABLET MEDIA QUERY
-
 @media (min-width: 631px) and (max-width: 1024px) {
-
-  header .headname a {
-    padding-left: 8%;
-  }
-
-  header .headname .headericon {
-    padding-left: 2%;
-    bottom: 25%;
-  }
-
-  header .emailme p a {
-    position: absolute;
-    left: 82%;
-    top: 130%;
-    font-size: 15px;
-    padding: 0 1%;
+  .socialmediaandemail {
+    float: right;
     text-align: right;
-  }
-
-  header .socialmediaicons {
-    left: 82%;
-    top: 130%;
-    font-size: 20px;
+    padding-right: 7.5%;
+    padding-top: 1%;
   }
 
   section {
     margin: 0 auto;
     width: 83.5%;
-    padding-top: 10%;
+    padding-top: 2%;
        .meblurb {
-        font-size: 20px;
-        padding-left: 0;
+        padding-left: 3%;
         padding-top: 2%;
       }
     }
@@ -348,133 +312,77 @@ footer {
     align-items: left;
     justify-content: flex-start;
     margin-top: 5%;
-    margin-left: 5%;
+    margin-left: 8%;
     padding-bottom: 5%;
     }
 
   .secondsection .projectstitle {
-    padding-left: 6%;
+    padding-left: 8.5%;
   }
 }
 
 // MOBILE MEDIA QUERY
-
 @media (max-width: 630px) {
 
-  nav {
-    text-align: center;
-    padding: 0;
+  .socialmediaandemail {
+    display: none;
   }
-
-  .title {
-    @include fontStyleColor;
-    text-align: center;
-    margin-left: 0;
+  nav ul {
+      text-align: center;
   }
-
-  .subtitle {
-    @include fontStyleColor;
-    text-align: center;
-    margin-left: 0;
-  }
-
   header {
-    padding-top: 0%;
-    height: 120px;
+    height: 80px;
   }
-
   header .headname {
-    padding-left: 0;
+    padding: 0;
+    text-align: center;
   }
-
   header .headname a {
     font-size: 30px;
-    display: block;
-    padding: 0;
-    padding-top: 10%;
+    padding: 1%;
   }
-
   header .headname h2 {
-    text-align: center;
     font-size: 15px;
-    padding: 0;
+    padding-left: 0;
+    padding-top: 1%;
+  }
+  .emailme p a {
+    margin: 0;
+    font-size: 13px;
+  }
+  p{
+    margin: 0;
+  }
+  nav {
+    padding-left: 0%;
     padding-top: 1%;
   }
 
-  header .headname .headericon {
-    display: none;
+  section .meblurb {
+    padding-top: 5%;
+    padding-left: 20%;
+    text-align: left;
+    font-size: 17px;
+    width: 116%;
   }
-
-
-  nav ul li a {
-    font-size: 14px;
-    padding-left: 1.5%;
-    padding-right: 1.5%;
-    text-decoration: none;
+  .secondsection .projectstitle {
+    font-size: 20px;
+    color: $gray;
+    text-align: left;
+    margin-top: 5%;
+    padding: 0;
+    padding-left: 3%;
   }
-
-  section {
-    width: 97%;
-    margin: 0 auto;
-    margin-top: 10%;
-
-    .meblurb {
-      font-size: 17px;
-      text-align: left;
-      margin: 6%;
-      padding-left: 0;
-    }
-    .largecurlyicon {
-      img {
-        height: 70px;
-        padding: 5%;
-        padding-right: 13%;
-      }
-    }
-    .mephoto {
-      img{
-        height: 100px;
-        padding-left: 1%;
-      }
-    }
+  .secondsection .projectcontainer .project a {
+    padding-top: 0;
   }
-
-.secondsection {
-  padding: 2%;
-  .projectstitle {
-    padding-left: 5%;
+  .secondsection .projectcontainer .project {
+    padding: 0;
+    height: 300px;
   }
-  .projectcontainer {
-    .project {
-      margin-bottom: 10%;
-      a {
-        padding-top: 0;
-      }
-      img {
-        width: 300px;
-        object-fit: contain;
-        }
-        h2 {
-          font-family: 'cajito';
-          color: $gray;
-          font-size: 17px;
-          text-transform: none;
-          font-weight: 200;
-          text-align: left;
-          text-align: center;
-          text-transform: uppercase;
-        }
-        p {
-          padding: 1%;
-          font-size: 17px;
-        }
-      }
-    }
-  }
-
-footer {
-height: 24px;
-font-size: 9px;
+  .secondsection .projectcontainer .project img {
+    width: 300px;
+    height: 190px;
   }
 }
 
@@ -521,96 +429,12 @@ font-size: 9px;
 
 // ABOUT TABLET MEDIA QUERY
 @media (min-width: 631px) and (max-width: 1024px) {
-  header .headname .headericon {
-    padding-left: 3%;
-    bottom: 23%;
-  }
-
 
   .aboutalltext {
     width: 615px;
   }
 }
 
-
-
-// ABOUT MOBILE MEDIA QUERY
-
-@media (max-width: 630px) {
-
-  .title {
-    @include fontStyleColor;
-    text-align: center;
-    margin-left: 0;
-  }
-
-  .subtitle {
-    @include fontStyleColor;
-    text-align: center;
-    margin-left: 0;
-  }
-
-  header {
-    padding-top: 0%;
-    height: 120px;
-  }
-
-  header .headname a {
-    font-size: 30px;
-    text-align: center;
-    padding: 0;
-    padding-top: 10%;
-  }
-
-  header .headname h2 {
-    text-align: center;
-    font-size: 20px;
-    padding: 0;
-    padding-top: 1%;
-  }
-
-  header .headname .headericon {
-    display: none;
-  }
-
-  nav ul li a {
-    font-size: 15px;
-    padding-left: 1.5%;
-    padding-right: 1.5%;
-    text-decoration: none;
-  }
-
-  .aboutphoto img {
-      height: 200px;
-      display: block;
-      margin: 0 auto;
-      padding: 20% 0 2% 0;
-    }
-
-  .aboutalltext {
-    width: 87%;
-    p {
-      font-size: 16px;
-      text-align: left;
-    }
-  }
-
-  .skillscontainer {
-    .skills{
-      width: 220px;
-      p {
-        font-size: 15px;
-        text-align: left;
-      }
-    }
-
-
-  footer {
-  height: 24px;
-  font-size: 9px;
-    }
-  }
-}
 
 
 // RESEARCH PAGE
@@ -667,92 +491,7 @@ h4 {
 
 // RESEARCH MEDIA QUERY TABLET
 @media (min-width: 631px) and (max-width: 1024px) {
-  header .headname .headericon {
-    padding-left: 3%;
-    bottom: 23%;
-  }
 
-}
-
-// RESEARCH MEDIA QUERY MOBILE
-
-@media (max-width: 630px) {
-
-  .title {
-    @include fontStyleColor;
-    text-align: center;
-    margin-left: 0;
-  }
-
-  .subtitle {
-    @include fontStyleColor;
-    text-align: center;
-    margin-left: 0;
-  }
-
-  header {
-    padding-top: 0%;
-    height: 120px;
-  }
-
-  header .headname a {
-    font-size: 30px;
-    text-align: center;
-    padding: 0;
-    padding-top: 10%;
-  }
-
-  header .headname h2 {
-    text-align: center;
-    font-size: 20px;
-    padding: 0;
-    padding-top: 1%;
-  }
-
-  header .headname .headericon {
-    display: none;
-  }
-
-  nav ul li a {
-    font-size: 15px;
-    padding-left: 1.5%;
-    padding-right: 1.5%;
-    text-decoration: none;
-  }
-
-
-  .title {
-    margin-top: 20%;
-  }
-
-  .subtitle {
-    @include fontStyleColor;
-    font-size: 18px;
-    text-align: center;
-    text-transform: lowercase;
-  }
-
-  h3 {
-    @include fontStyleColor;
-    margin-left: 5%;
-    margin-right: 1%;
-  }
-
-  h4 {
-    @include fontStyleColor;
-    font-size: 15px;
-    text-align: left;
-    width: 87%;
-    padding-left: 10%;
-  }
-
-  .abouttext {
-    width: 87%;
-    padding-left: 10%;
-    a{
-      font-size: 15px;
-    }
-  }
 }
 
 // GOODREADS BOOKSHELF
