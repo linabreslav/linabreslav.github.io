@@ -7,22 +7,25 @@
 html {
   max-width: 1440px; }
 
+body {
+  background-color: #f9f9f9; }
+
 html, body, ul, li, h1, h2, h3, a {
   margin: 0px;
   padding: 0px; }
 
 header {
-  height: 90px;
+  height: 100px;
   position: relative;
-  background-color: #708090; }
+  background-color: #3A3A3C; }
   header .headname {
     padding-left: 8%; }
     header .headname .nameslogan {
-      padding-top: 4%; }
+      padding-top: 3.5%; }
     header .headname a {
       text-decoration: none;
       font-family: 'cajito';
-      font-size: 40px;
+      font-size: 45px;
       padding-left: 3%;
       text-decoration: none;
       text-transform: uppercase;
@@ -39,14 +42,20 @@ header {
       font-size: 20px;
       padding-left: 3%; }
     header .headname .headericon img {
-      height: 65px;
+      height: 55px;
       position: absolute;
-      top: 53%;
-      left: 7%; }
+      top: 142%;
+      left: 92%;
+      -moz-transform: scaleX(-1);
+      -o-transform: scaleX(-1);
+      -webkit-transform: scaleX(-1);
+      transform: scaleX(-1);
+      filter: FlipH;
+      -ms-filter: "FlipH"; }
   header .socialmediaicons {
     position: absolute;
     left: 83%;
-    top: 132%;
+    top: 145%;
     font-size: 20px; }
     header .socialmediaicons ul {
       width: 100%; }
@@ -54,7 +63,7 @@ header {
         display: inline;
         list-style: none; }
         header .socialmediaicons ul li a {
-          color: #708090;
+          color: white;
           text-decoration: none; }
         header .socialmediaicons ul li a:hover {
           color: #e0b412;
@@ -67,12 +76,12 @@ header {
   color: #3A3A3C;
   font-size: 17px;
   text-decoration: none;
-  color: #708090;
+  color: white;
   position: absolute;
   text-transform: uppercase;
   text-align: right;
-  top: 135%;
-  left: 65%; }
+  top: 175%;
+  left: 73%; }
 
 .emailme p a:hover {
   color: #e0b412;
@@ -81,11 +90,11 @@ header {
   transition: color 500ms ease .01s; }
 
 nav {
-  text-align: right;
-  background-color: #708090;
-  padding-top: .5%;
-  padding-bottom: .3%;
-  padding-right: 9%; }
+  text-align: left;
+  background-color: #3A3A3C;
+  padding-top: 6%;
+  padding-bottom: .5%;
+  padding-left: 10%; }
   nav ul li {
     display: inline;
     list-style: none;
@@ -93,7 +102,6 @@ nav {
     nav ul li a {
       text-decoration: none;
       display: inline-block;
-      background-color: #708090;
       color: white;
       font-family: "cajito";
       padding: 0 1%;
@@ -106,19 +114,20 @@ nav {
       transition: color 500ms ease .01s; }
 
 section {
-  width: 60%;
+  width: 64%;
   margin: 0 auto;
-  margin: 3%;
-  margin-top: 5%; }
+  margin: 1%;
+  margin-top: 2%; }
   section .meblurb {
-    color: #3A3A3C;
-    font-family: 'cajito';
-    font-size: 21px;
-    text-align: left;
-    padding-left: 14%; }
+    color: #98979c;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 18px;
+    text-align: justify;
+    padding-left: 15.5%; }
     section .meblurb a {
-      text-decoration: underline;
-      color: #3A3A3C; }
+      font-weight: bold;
+      text-decoration: none;
+      color: #98979c; }
     section .meblurb a:hover {
       color: #e0b412;
       -webkit-transition: color 500ms ease .01s;
@@ -135,9 +144,9 @@ section {
   padding-bottom: 5%;
   padding-left: 2%; }
   .secondsection .projectstitle {
-    font-family: 'cajito';
-    color: #3A3A3C;
-    font-size: 20px;
+    font-family: "Noto Sans", sans-serif;
+    color: #98979c;
+    font-size: 25px;
     padding-top: 4%;
     padding-left: 9%;
     text-align: left;
@@ -157,13 +166,14 @@ section {
         text-align: center;
         object-fit: cover; }
       .secondsection .projectcontainer .project a {
-        font-family: 'cajito';
-        color: #3A3A3C;
-        font-size: 17px;
+        font-family: "Noto Sans", sans-serif;
+        color: #98979c;
+        font-size: 20px;
         text-align: center;
+        text-decoration: none;
         text-transform: none;
         font-weight: 900;
-        padding-top: 4%;
+        padding-top: 2%;
         text-transform: uppercase; }
       .secondsection .projectcontainer .project a:hover {
         color: #e0b412;
@@ -273,7 +283,7 @@ footer {
   section {
     width: 97%;
     margin: 0 auto;
-    margin-top: 25%; }
+    margin-top: 10%; }
     section .meblurb {
       font-size: 17px;
       text-align: left;

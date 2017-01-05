@@ -1,6 +1,8 @@
 ---
 ---
 
+$bodyfont: 'Noto Sans', sans-serif;
+
 
 @font-face {
     font-family: 'cajito';
@@ -25,6 +27,9 @@ html {
   max-width: 1440px;
 }
 
+body {
+  background-color: #f9f9f9;
+}
 
 // VARIABLES
 $gray: #3A3A3C;
@@ -36,22 +41,23 @@ html, body, ul, li, h1, h2, h3, a{
   padding: 0px;
 }
 
+
 // HEADER STYLING: NAME
 header {
-  height: 90px;
+  height: 100px;
   position: relative;
-  background-color: #708090;
+  background-color: $gray;
 
 // INSIDE HEADER NAME AND TITLE
   .headname {
     padding-left: 8%;
     .nameslogan {
-      padding-top: 4%;
+      padding-top: 3.5%;
     }
     a {
         text-decoration: none;
         font-family: 'cajito';
-        font-size: 40px;
+        font-size: 45px;
         padding-left: 3%;
         text-decoration: none;
         text-transform: uppercase;
@@ -73,10 +79,16 @@ header {
       }
       .headericon {
         img {
-          height: 65px;
+          height: 55px;
           position: absolute;
-          top: 53%;
-          left: 7%;
+          top: 142%;
+          left: 92%;
+          -moz-transform: scaleX(-1);
+          -o-transform: scaleX(-1);
+          -webkit-transform: scaleX(-1);
+          transform: scaleX(-1);
+          filter: FlipH;
+          -ms-filter: "FlipH";
       }
     }
   }
@@ -85,7 +97,7 @@ header {
 .socialmediaicons {
   position: absolute;
   left: 83%;
-  top: 132%;
+  top: 145%;
   font-size: 20px;
     ul {
       width: 100%;
@@ -94,7 +106,7 @@ header {
         list-style: none;
         // padding: 3%;
         a {
-          color: #708090;
+          color: white;
           text-decoration: none;
         }
         a:hover {
@@ -113,12 +125,12 @@ header {
   @include fontStyleColor;
   font-size: 17px;
   text-decoration: none;
-  color: #708090;
+  color: white;
   position: absolute;
   text-transform: uppercase;
   text-align: right;
-  top: 135%;
-  left: 65%;
+  top: 175%;
+  left: 73%;
 }
 .emailme p a:hover {
   color: $mustard;
@@ -129,11 +141,11 @@ header {
 
 // NAVIGATION
 nav {
-  text-align: right;
-  background-color: #708090;
-  padding-top: .5%;
-  padding-bottom: .3%;
-  padding-right: 9%;
+  text-align: left;
+  background-color: $gray;
+  padding-top: 6%;
+  padding-bottom: .5%;
+  padding-left: 10%;
   ul {
     li {
       display: inline;
@@ -142,7 +154,6 @@ nav {
       a {
         text-decoration: none;
         display: inline-block;
-        background-color: #708090;
         color: white;
         font-family: $font;
         padding: 0 1%;
@@ -161,20 +172,21 @@ nav {
 
 // MIDDLE CONTENT/ SHORTENED ABOUT ME
 section {
-  width: 60%;
+  width: 64%;
   margin: 0 auto;
-  margin: 3%;
-  margin-top: 5%;
+  margin: 1%;
+  margin-top: 2%;
 
   .meblurb {
-    color: $gray;
-    font-family: 'cajito';
-    font-size: 21px;
-    text-align: left;
-    padding-left: 14%;
+    color: #98979c;
+    font-family: $bodyfont;
+    font-size: 18px;
+    text-align: justify;
+    padding-left: 15.5%;
     a {
-      text-decoration: underline;
-      color: $gray;
+      font-weight: bold;
+      text-decoration: none;
+      color: #98979c;
     }
     a:hover {
       color: $mustard;
@@ -202,9 +214,9 @@ section {
   padding-bottom: 5%;
   padding-left: 2%;
   .projectstitle {
-    font-family: 'cajito';
-    color: $gray;
-    font-size: 20px;
+    font-family: $bodyfont;
+    color: #98979c;
+    font-size: 25px;
     padding-top: 4%;
     padding-left: 9%;
     text-align: left;
@@ -226,13 +238,14 @@ section {
         object-fit: cover;
         }
         a {
-          font-family: 'cajito';
-          color: $gray;
-          font-size: 17px;
+          font-family: $bodyfont;
+          color: #98979c;
+          font-size: 20px;
           text-align: center;
+          text-decoration: none;
           text-transform: none;
           font-weight: 900;
-          padding-top: 4%;
+          padding-top: 2%;
           text-transform: uppercase;
         }
         a:hover {
@@ -403,7 +416,7 @@ footer {
   section {
     width: 97%;
     margin: 0 auto;
-    margin-top: 25%;
+    margin-top: 10%;
 
     .meblurb {
       font-size: 17px;
