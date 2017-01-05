@@ -1,7 +1,7 @@
 ---
 ---
 
-$bodyfont: 'Noto Sans', sans-serif;
+$bodyfont: 'Roboto', sans-serif;
 
 
 @font-face {
@@ -21,7 +21,7 @@ $bodyfont: 'Noto Sans', sans-serif;
   color: #3A3A3C;
 }
 
-$mustard: #e0b412;
+$mustard: #ff5A5F;
 
 html {
   max-width: 1440px;
@@ -44,7 +44,7 @@ html, body, ul, li, h1, h2, h3, a{
 
 // HEADER STYLING: NAME
 header {
-  height: 100px;
+  height: 90px;
   position: relative;
   background-color: $gray;
 
@@ -57,7 +57,8 @@ header {
     a {
         text-decoration: none;
         font-family: 'cajito';
-        font-size: 45px;
+        font-size: 70px;
+        font-weight: 900;
         padding-left: 3%;
         text-decoration: none;
         text-transform: uppercase;
@@ -71,7 +72,7 @@ header {
       }
       h2{
         // @include fontStyleColor;
-        font-family: 'cajito';
+        font-family: $bodyfont;
         color: white;
         font-weight: 200;
         font-size: 20px;
@@ -116,11 +117,12 @@ header {
 
 // EMAIL
 .emailme p a {
-  @include fontStyleColor;
+  font-family: $bodyfont;
   font-size: 17px;
   text-decoration: none;
   color: white;
   text-transform: uppercase;
+
 }
 .emailme p a:hover {
   color: $mustard;
@@ -133,7 +135,7 @@ header {
 nav {
   text-align: left;
   background-color: $gray;
-  padding-top: 6%;
+  padding-top: 6.5%;
   padding-bottom: .5%;
   padding-left: 10%;
   ul {
@@ -145,7 +147,7 @@ nav {
         text-decoration: none;
         display: inline-block;
         color: white;
-        font-family: $font;
+        font-family: $bodyfont;
         padding: 0 1%;
         font-size: 17px;
         text-transform: uppercase;
@@ -170,9 +172,18 @@ section {
   .meblurb {
     color: #98979c;
     font-family: $bodyfont;
-    font-size: 18px;
+    font-size: 20px;
     text-align: justify;
     padding-left: 15.5%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    .icon {
+      position: absolute;
+      top: 5.8%;
+      left: 8%;
+      height: 68px;
+    }
     a {
       font-weight: bold;
       text-decoration: none;
@@ -192,7 +203,7 @@ section {
 // PROJECT SECTION
 .secondsection {
   // background-color: #F7F7F7;
-  background-color: #f9f9f9;
+  background-color: #ededed;
   margin: 0;
   margin-top: 2%;
   padding-bottom: 5%;
@@ -394,7 +405,6 @@ footer {
     height: 210px;
     display: block;
     padding: 3%;
-    margin: 0 auto;
   }
 
 .aboutalltext {
