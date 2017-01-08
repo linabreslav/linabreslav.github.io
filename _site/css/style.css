@@ -44,9 +44,10 @@ header {
       padding-left: 3%; }
 
 .socialmediaandemail {
-  float: right;
-  text-align: right;
-  padding-right: 7%; }
+  float: left;
+  text-align: left;
+  padding-left: 11%;
+  padding-top: 1.5%; }
 
 .socialmediaicons {
   font-size: 20px; }
@@ -56,7 +57,7 @@ header {
       display: inline;
       list-style: none; }
       .socialmediaicons ul li a {
-        color: white;
+        color: #3A3A3C;
         text-decoration: none; }
       .socialmediaicons ul li a:hover {
         color: #ff5A5F;
@@ -68,7 +69,7 @@ header {
   font-family: "Roboto", sans-serif;
   font-size: 17px;
   text-decoration: none;
-  color: white;
+  color: #3A3A3C;
   text-transform: uppercase; }
 
 .emailme p a:hover {
@@ -105,17 +106,14 @@ section {
   width: 64%;
   margin: 0 auto;
   margin: 1%;
-  margin-top: 2%;
+  margin-top: 4%;
   padding: 4%; }
   section .meblurb {
     color: #98979c;
     font-family: "Roboto", sans-serif;
     font-size: 20px;
     text-align: justify;
-    padding-left: 9%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap; }
+    padding-left: 9%; }
     section .meblurb .icon {
       position: absolute;
       top: 5.5%;
@@ -193,16 +191,10 @@ footer {
 
 @media (min-width: 631px) and (max-width: 1024px) {
   .socialmediaandemail {
-    float: left;
-    text-align: left;
-    padding-left: 11%;
-    padding-top: 3%;
-    padding-bottom: 0;
-    z-index: 2%; }
+    padding-top: 5%; }
 
-  nav {
-    padding-top: 14%;
-    padding-bottom: 2%; }
+  header {
+    height: 190px; }
 
   section {
     margin: 0 auto;
@@ -228,20 +220,21 @@ footer {
     padding-left: 9%; } }
 @media (max-width: 630px) {
   .socialmediaandemail {
-    display: none; }
+    padding-top: 8%; }
 
   nav ul {
-    text-align: center; }
+    text-align: center;
+    padding-top: 5%; }
 
   header {
-    height: 130px; }
+    height: 140px; }
 
   header .headname {
     padding: 0;
     text-align: center; }
 
   header .headname a {
-    font-size: 40px;
+    font-size: 43px;
     padding: 1%; }
 
   header .headname h2 {
@@ -261,40 +254,31 @@ footer {
     padding-top: 1%; }
 
   section .meblurb {
-    padding: 20%;
-    padding-top: 10%;
+    padding: 7%;
+    padding-left: 10%;
+    padding-top: 20%;
     text-align: left;
     font-size: 17px;
     width: 116%; }
 
-  .secondsection {
-    padding-left: 0; }
-
   .secondsection .projectstitle {
-    text-align: center;
-    font-size: 26px;
-    padding: 0; }
-
-  .secondsection .projectcontainer .project a {
-    padding-top: 0; }
+    padding-bottom: 2%; }
 
   .secondsection .projectcontainer .project {
-    padding: 0;
-    height: 300px; }
+    padding-bottom: 7%; }
 
   .secondsection .projectcontainer .project img {
-    width: 290px;
-    height: 160px; } }
+    width: 300px;
+    height: 100px; } }
 .aboutalltext {
   width: 50%;
+  padding-top: 15%;
   display: block;
   margin: 0 auto; }
   .aboutalltext .aboutphoto img {
     height: 210px;
     display: block;
-    margin: 0 auto;
-    padding: 3%;
-    padding-top: 5%; }
+    margin: 0 auto; }
   .aboutalltext p {
     color: #98979c;
     font-family: "Roboto", sans-serif;
@@ -325,8 +309,11 @@ footer {
     width: 80%;
     text-align: left; }
 
-  .aboutphoto img {
-    height: 170px;
+  .aboutalltext p {
+    text-align: justify; }
+
+  .aboutalltext .aboutphoto img {
+    height: 160px;
     padding: 7%; } }
 .title {
   font-family: 'cajito';
