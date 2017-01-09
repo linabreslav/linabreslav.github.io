@@ -56,7 +56,7 @@ header {
       display: inline;
       list-style: none; }
       .socialmediaicons ul li a {
-        color: #98979c;
+        color: #77767d;
         text-decoration: none; }
       .socialmediaicons ul li a:hover {
         color: #ff5A5F;
@@ -72,7 +72,7 @@ header {
   font-family: "Roboto", sans-serif;
   font-size: 17px;
   text-decoration: none;
-  color: #98979c;
+  color: #77767d;
   text-transform: uppercase; }
 
 .emailme p a:hover {
@@ -110,7 +110,7 @@ section {
   margin: 3%;
   margin-left: 5%; }
   section .meblurb {
-    color: #98979c;
+    color: #77767d;
     font-family: "Roboto", sans-serif;
     font-size: 20px;
     text-align: justify;
@@ -123,7 +123,7 @@ section {
     section .meblurb a {
       font-weight: bold;
       text-decoration: none;
-      color: #98979c; }
+      color: #77767d; }
     section .meblurb a:hover {
       color: #ff5A5F;
       -webkit-transition: color 500ms ease .01s;
@@ -138,7 +138,7 @@ section {
   padding-left: 2%; }
   .secondsection .projectstitle {
     font-family: "Roboto", sans-serif;
-    color: #98979c;
+    color: #77767d;
     font-size: 25px;
     padding-top: 4%;
     padding-left: 9%;
@@ -160,7 +160,7 @@ section {
         object-fit: cover; }
       .secondsection .projectcontainer .project a {
         font-family: "Roboto", sans-serif;
-        color: #98979c;
+        color: #77767d;
         font-size: 20px;
         text-align: center;
         text-decoration: none;
@@ -263,7 +263,7 @@ section {
     display: block;
     margin: 0 auto; }
   .aboutalltext p {
-    color: #98979c;
+    color: #77767d;
     font-family: "Roboto", sans-serif;
     font-size: 18px;
     line-height: 1.4;
@@ -294,17 +294,24 @@ section {
     padding: 7%; } }
 .title {
   font-family: "Roboto", sans-serif;
-  font-size: 30px;
+  text-transform: uppercase;
+  color: #77767d;
+  font-size: 25px;
   text-align: left;
-  margin-left: 13.5%;
+  margin-left: 11%;
   margin-top: 2%; }
 
 .subtitle {
   font-family: "Roboto", sans-serif;
+  color: #77767d;
   font-size: 20px;
   text-align: left;
   text-transform: lowercase;
-  margin-left: 13.5%; }
+  margin-left: 11%; }
+
+.livelink a {
+  text-decoration: none;
+  font-weight: 900; }
 
 h3 {
   font-family: "Roboto", sans-serif;
@@ -335,20 +342,23 @@ h4 {
     cursor: pointer; }
 
 p {
-  font-family: "Roboto", sans-serif; }
+  font-family: "Roboto", sans-serif;
+  color: #77767d; }
 
 .livelink {
+  color: #77767d;
   font-family: "Roboto", sans-serif;
   font-size: 17px;
   text-align: left;
   margin: 1%;
-  padding-left: 12.5%; }
+  padding-left: 10%; }
   .livelink a {
-    color: #3A3A3C; }
+    color: #77767d; }
   .livelink a:hover {
     color: #ff5A5F; }
 
 .projectinfo {
+  color: #77767d;
   padding-top: 1%;
   width: 75%;
   margin: 0 auto;
@@ -360,7 +370,7 @@ p {
     margin: 1%; }
 
 .screenshots {
-  width: 80%;
+  width: 82.5%;
   display: block;
   margin: 0 auto;
   display: flex;
@@ -369,19 +379,51 @@ p {
   align-items: center;
   background-color: #f9f9f9; }
   .screenshots p {
+    color: #77767d;
     text-align: left;
     text-transform: uppercase;
+    font-size: 14px;
     margin: 0;
-    margin-top: 10%; }
+    margin-top: 10%;
+    margin-bottom: 2%; }
   .screenshots img {
-    height: 350px;
-    width: 250px;
+    height: 270px;
+    width: 210px;
     object-fit: cover; }
+
+.projectinfo {
+  width: 81%; }
+  .projectinfo div {
+    padding-bottom: 1%; }
 
 .toolsProcess {
   display: flex;
   width: 67%;
   align-items: left;
+  flex-wrap: wrap;
   justify-content: flex-start; }
   .toolsProcess div {
     padding-right: 5%; }
+
+@media (max-width: 630px) {
+  .livelink {
+    text-align: center;
+    padding: 0; }
+
+  .title {
+    text-align: center;
+    margin: 0; }
+
+  .subtitle {
+    text-align: center;
+    margin: 0;
+    padding: 0 14%; }
+
+  .projectinfo {
+    width: 72%; }
+    .projectinfo div {
+      padding-bottom: 7%; }
+
+  .screenshots img {
+    width: 270px;
+    height: 350px; } }
