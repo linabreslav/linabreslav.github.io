@@ -24,7 +24,7 @@ header {
       padding-top: 3.5%; }
     header .headname a {
       text-decoration: none;
-      font-family: 'cajito';
+      font-family: "Roboto", sans-serif;
       font-size: 70px;
       font-weight: 900;
       padding-left: 3%;
@@ -174,7 +174,7 @@ section {
         -moz-transition: color 500ms ease .01s;
         transition: color 500ms ease .01s; }
       .secondsection .projectcontainer .project p {
-        font-family: 'cajito';
+        font-family: "Roboto", sans-serif;
         font-size: 20px;
         text-align: center;
         text-transform: none;
@@ -293,30 +293,26 @@ section {
     height: 160px;
     padding: 7%; } }
 .title {
-  font-family: 'cajito';
-  color: #3A3A3C;
+  font-family: "Roboto", sans-serif;
   font-size: 30px;
   text-align: left;
-  margin-top: 4%;
-  margin-left: 14%; }
+  margin-left: 13.5%;
+  margin-top: 2%; }
 
 .subtitle {
-  font-family: 'cajito';
-  color: #3A3A3C;
+  font-family: "Roboto", sans-serif;
   font-size: 20px;
   text-align: left;
   text-transform: lowercase;
-  margin-left: 14%; }
+  margin-left: 13.5%; }
 
 h3 {
-  font-family: 'cajito';
-  color: #3A3A3C;
+  font-family: "Roboto", sans-serif;
   font-size: 20px;
   margin-top: 5%; }
 
 h4 {
-  font-family: 'cajito';
-  color: #3A3A3C;
+  font-family: "Roboto", sans-serif;
   font-size: 18px;
   width: 50%;
   padding-top: 3%;
@@ -335,35 +331,28 @@ h4 {
     text-decoration: underline;
     font-size: 20px;
     font-weight: 900;
-    font-family: 'cajito';
     color: #ff5A5F;
     cursor: pointer; }
 
 p {
-  font-family: 'cajito';
-  color: #3A3A3C; }
+  font-family: "Roboto", sans-serif; }
 
 .livelink {
-  font-family: 'cajito';
-  color: #3A3A3C;
+  font-family: "Roboto", sans-serif;
   font-size: 17px;
   text-align: left;
-  padding-left: 14%; }
+  margin: 1%;
+  padding-left: 12.5%; }
   .livelink a {
     color: #3A3A3C; }
   .livelink a:hover {
     color: #ff5A5F; }
 
 .projectinfo {
-  display: flex;
-  justify-content: left;
-  align-items: left;
-  flex-direction: row;
   padding-top: 1%;
-  width: 85%;
+  width: 75%;
   margin: 0 auto;
-  overflow: hidden;
-  padding: 4%; }
+  overflow: hidden; }
   .projectinfo h3 {
     margin: 0;
     text-transform: uppercase; }
@@ -371,15 +360,28 @@ p {
     margin: 1%; }
 
 .screenshots {
+  width: 80%;
+  display: block;
+  margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  align-items: left;
-  padding-top: 2%;
+  justify-content: space-around;
+  align-items: center;
   background-color: #f9f9f9; }
   .screenshots p {
-    text-align: left; }
+    text-align: left;
+    text-transform: uppercase;
+    margin: 0;
+    margin-top: 10%; }
   .screenshots img {
-    width: 270px;
-    height: 270px;
-    object-fit: contain; }
+    height: 350px;
+    width: 250px;
+    object-fit: cover; }
+
+.toolsProcess {
+  display: flex;
+  width: 67%;
+  align-items: left;
+  justify-content: flex-start; }
+  .toolsProcess div {
+    padding-right: 5%; }
