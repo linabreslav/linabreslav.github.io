@@ -44,10 +44,9 @@ header {
       padding-left: 3%; }
 
 .socialmediaandemail {
-  float: left;
-  text-align: left;
-  padding-left: 11%;
-  padding-top: 1.5%; }
+  text-align: center;
+  background-color: #ededed;
+  padding-top: 5%; }
 
 .socialmediaicons {
   font-size: 20px; }
@@ -57,7 +56,7 @@ header {
       display: inline;
       list-style: none; }
       .socialmediaicons ul li a {
-        color: #3A3A3C;
+        color: #98979c;
         text-decoration: none; }
       .socialmediaicons ul li a:hover {
         color: #ff5A5F;
@@ -65,11 +64,15 @@ header {
         -moz-transition: color 500ms ease .01s;
         transition: color 500ms ease .01s; }
 
+.emailme p {
+  margin: 0;
+  padding-bottom: 5%; }
+
 .emailme p a {
   font-family: "Roboto", sans-serif;
   font-size: 17px;
   text-decoration: none;
-  color: #3A3A3C;
+  color: #98979c;
   text-transform: uppercase; }
 
 .emailme p a:hover {
@@ -104,10 +107,8 @@ nav {
 
 section {
   width: 64%;
-  margin: 0 auto;
-  margin: 1%;
-  margin-top: 4%;
-  padding: 4%; }
+  margin: 3%;
+  margin-left: 5%; }
   section .meblurb {
     color: #98979c;
     font-family: "Roboto", sans-serif;
@@ -149,8 +150,7 @@ section {
     flex-wrap: wrap;
     align-content: center;
     justify-content: center;
-    margin: 0 auto;
-    height: 550px; }
+    margin: 0 auto; }
     .secondsection .projectcontainer .project {
       padding: .5% .5%; }
       .secondsection .projectcontainer .project img {
@@ -180,28 +180,14 @@ section {
         text-transform: none;
         font-weight: 200; }
 
-footer {
-  font-family: "cajito";
-  height: 15px;
-  font-size: 15px;
-  color: #3A3A3C;
-  background-color: #ededed;
-  font-family: 'cajito';
-  text-align: center; }
-
 @media (min-width: 631px) and (max-width: 1024px) {
-  .socialmediaandemail {
-    padding-top: 5%; }
-
   header {
     height: 190px; }
 
   section {
     margin: 0 auto;
-    width: 83.5%;
-    padding-top: 10%; }
+    width: 83.5%; }
     section .meblurb {
-      padding-top: 6%;
       padding-left: 3%;
       padding-right: 20%; }
 
@@ -219,9 +205,6 @@ footer {
   .secondsection .projectstitle {
     padding-left: 9%; } }
 @media (max-width: 630px) {
-  .socialmediaandemail {
-    padding-top: 8%; }
-
   nav ul {
     text-align: center;
     padding-top: 5%; }
@@ -256,7 +239,7 @@ footer {
   section .meblurb {
     padding: 7%;
     padding-left: 10%;
-    padding-top: 20%;
+    padding-top: 5%;
     text-align: left;
     font-size: 17px;
     width: 116%; }
@@ -271,8 +254,8 @@ footer {
     width: 300px;
     height: 100px; } }
 .aboutalltext {
-  width: 50%;
-  padding-top: 15%;
+  width: 60%;
+  padding-top: 5%;
   display: block;
   margin: 0 auto; }
   .aboutalltext .aboutphoto img {
@@ -298,12 +281,6 @@ footer {
       font-size: 18px;
       text-align: left; }
 
-@media (min-width: 631px) and (max-width: 1024px) {
-  .aboutalltext {
-    width: 80%; }
-
-  .aboutphoto img {
-    padding: 2%; } }
 @media (max-width: 630px) {
   .aboutalltext {
     width: 80%;

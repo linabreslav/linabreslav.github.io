@@ -1,6 +1,7 @@
 ---
 ---
 
+
 $bodyfont: 'Roboto', sans-serif;
 
 
@@ -83,10 +84,9 @@ header {
 
 // SOCIAL MEDIA AND EMAIL CONTAINER
 .socialmediaandemail {
-  float: left;
-  text-align: left;
-  padding-left: 11%;
-  padding-top: 1.5%;
+  text-align: center;
+  background-color: #ededed;
+  padding-top: 5%;
 }
 
 // SOCIAL MEDIA ICONS
@@ -99,7 +99,7 @@ header {
         list-style: none;
         // padding: 3%;
         a {
-          color: $gray;
+          color: #98979c;
           text-decoration: none;
         }
         a:hover {
@@ -116,13 +116,16 @@ header {
 
 
 // EMAIL
+.emailme p  {
+  margin: 0;
+  padding-bottom: 5%;
+}
 .emailme p a {
   font-family: $bodyfont;
   font-size: 17px;
   text-decoration: none;
-  color: $gray;
+  color: #98979c;
   text-transform: uppercase;
-
 }
 .emailme p a:hover {
   color: $mustard;
@@ -166,10 +169,8 @@ nav {
 // MIDDLE CONTENT/ SHORTENED ABOUT ME
 section {
   width: 64%;
-  margin: 0 auto;
-  margin: 1%;
-  margin-top: 4%;
-  padding: 4%;
+  margin: 3%;
+  margin-left: 5%;
 
   .meblurb {
     color: #98979c;
@@ -223,7 +224,6 @@ section {
     align-content: center;
     justify-content: center;
     margin: 0 auto;
-    height: 550px;
     .project {
       padding: .5% .5%;
       img {
@@ -260,16 +260,6 @@ section {
     }
   }
 
-// FOOTER
-footer {
-  font-family: "cajito";
-  height: 15px;
-  font-size: 15px;
-  color: $gray;
-  background-color: #ededed;
-  font-family: 'cajito';
-  text-align: center;
-}
 
 
 // BLOG SECTION: FEATURED POST
@@ -303,9 +293,6 @@ footer {
 // TABLET MEDIA QUERY
 @media (min-width: 631px) and (max-width: 1024px) {
 
-  .socialmediaandemail {
-    padding-top: 5%;
-  }
 
   header {
     height: 190px;
@@ -314,9 +301,7 @@ footer {
   section {
     margin: 0 auto;
     width: 83.5%;
-    padding-top: 10%;
        .meblurb {
-         padding-top: 6%;
          padding-left: 3%;
          padding-right: 20%;
       }
@@ -342,10 +327,6 @@ footer {
 
 // MOBILE MEDIA QUERY
 @media (max-width: 630px) {
-
-  .socialmediaandemail {
-    padding-top: 8%;
-  }
 
   nav ul {
       text-align: center;
@@ -382,7 +363,7 @@ footer {
   section .meblurb {
     padding: 7%;
     padding-left: 10%;
-    padding-top: 20%;
+    padding-top: 5%;
     text-align: left;
     font-size: 17px;
     width: 116%;
@@ -404,8 +385,8 @@ footer {
 // ABOUT PAGE
 
 .aboutalltext {
-  width: 50%;
-  padding-top: 15%;
+  width: 60%;
+  padding-top: 5%;
   display: block;
   margin: 0 auto;
   .aboutphoto img {
@@ -440,13 +421,6 @@ footer {
 
 // ABOUT TABLET MEDIA QUERY
 @media (min-width: 631px) and (max-width: 1024px) {
-
-  .aboutalltext {
-    width: 80%;
-  }
-  .aboutphoto img {
-    padding: 2%;
-  }
 
 }
 
