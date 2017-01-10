@@ -288,10 +288,10 @@ section {
 
 // TABLET MEDIA QUERY
 @media (min-width: 631px) and (max-width: 1024px) {
-  // .secondsection .projectcontainer .project img {
-  //   width: 320px;
-  //   height: 150px;
-  // }
+  .secondsection .projectcontainer .project img {
+    width: 350px;
+    height: 200px;
+  }
 }
 
 //
@@ -391,7 +391,7 @@ section {
 // ABOUT PAGE
 
 .aboutalltext {
-  width: 60%;
+  width: 45%;
   padding-top: 5%;
   display: block;
   margin: 0 auto;
@@ -399,13 +399,14 @@ section {
       height: 210px;
       display: block;
       margin: 0 auto;
+      padding-top: 5%;
     }
   p {
     color: #77767d;
     font-family: $bodyfont;
     font-size: 18px;
-    line-height: 1.4;
-    text-align: left;
+    line-height: 1.6;
+    text-align: justify;
   }
 }
 
@@ -440,7 +441,7 @@ section {
     text-align: justify;
   }
   .aboutalltext .aboutphoto img {
-    width: 98%;
+    width: 170px;
     height: 160px;
     padding: 7%;
   }

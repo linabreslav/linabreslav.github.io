@@ -176,6 +176,10 @@ section {
         text-transform: none;
         font-weight: 200; }
 
+@media (min-width: 631px) and (max-width: 1024px) {
+  .secondsection .projectcontainer .project img {
+    width: 350px;
+    height: 200px; } }
 @media (max-width: 630px) {
   nav ul {
     text-align: center;
@@ -211,20 +215,21 @@ section {
     width: 98%;
     height: 160px; } }
 .aboutalltext {
-  width: 60%;
+  width: 45%;
   padding-top: 5%;
   display: block;
   margin: 0 auto; }
   .aboutalltext .aboutphoto img {
     height: 210px;
     display: block;
-    margin: 0 auto; }
+    margin: 0 auto;
+    padding-top: 5%; }
   .aboutalltext p {
     color: #77767d;
     font-family: "Roboto", sans-serif;
     font-size: 18px;
-    line-height: 1.4;
-    text-align: left; }
+    line-height: 1.6;
+    text-align: justify; }
 
 .skillscontainer {
   display: flex;
@@ -247,7 +252,7 @@ section {
     text-align: justify; }
 
   .aboutalltext .aboutphoto img {
-    width: 98%;
+    width: 170px;
     height: 160px;
     padding: 7%; } }
 .title {
