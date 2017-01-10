@@ -19,15 +19,14 @@ header {
   position: relative;
   background-color: #3A3A3C; }
   header .headname {
-    padding-left: 8%; }
+    text-align: center; }
     header .headname .nameslogan {
       padding-top: 3.5%; }
     header .headname a {
       text-decoration: none;
       font-family: "Roboto", sans-serif;
-      font-size: 70px;
+      font-size: 6vw;
       font-weight: 900;
-      padding-left: 3%;
       text-decoration: none;
       text-transform: uppercase;
       color: white; }
@@ -40,8 +39,7 @@ header {
       font-family: "Roboto", sans-serif;
       color: white;
       font-weight: 200;
-      font-size: 20px;
-      padding-left: 3%; }
+      font-size: 20px; }
 
 .socialmediaandemail {
   text-align: center;
@@ -82,10 +80,10 @@ header {
   transition: color 500ms ease .01s; }
 
 nav {
-  text-align: left;
+  text-align: center;
   background-color: #3A3A3C;
   padding-top: 3%;
-  padding-left: 10%;
+  padding-bottom: 1%;
   z-index: -2%; }
   nav ul li {
     display: inline;
@@ -106,15 +104,16 @@ nav {
       transition: color 500ms ease .01s; }
 
 section {
-  width: 64%;
-  margin: 3%;
-  margin-left: 5%; }
+  width: 43%;
+  display: block;
+  margin: 0 auto; }
   section .meblurb {
     color: #77767d;
     font-family: "Roboto", sans-serif;
     font-size: 20px;
     text-align: justify;
-    padding-left: 9%; }
+    padding: 10% 0;
+    padding-top: 15%; }
     section .meblurb .icon {
       position: absolute;
       top: 5.5%;
@@ -131,31 +130,29 @@ section {
       transition: color 500ms ease .01s; }
 
 .secondsection {
-  background-color: #ededed;
   margin: 0;
-  margin-top: 2%;
-  padding-bottom: 5%;
-  padding-left: 2%; }
+  padding-bottom: 5%; }
   .secondsection .projectstitle {
     font-family: "Roboto", sans-serif;
     color: #77767d;
-    font-size: 25px;
-    padding-top: 4%;
-    padding-left: 9%;
-    text-align: left;
-    text-transform: uppercase; }
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 2%; }
   .secondsection .projectcontainer {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    align-content: center;
-    justify-content: center;
-    margin: 0 auto; }
+    align-content: left;
+    justify-content: left;
+    padding-left: 19%;
+    margin: 0 auto;
+    width: 62%; }
     .secondsection .projectcontainer .project {
-      padding: .5% .5%; }
+      padding-bottom: 5%; }
       .secondsection .projectcontainer .project img {
-        width: 328px;
-        height: 215px;
+        width: 270px;
+        height: 200px;
         text-align: center;
         object-fit: cover; }
       .secondsection .projectcontainer .project a {
@@ -166,7 +163,6 @@ section {
         text-decoration: none;
         text-transform: none;
         font-weight: 900;
-        padding-top: 2%;
         text-transform: uppercase; }
       .secondsection .projectcontainer .project a:hover {
         color: #ff5A5F;
@@ -180,79 +176,40 @@ section {
         text-transform: none;
         font-weight: 200; }
 
-@media (min-width: 631px) and (max-width: 1024px) {
-  header {
-    height: 190px; }
-
-  section {
-    margin: 0 auto;
-    width: 83.5%; }
-    section .meblurb {
-      padding-left: 3%;
-      padding-right: 20%; }
-
-  .secondsection .projectcontainer {
-    align-items: left;
-    justify-content: flex-start;
-    margin-top: 0;
-    margin-left: 8%;
-    padding-bottom: 5%;
-    padding-top: 5%; }
-
-  .secondsection .projectcontainer .project img {
-    width: 300px; }
-
-  .secondsection .projectstitle {
-    padding-left: 9%; } }
 @media (max-width: 630px) {
   nav ul {
     text-align: center;
-    padding-top: 5%; }
+    padding-top: 10%; }
 
   header {
-    height: 140px; }
-
-  header .headname {
-    padding: 0;
-    text-align: center; }
+    height: 150px; }
 
   header .headname a {
-    font-size: 43px;
+    font-size: 40px;
     padding: 1%; }
-
-  header .headname h2 {
-    font-size: 17.5px;
-    padding-left: 0;
-    padding-top: 1%; }
-
-  .emailme p a {
-    margin: 0;
-    font-size: 13px; }
 
   p {
     margin: 0; }
 
-  nav {
-    padding-left: 0%;
-    padding-top: 1%; }
+  section {
+    width: 80%; }
 
   section .meblurb {
-    padding: 7%;
-    padding-left: 10%;
-    padding-top: 5%;
-    text-align: left;
+    text-align: justify;
     font-size: 17px;
-    width: 116%; }
+    margin: 0; }
 
   .secondsection .projectstitle {
     padding-bottom: 2%; }
 
-  .secondsection .projectcontainer .project {
-    padding-bottom: 7%; }
+  .secondsection .projectcontainer {
+    padding-bottom: 7%;
+    padding-left: 0;
+    width: 80%; }
 
   .secondsection .projectcontainer .project img {
-    width: 300px;
-    height: 100px; } }
+    width: 98%;
+    height: 160px; } }
 .aboutalltext {
   width: 60%;
   padding-top: 5%;
@@ -290,6 +247,7 @@ section {
     text-align: justify; }
 
   .aboutalltext .aboutphoto img {
+    width: 98%;
     height: 160px;
     padding: 7%; } }
 .title {
@@ -370,13 +328,13 @@ p {
     margin: 1%; }
 
 .screenshots {
-  width: 82.5%;
+  width: 84%;
   display: block;
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: center;
+  justify-content: left;
+  align-items: left;
   background-color: #f9f9f9; }
   .screenshots p {
     color: #77767d;
@@ -385,14 +343,19 @@ p {
     font-size: 14px;
     margin: 0;
     margin-top: 10%;
-    margin-bottom: 2%; }
+    margin-bottom: 2%;
+    margin-left: 10%; }
   .screenshots img {
-    height: 270px;
-    width: 210px;
+    height: 350px;
+    width: 270px;
+    padding: 10%;
+    padding-top: 0;
     object-fit: cover; }
 
 .projectinfo {
-  width: 81%; }
+  width: 74%; }
+  .projectinfo p {
+    text-align: justify; }
   .projectinfo div {
     padding-bottom: 1%; }
 
