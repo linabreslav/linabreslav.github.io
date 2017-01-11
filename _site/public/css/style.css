@@ -24,7 +24,7 @@ header {
       padding-top: 3.5%; }
     header .headname a {
       text-decoration: none;
-      font-family: 'cajito';
+      font-family: "cajito", "Roboto", sans-serif;
       font-size: 6.2vw;
       font-weight: 900;
       text-decoration: none;

@@ -57,7 +57,7 @@ header {
     }
     a {
         text-decoration: none;
-        font-family:'cajito';
+        font-family:'cajito', $bodyfont;
         font-size: 6.2vw;
         font-weight: 900;
         text-decoration: none;
