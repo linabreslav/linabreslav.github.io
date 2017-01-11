@@ -266,7 +266,8 @@ section {
   .aboutalltext .aboutphoto img {
     width: 170px;
     height: 160px;
-    padding: 7%; } }
+    padding: 7%;
+    padding-top: 10%; } }
 .titletext {
   color: white;
   font-family: "Roboto", sans-serif;
