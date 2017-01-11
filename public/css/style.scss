@@ -286,15 +286,20 @@ section {
       padding-bottom: 5%;
   }
   header {
-    height: 150px;
+    height: 155px;
   }
   // header .headname {
   //   padding: 0;
   //   text-align: center;
   // }
+
+  header .headname .nameslogan {
+    padding-top: 7%;
+  }
   header .headname a {
-    font-size: 40px;
+    font-size: 45px;
     padding: 1%;
+    padding-top: 3%;
   }
   // header .headname h2 {
   //   font-size: 17.5px;
@@ -320,6 +325,7 @@ section {
   section .meblurb {
     text-align: justify;
     font-size: 17px;
+    padding-top: 17%;
     margin: 0;
   }
 
@@ -393,7 +399,7 @@ section {
     width: 170px;
     height: 160px;
     padding: 7%;
-    padding-top: 10%;
+    padding-top: 18%;
   }
 }
 
@@ -475,12 +481,12 @@ section {
     padding-right: 2%;
   }
   .screenshots img {
-    height: 800px;
+    height: 950px;
     width: 330px;
   }
   .projectinfo {
     padding-left: 3%;
-    width: 42%;
+    width: 50%;
   }
 }
 
@@ -488,7 +494,7 @@ section {
 @media (max-width: 630px) {
   .titletext {
     font-size: 12px;
-    padding-top: 7%;
+    padding-top: 15%;
     .subtitle {
       padding-bottom: 5%;
     }
