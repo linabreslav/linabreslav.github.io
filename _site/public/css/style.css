@@ -344,6 +344,8 @@ section {
   .titletext {
     font-size: 12px;
     padding-top: 5%; }
+    .titletext .subtitle {
+      padding-bottom: 5%; }
 
   .livelink {
     padding: 5%;

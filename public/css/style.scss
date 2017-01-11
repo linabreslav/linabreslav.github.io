@@ -487,7 +487,11 @@ section {
   .titletext {
     font-size: 12px;
     padding-top: 5%;
+    .subtitle {
+      padding-bottom: 5%;
+    }
   }
+
   .livelink {
     padding: 5%;
     text-align: center;
