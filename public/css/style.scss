@@ -22,7 +22,7 @@ $bodyfont: 'Roboto', sans-serif;
   color: #3A3A3C;
 }
 
-$mustard: #ff5A5F;
+$coral: #ff5A5F;
 
 html {
   max-width: 1440px;
@@ -57,15 +57,15 @@ header {
     }
     a {
         text-decoration: none;
-        font-family:$bodyfont;
-        font-size: 6vw;
+        font-family:'cajito';
+        font-size: 6.2vw;
         font-weight: 900;
         text-decoration: none;
         text-transform: uppercase;
         color: white;
       }
       a:hover {
-        color: $mustard;
+        color: $coral;
         -webkit-transition: color 500ms ease .01s;
         -moz-transition: color 500ms ease .01s;
         transition: color 500ms ease .01s;
@@ -101,7 +101,7 @@ header {
           text-decoration: none;
         }
         a:hover {
-          color: $mustard;
+          color: $coral;
           -webkit-transition: color 500ms ease .01s;
           -moz-transition: color 500ms ease .01s;
           transition: color 500ms ease .01s;
@@ -126,7 +126,7 @@ header {
   text-transform: uppercase;
 }
 .emailme p a:hover {
-  color: $mustard;
+  color: $coral;
   -webkit-transition: color 500ms ease .01s;
   -moz-transition: color 500ms ease .01s;
   transition: color 500ms ease .01s;
@@ -154,7 +154,7 @@ nav {
         text-transform: uppercase;
       }
       a:active, a:hover, a:after, a:focus {
-        color: $mustard;
+        color: $coral;
         -webkit-transition: color 500ms ease .01s;
         -moz-transition: color 500ms ease .01s;
         transition: color 500ms ease .01s;
@@ -165,17 +165,21 @@ nav {
 
 // MIDDLE CONTENT/ SHORTENED ABOUT ME
 section {
-  width: 43%;
+  width: 44%;
   display: block;
   margin: 0 auto;
-
   .meblurb {
     color: #77767d;
     font-family: $bodyfont;
-    font-size: 20px;
+    font-size: 17px;
     text-align: justify;
-    padding: 10% 0;
-    padding-top: 15%;
+    padding: 7% 0;
+    padding-top: 10%;
+    line-height: 1.6;
+    .clickabletext {
+      padding-top: 2%;
+      text-align: left;
+    }
     .icon {
       position: absolute;
       top: 5.5%;
@@ -183,12 +187,13 @@ section {
       height: 68px;
     }
     a {
+      border-bottom: 2px dashed $coral;
       font-weight: bold;
       text-decoration: none;
       color: #77767d;
     }
     a:hover {
-      color: $mustard;
+      color: $coral;
       -webkit-transition: color 500ms ease .01s;
       -moz-transition: color 500ms ease .01s;
       transition: color 500ms ease .01s;
@@ -200,9 +205,8 @@ section {
 
 // PROJECT SECTION
 .secondsection {
-  // background-color: #F7F7F7;
-  // background-color: #ededed;
-  margin: 0;
+  display: block;
+  margin: 0 auto;
   padding-bottom: 5%;
   .projectstitle {
     font-family: $bodyfont;
@@ -217,22 +221,30 @@ section {
     flex-direction: row;
     flex-wrap: wrap;
     align-content: left;
-    justify-content: left;
-    padding-left: 19%;
+    justify-content: center;
     margin: 0 auto;
     width: 62%;
     .project {
       padding-bottom: 5%;
+      .projecttext {
+        color: #77767d;
+        text-align: left;
+        font-size: 17px;
+      }
       img {
         width: 270px;
         height: 200px;
         text-align: center;
         object-fit: cover;
+        padding: .5%;
+        }
+        .projecttitlelink {
+        border-bottom: 2px dashed $coral;
         }
         a {
           font-family: $bodyfont;
           color: #77767d;
-          font-size: 20px;
+          font-size: 17px;
           text-align: center;
           text-decoration: none;
           text-transform: none;
@@ -240,7 +252,7 @@ section {
           text-transform: uppercase;
         }
         a:hover {
-          color: $mustard;
+          color: $coral;
           -webkit-transition: color 500ms ease .01s;
           -moz-transition: color 500ms ease .01s;
           transition: color 500ms ease .01s;
@@ -257,104 +269,40 @@ section {
   }
 
 
-
-// BLOG SECTION: FEATURED POST
-// .thirdsection {
-//   float: left;
-//   h2 {
-//     font-family: 'cajito';
-//     color: #466C79;
-//     font-size: 32px;
-//     margin-left: 5%;
-//     padding-top: 2%;
-//   }
-//     .blogpost {
-//       list-style: none;
-//       padding: 10%;
-//       span {
-//       @include fontStyleColor;
-//       margin-left: 15%;
-//       list-style: none;
-//       }
-//       h3 {
-//       @include fontStyleColor;
-//       margin-left:15%;
-//       text-decoration: none;
-//       }
-//     }
-//   }
-
-
-
 // TABLET MEDIA QUERY
 @media (min-width: 631px) and (max-width: 1024px) {
   .secondsection .projectcontainer .project img {
-    width: 350px;
-    height: 200px;
+    width: 220px;
+    height: 150px;
   }
 }
 
-//
-//   header {
-//     height: 190px;
-//   }
-//
-//   section {
-//     margin: 0 auto;
-//     width: 83.5%;
-//        .meblurb {
-//          padding-left: 3%;
-//          padding-right: 20%;
-//          padding-top: 4%;
-//       }
-//     }
-//
-//   .secondsection .projectcontainer {
-//     align-items: left;
-//     justify-content: flex-start;
-//     margin-top: 0;
-//     margin-left: 8%;
-//     padding-bottom: 5%;
-//     padding-top: 5%;
-//     }
-//
-//   .secondsection .projectcontainer .project img {
-//     width: 300px;
-//   }
-//
-//   .secondsection .projectstitle {
-//     padding-left: 9%;
-//   }
-// }
-
 // MOBILE MEDIA QUERY
 @media (max-width: 630px) {
-
-
-    nav ul {
-        text-align: center;
-        padding-top: 10%;
-    }
-    header {
-      height: 150px;
-    }
-    // header .headname {
-    //   padding: 0;
-    //   text-align: center;
-    // }
-    header .headname a {
-      font-size: 40px;
-      padding: 1%;
-    }
-    // header .headname h2 {
-    //   font-size: 17.5px;
-    //   padding-left: 0;
-    //   padding-top: 1%;
-    // }
-    // .emailme p a {
-    //   margin: 0;
-    //   font-size: 13px;
-    // }
+  nav ul {
+      text-align: center;
+      padding-top: 10%;
+  }
+  header {
+    height: 150px;
+  }
+  // header .headname {
+  //   padding: 0;
+  //   text-align: center;
+  // }
+  header .headname a {
+    font-size: 40px;
+    padding: 1%;
+  }
+  // header .headname h2 {
+  //   font-size: 17.5px;
+  //   padding-left: 0;
+  //   padding-top: 1%;
+  // }
+  // .emailme p a {
+  //   margin: 0;
+  //   font-size: 13px;
+  // }
   p{
     margin: 0;
   }
@@ -392,14 +340,15 @@ section {
 
 .aboutalltext {
   width: 45%;
-  padding-top: 5%;
+  padding-top: 1%;
+  padding-bottom: 5%;
   display: block;
   margin: 0 auto;
   .aboutphoto img {
       height: 210px;
       display: block;
       margin: 0 auto;
-      padding-top: 5%;
+      padding-top: 8%;
     }
   p {
     color: #77767d;
@@ -407,19 +356,17 @@ section {
     font-size: 18px;
     line-height: 1.6;
     text-align: justify;
+    margin-top: 0;
   }
 }
 
 .skillscontainer {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 5%;
   .skills{
-    width: 450px;
-    position: relative;
     p {
       font-family: $bodyfont;
-      font-size: 18px;
+      font-size: 15px;
       text-align: left;
     }
   }
@@ -447,186 +394,119 @@ section {
   }
 }
 
-
-
-// RESEARCH PAGE
-
-.title {
-  font-family: $bodyfont;
-  text-transform: uppercase;
-  color: #77767d;
-  font-size: 25px;
-  text-align: left;
-  margin-left: 11%;
-  margin-top: 2%;
-}
-
-.subtitle {
-  font-family: $bodyfont;
-  color: #77767d;
-  font-size: 20px;
-  text-align: left;
-  text-transform: lowercase;
-  margin-left: 11%;
-}
-
-.livelink {
-  a {
-  text-decoration: none;
-  font-weight: 900;
-  }
-}
-
-
-h3 {
-  font-family: $bodyfont;
-  font-size: 20px;
-  margin-top: 5%;
-}
-
-h4 {
-  font-family: $bodyfont;
-  font-size: 18px;
-  width: 50%;
-  padding-top: 3%;
-  padding-bottom: 2%;
-  padding-left: 14%;
-}
-
-.abouttext {
-  @include fontStyleColor;
-  font-size: 15px;
-  width: 50%;
-  display: block;
-  padding-bottom: 1%;
-  padding-left: 14%;
-
-  a{
-    text-decoration: underline;
-    font-size: 20px;
-    font-weight: 900;
-    color: $mustard;
-    cursor: pointer;
-  }
-}
-
-// RESEARCH MEDIA QUERY TABLET
-@media (min-width: 631px) and (max-width: 1024px) {
-
-}
-
 // GOODREADS BOOKSHELF
 
-p {
+.titletext {
+  color: white;
   font-family: $bodyfont;
-  color: #77767d;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: $coral;
+  font-size: 14px;
+  padding-top: 2%;
+  margin-bottom: 2%;
+  .subtitle {
+    text-transform: none;
+    font-size: 15px;
+    font-family: $bodyfont;
+    font-weight: lighter;
+    text-align: center;
+    padding: 1% 2% 1% 2%;
+  }
 }
-
 .livelink {
   color: #77767d;
   font-family: $bodyfont;
-  font-size: 17px;
+  font-size: 15px;
   text-align: left;
-  margin: 1%;
-  padding-left: 10%;
+  margin: .2%;
+  padding-left: 14.7%;
   a {
   color: #77767d;
+  text-decoration: none;
+  border-bottom: 2px dashed $coral;
   }
   a:hover {
-    color: $mustard;
+    color: $coral;
+    -webkit-transition: color 500ms ease .01s;
+    -moz-transition: color 500ms ease .01s;
+    transition: color 500ms ease .01s;
   }
 }
-
-.projectinfo{
-  color: #77767d;
-  padding-top: 1%;
-  width: 75%;
-  margin: 0 auto;
-  overflow: hidden;
-  h3 {
-    margin: 0;
-    text-transform: uppercase;
-  }
-  div {
-    margin: 1%;
-  }
-}
-
 .screenshots {
-  width: 84%;
   display: block;
   margin: 0 auto;
+  float: right;
   display: flex;
   flex-wrap: wrap;
+  flex-direction: column;
   justify-content: left;
   align-items: left;
-  background-color: #f9f9f9;
-  p{
-    color: #77767d;
-    text-align: left;
-    text-transform: uppercase;
-    font-size: 14px;
-    margin: 0;
-    margin-top: 10%;
-    margin-bottom: 2%;
-    margin-left: 10%;
-  }
+  padding-right: 15%;
+  padding-left: 2%;
+  margin-bottom: 5%;
   img {
-    height: 350px;
-    width: 270px;
-    padding: 10%;
-    padding-top: 0;
+    height: 960px;
+    width: 350px;
+    padding: .5%;
     object-fit: cover;
   }
 }
 
 .projectinfo {
-  width: 74%;
-  p {
-    text-align: justify;
-  }
-  div {
-    padding-bottom: 1%;
+  line-height: 1.6;
+  width: 40%;
+  padding-left: 15%;
+  padding-bottom: 10%;
+  font-family: $bodyfont;
+  color: #77767d;
+  text-align: justify;
+  .toolsprocess {
+    text-align: left;
   }
 }
 
-
-.toolsProcess {
-  display: flex;
-  width: 67%;
-  align-items: left;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-  div {
-    padding-right: 5%;
+// GOODREADS TABLET MEDIA QUERY
+@media (min-width: 631px) and (max-width: 1024px) {
+  .screenshots {
+    padding-right: 2%;
+  }
+  .screenshots img {
+    height: 800px;
+    width: 330px;
+  }
+  .projectinfo {
+    padding-left: 3%;
+    width: 42%;
   }
 }
 
 // GOODREADS MEDIA QUERY MOBILE
 @media (max-width: 630px) {
+  .titletext {
+    font-size: 12px;
+    padding-top: 5%;
+  }
   .livelink {
+    padding: 5%;
     text-align: center;
-    padding: 0;
   }
-  .title {
-    text-align: center;
-    margin: 0;
+.screenshots {
+  padding: 0;
+  img {
+    height: 65%;
+    width: 90%;
+    display: block;
+    margin: 0 auto;
   }
-  .subtitle {
-    text-align: center;
-    margin: 0;
-    padding: 0 14%;
-  }
-  .projectinfo {
-    width: 72%;
-    div {
-      padding-bottom: 7%;
-    }
-  }
-  .screenshots {
-    img {
-      width: 270px;
-      height: 350px;
-    }
-  }
+ }
+ .projectinfo {
+   width: 80%;
+   padding-bottom: 5%;
+   padding-left: 10%;
+ }
+}
+
+footer {
+  clear: both;
 }
