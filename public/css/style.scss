@@ -231,6 +231,7 @@ section {
     width: 62%;
     .project {
       padding-bottom: 5%;
+
       .projecttext {
         color: #77767d;
         text-align: left;
@@ -238,7 +239,7 @@ section {
       }
       img {
         width: 270px;
-        height: 200px;
+        height: 195px;
         text-align: center;
         object-fit: cover;
         padding: .5%;
@@ -411,14 +412,14 @@ section {
 // GOODREADS BOOKSHELF
 
 .titletext {
-  color: #3A3A3C;
+  color: #565656;
   font-family: $bodyfont;
   text-align: center;
   text-transform: uppercase;
-  font-size: 3vw;
-  height: 100px;
-  padding-top: 3%;
-  padding-bottom: 4%;
+  font-size: 1.5vw;
+  background-color: #f9f9f9;
+  padding-top: 6%;
+  padding-bottom: 1%;
 }
 .subtitle {
   text-transform: none;
@@ -488,8 +489,8 @@ section {
     padding-right: 2%;
   }
   .screenshots img {
-    height: 950px;
-    width: 330px;
+    height: 1200px;
+    width: 355px;
   }
   .projectinfo {
     padding-left: 3%;
@@ -501,7 +502,8 @@ section {
 @media (max-width: 630px) {
   .titletext {
     padding-top: 17%;
-    height: 50px;
+    height: 40px;
+    font-size: 10px;
   }
 
   .livelink {

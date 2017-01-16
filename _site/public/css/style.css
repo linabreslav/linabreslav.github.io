@@ -166,7 +166,7 @@ section {
         font-size: 17px; }
       .secondsection .projectcontainer .project img {
         width: 270px;
-        height: 200px;
+        height: 195px;
         text-align: center;
         object-fit: cover;
         padding: .5%; }
@@ -279,14 +279,14 @@ section {
     padding: 7%;
     padding-top: 18%; } }
 .titletext {
-  color: #3A3A3C;
+  color: #565656;
   font-family: "Roboto", sans-serif;
   text-align: center;
   text-transform: uppercase;
-  font-size: 3vw;
-  height: 100px;
-  padding-top: 3%;
-  padding-bottom: 4%; }
+  font-size: 1.5vw;
+  background-color: #f9f9f9;
+  padding-top: 6%;
+  padding-bottom: 1%; }
 
 .subtitle {
   text-transform: none;
@@ -349,8 +349,8 @@ section {
     padding-right: 2%; }
 
   .screenshots img {
-    height: 950px;
-    width: 330px; }
+    height: 1200px;
+    width: 355px; }
 
   .projectinfo {
     padding-left: 3%;
@@ -358,7 +358,8 @@ section {
 @media (max-width: 630px) {
   .titletext {
     padding-top: 17%;
-    height: 50px; }
+    height: 40px;
+    font-size: 10px; }
 
   .livelink {
     padding: 2%;
