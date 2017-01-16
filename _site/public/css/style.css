@@ -5,7 +5,8 @@
   font-family: 'fabfelt';
   src: url("Sketch_Block.ttf"); }
 html {
-  max-width: 1440px; }
+  max-width: 1440px;
+  min-height: 100vh; }
 
 body {
   background-color: #f9f9f9; }
@@ -65,7 +66,10 @@ header {
 
 .emailme p {
   margin: 0;
-  padding-bottom: 5%; }
+  padding-bottom: 2%;
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  color: #77767d; }
 
 .emailme p a {
   font-family: "Roboto", sans-serif;
@@ -85,7 +89,7 @@ nav {
   background-color: #3A3A3C;
   padding-top: 3%;
   padding-bottom: 1%;
-  z-index: -2%; }
+  width: 100%; }
   nav ul li {
     display: inline;
     list-style: none;
@@ -275,29 +279,30 @@ section {
     padding: 7%;
     padding-top: 18%; } }
 .titletext {
-  color: white;
+  color: #3A3A3C;
   font-family: "Roboto", sans-serif;
   text-align: center;
   text-transform: uppercase;
-  background-color: #ff5A5F;
-  font-size: 14px;
-  padding-top: 2%;
-  margin-bottom: 2%; }
-  .titletext .subtitle {
-    text-transform: none;
-    font-size: 15px;
-    font-family: "Roboto", sans-serif;
-    font-weight: lighter;
-    text-align: center;
-    padding: 1% 2% 1% 2%; }
+  font-size: 3vw;
+  height: 100px;
+  padding-top: 3%;
+  padding-bottom: 4%; }
+
+.subtitle {
+  text-transform: none;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  font-weight: lighter;
+  text-align: center;
+  padding: 1% 2% 1% 2%;
+  color: #77767d; }
 
 .livelink {
   color: #77767d;
   font-family: "Roboto", sans-serif;
   font-size: 15px;
   text-align: left;
-  margin: .2%;
-  padding-left: 14.7%; }
+  margin: .2%; }
   .livelink a {
     color: #77767d;
     text-decoration: none;
@@ -321,7 +326,7 @@ section {
   padding-left: 2%;
   margin-bottom: 5%; }
   .screenshots img {
-    height: 960px;
+    margin-top: 8%;
     width: 350px;
     padding: .5%;
     object-fit: cover; }
@@ -329,8 +334,10 @@ section {
 .projectinfo {
   line-height: 1.6;
   width: 40%;
+  height: 1200px;
   padding-left: 15%;
   padding-bottom: 10%;
+  padding-top: 2%;
   font-family: "Roboto", sans-serif;
   color: #77767d;
   text-align: justify; }
@@ -350,26 +357,33 @@ section {
     width: 50%; } }
 @media (max-width: 630px) {
   .titletext {
-    font-size: 12px;
-    padding-top: 15%; }
-    .titletext .subtitle {
-      padding-bottom: 5%; }
+    padding-top: 17%;
+    height: 50px; }
 
   .livelink {
-    padding: 5%;
+    padding: 2%;
+    padding-bottom: 20%;
     text-align: center; }
 
   .screenshots {
     padding: 0; }
     .screenshots img {
+      padding-top: 10%;
       height: 65%;
-      width: 90%;
+      width: 75%;
       display: block;
       margin: 0 auto; }
 
   .projectinfo {
     width: 80%;
-    padding-bottom: 5%;
-    padding-left: 10%; } }
-footer {
-  clear: both; }
+    padding-bottom: 100px;
+    padding-left: 10%;
+    margin-bottom: 10%; }
+
+  .socialmediaandemail {
+    padding-top: 370%; } }
+.socialmediaandemail {
+  bottom: 10px;
+  height: 80px;
+  clear: both;
+  background-color: #f9f9f9; }
