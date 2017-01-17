@@ -278,13 +278,14 @@ section {
 // TABLET MEDIA QUERY
 @media (min-width: 631px) and (max-width: 1024px) {
   .secondsection .projectcontainer .project img {
-    width: 220px;
-    height: 150px;
+    width: 290px;
+    height: 190px;
   }
 }
 
 // MOBILE MEDIA QUERY
 @media (max-width: 630px) {
+
   nav ul {
       text-align: center;
       padding-top: 10%;
@@ -529,7 +530,7 @@ section {
  }
 
  .socialmediaandemail {
-   padding-top: 370%;
+   padding-top: 3%;
  }
 }
 

@@ -195,8 +195,8 @@ section {
 
 @media (min-width: 631px) and (max-width: 1024px) {
   .secondsection .projectcontainer .project img {
-    width: 220px;
-    height: 150px; } }
+    width: 290px;
+    height: 190px; } }
 @media (max-width: 630px) {
   nav ul {
     text-align: center;
@@ -382,7 +382,7 @@ section {
     margin-bottom: 10%; }
 
   .socialmediaandemail {
-    padding-top: 370%; } }
+    padding-top: 3%; } }
 .socialmediaandemail {
   bottom: 10px;
   height: 80px;
