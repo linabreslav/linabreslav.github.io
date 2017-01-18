@@ -157,7 +157,8 @@ section {
     align-content: left;
     justify-content: center;
     margin: 0 auto;
-    width: 62%; }
+    width: 62%;
+    max-width: 800px; }
     .secondsection .projectcontainer .project {
       padding-bottom: 5%; }
       .secondsection .projectcontainer .project .projecttext {
