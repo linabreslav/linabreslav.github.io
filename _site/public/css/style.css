@@ -344,6 +344,19 @@ section {
   .projectinfo .toolsprocess {
     text-align: left; }
 
+.livelinkbranchless {
+  display: block; }
+  .livelinkbranchless a {
+    border-bottom: 2px dashed #ff5A5F;
+    font-weight: bold;
+    text-decoration: none;
+    color: #77767d; }
+  .livelinkbranchless a:hover {
+    color: #ff5A5F;
+    -webkit-transition: color 500ms ease .01s;
+    -moz-transition: color 500ms ease .01s;
+    transition: color 500ms ease .01s; }
+
 @media (min-width: 631px) and (max-width: 1024px) {
   .screenshots {
     padding-right: 2%; }
@@ -354,7 +367,10 @@ section {
 
   .projectinfo {
     padding-left: 3%;
-    width: 50%; } }
+    width: 50%; }
+
+  .livelinkbranchless {
+    display: none; } }
 @media (max-width: 630px) {
   .titletext {
     padding-top: 17%;
@@ -382,7 +398,10 @@ section {
     margin-bottom: 10%; }
 
   .socialmediaandemail {
-    padding-top: 3%; } }
+    padding-top: 3%; }
+
+  .livelinkbranchless {
+    display: none; } }
 .socialmediaandemail {
   bottom: 10px;
   height: 80px;

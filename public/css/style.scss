@@ -485,6 +485,22 @@ section {
   }
 }
 
+.livelinkbranchless {
+  display: block;
+   a {
+    border-bottom: 2px dashed $coral;
+    font-weight: bold;
+    text-decoration: none;
+    color: #77767d;
+    }
+   a:hover {
+    color: $coral;
+    -webkit-transition: color 500ms ease .01s;
+    -moz-transition: color 500ms ease .01s;
+    transition: color 500ms ease .01s;
+  }
+}
+
 // GOODREADS TABLET MEDIA QUERY
 @media (min-width: 631px) and (max-width: 1024px) {
   .screenshots {
@@ -497,6 +513,9 @@ section {
   .projectinfo {
     padding-left: 3%;
     width: 50%;
+  }
+  .livelinkbranchless {
+    display: none;
   }
 }
 
@@ -529,9 +548,11 @@ section {
    padding-left: 10%;
    margin-bottom: 10%;
  }
-
  .socialmediaandemail {
    padding-top: 3%;
+ }
+ .livelinkbranchless {
+   display: none;
  }
 }
 
