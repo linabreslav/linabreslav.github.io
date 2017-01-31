@@ -482,6 +482,20 @@ section {
   text-align: justify;
   .toolsprocess {
     text-align: left;
+    p {
+      a {
+        border-bottom: 2px dashed $coral;
+        font-weight: bold;
+        text-decoration: none;
+        color: #77767d;
+      }
+      a:hover {
+        color: $coral;
+        -webkit-transition: color 500ms ease .01s;
+        -moz-transition: color 500ms ease .01s;
+        transition: color 500ms ease .01s;
+      }
+    }
   }
 }
 

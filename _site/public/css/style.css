@@ -343,6 +343,16 @@ section {
   text-align: justify; }
   .projectinfo .toolsprocess {
     text-align: left; }
+    .projectinfo .toolsprocess p a {
+      border-bottom: 2px dashed #ff5A5F;
+      font-weight: bold;
+      text-decoration: none;
+      color: #77767d; }
+    .projectinfo .toolsprocess p a:hover {
+      color: #ff5A5F;
+      -webkit-transition: color 500ms ease .01s;
+      -moz-transition: color 500ms ease .01s;
+      transition: color 500ms ease .01s; }
 
 .livelinkbranchless {
   display: block; }
