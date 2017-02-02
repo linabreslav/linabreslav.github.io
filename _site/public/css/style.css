@@ -4,8 +4,10 @@
 @font-face {
   font-family: 'fabfelt';
   src: url("Sketch_Block.ttf"); }
+.wrapper {
+  margin: 0 auto; }
+
 html {
-  max-width: 1440px;
   min-height: 100vh; }
 
 body {
@@ -119,6 +121,7 @@ section {
     text-align: justify;
     padding: 7% 0;
     padding-top: 10%;
+    margin-top: 30px;
     line-height: 1.6; }
     section .meblurb .clickabletext {
       padding-top: 2%;
