@@ -4,14 +4,14 @@
 @font-face {
   font-family: 'fabfelt';
   src: url("Sketch_Block.ttf"); }
-.wrapper {
-  margin: 0 auto; }
-
 html {
   min-height: 100vh; }
 
 body {
   background-color: #f9f9f9; }
+  body .wrapper {
+    margin: 0 auto;
+    max-width: 1440px; }
 
 html, body, ul, li, h1, h2, h3, a {
   margin: 0px;
@@ -19,6 +19,7 @@ html, body, ul, li, h1, h2, h3, a {
 
 header {
   height: 210px;
+  max-height: 210px;
   position: relative;
   background-color: #3A3A3C;
   padding-top: 2%; }
@@ -29,7 +30,7 @@ header {
     header .headname a {
       text-decoration: none;
       font-family: "cajito", "Roboto", sans-serif;
-      font-size: 6.2vw;
+      font-size: 70px;
       font-weight: 900;
       text-decoration: none;
       text-transform: uppercase;
@@ -121,7 +122,7 @@ section {
     text-align: justify;
     padding: 7% 0;
     padding-top: 10%;
-    margin-top: 30px;
+    margin-top: 50px;
     line-height: 1.6; }
     section .meblurb .clickabletext {
       padding-top: 2%;

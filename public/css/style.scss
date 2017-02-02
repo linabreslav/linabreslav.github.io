@@ -24,9 +24,7 @@ $bodyfont: 'Roboto', sans-serif;
 
 $coral: #ff5A5F;
 
-.wrapper {
-  margin: 0 auto;
-}
+
 
 html {
   // max-width: 1440px;
@@ -35,6 +33,10 @@ html {
 
 body {
   background-color: #f9f9f9;
+  .wrapper {
+    margin: 0 auto;
+    max-width: 1440px;
+  }
 }
 
 // VARIABLES
@@ -51,6 +53,7 @@ html, body, ul, li, h1, h2, h3, a{
 // HEADER STYLING: NAME
 header {
   height: 210px;
+  max-height: 210px;
   position: relative;
   background-color: $gray;
   padding-top: 2%;
@@ -64,7 +67,7 @@ header {
     a {
         text-decoration: none;
         font-family:'cajito', $bodyfont;
-        font-size: 6.2vw;
+        font-size: 70px;
         font-weight: 900;
         text-decoration: none;
         text-transform: uppercase;
@@ -184,7 +187,7 @@ section {
     text-align: justify;
     padding: 7% 0;
     padding-top: 10%;
-    margin-top: 30px;
+    margin-top: 50px;
     line-height: 1.6;
     .clickabletext {
       padding-top: 2%;
