@@ -123,7 +123,7 @@ section {
     text-align: justify;
     padding: 7% 0;
     padding-top: 10%;
-    margin-top: 10px;
+    margin-top: 15px;
     line-height: 1.6; }
     section .meblurb .clickabletext {
       padding-top: 2%;
@@ -200,6 +200,9 @@ section {
         font-weight: 200; }
 
 @media (min-width: 631px) and (max-width: 1024px) {
+  nav {
+    padding-top: 6%; }
+
   .secondsection .projectcontainer .project img {
     width: 290px;
     height: 190px; } }
