@@ -151,6 +151,7 @@ nav {
   padding-top: 3%;
   padding-bottom: 1%;
   width: 100%;
+  border-bottom: 10px solid $coral;
   ul {
     li {
       display: inline;
@@ -187,7 +188,7 @@ section {
     text-align: justify;
     padding: 7% 0;
     padding-top: 10%;
-    margin-top: 30px;
+    margin-top: 10px;
     line-height: 1.6;
     .clickabletext {
       padding-top: 2%;
