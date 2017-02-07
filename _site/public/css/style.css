@@ -47,7 +47,8 @@ header {
 .socialmediaandemail {
   text-align: center;
   background-color: #ededed;
-  padding-top: 5%; }
+  padding-top: 5%;
+  margin: 0 auto; }
 
 .socialmediaicons {
   font-size: 20px; }
@@ -91,7 +92,7 @@ nav {
   padding-top: 3%;
   padding-bottom: 1%;
   width: 100%;
-  border-bottom: 7px solid #ff5A5F; }
+  border-bottom: 10px solid #ff5A5F; }
   nav ul li {
     display: inline;
     list-style: none;
@@ -110,17 +111,22 @@ nav {
       -moz-transition: color 500ms ease .01s;
       transition: color 500ms ease .01s; }
 
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; }
+
 section {
-  width: 44%;
   display: block;
-  margin: 0 auto; }
+  width: 25%;
+  padding-left: 11%; }
   section .meblurb {
     color: #77767d;
     font-family: "Roboto", sans-serif;
-    font-size: 17px;
+    font-size: 15px;
     text-align: justify;
     padding: 7% 0;
-    padding-top: 10%;
+    padding-top: 16%;
     line-height: 1.6; }
     section .meblurb .clickabletext {
       padding-top: 2%;
@@ -144,7 +150,8 @@ section {
 .secondsection {
   display: block;
   margin: 0 auto;
-  padding-bottom: 5%; }
+  padding-bottom: 5%;
+  margin: 1%; }
   .secondsection .projectstitle {
     font-family: "Roboto", sans-serif;
     color: #77767d;
@@ -156,11 +163,10 @@ section {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    align-content: left;
-    justify-content: center;
-    margin: 0 auto;
-    width: 62%;
-    max-width: 800px; }
+    justify-content: flex-end;
+    padding-top: 4.5%;
+    padding-right: 2%;
+    max-width: 700px; }
     .secondsection .projectcontainer .project {
       padding-bottom: 5%; }
       .secondsection .projectcontainer .project .projecttext {
@@ -168,11 +174,12 @@ section {
         text-align: left;
         font-size: 17px; }
       .secondsection .projectcontainer .project img {
-        width: 270px;
-        height: 178px;
+        width: 307px;
+        height: 200px;
         text-align: center;
         object-fit: cover;
-        padding: .5%; }
+        padding: 3%;
+        cursor: pointer; }
       .secondsection .projectcontainer .project .projecttitlelink {
         border-bottom: 2px dashed #ff5A5F; }
       .secondsection .projectcontainer .project a {
@@ -199,6 +206,14 @@ section {
 @media (min-width: 631px) and (max-width: 1024px) {
   nav {
     padding-top: 6%; }
+
+  section {
+    width: 65%;
+    margin: 0 auto;
+    padding-left: 0; }
+
+  .projectcontainer {
+    margin: 0 auto; }
 
   .secondsection .projectcontainer .project img {
     width: 290px;
@@ -228,8 +243,8 @@ section {
 
   section .meblurb {
     text-align: justify;
-    font-size: 17px;
-    padding-top: 20%;
+    font-size: 15px;
+    padding-top: 25%;
     padding-bottom: 10%;
     margin: 0; }
 
@@ -242,12 +257,13 @@ section {
     width: 80%; }
 
   .secondsection .projectcontainer .project img {
-    width: 98%;
-    height: 170px; } }
+    width: 99%;
+    height: 150px;
+    padding-left: 15%; } }
 .aboutalltext {
-  width: 45%;
   padding-top: 1%;
   padding-bottom: 5%;
+  padding: 0 25%;
   display: block;
   margin: 0 auto; }
   .aboutalltext .aboutphoto img {
@@ -258,7 +274,7 @@ section {
   .aboutalltext p {
     color: #77767d;
     font-family: "Roboto", sans-serif;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 1.6;
     text-align: justify;
     margin-top: 0; }
@@ -271,10 +287,12 @@ section {
     font-size: 15px;
     text-align: left; }
 
+@media (min-width: 631px) and (max-width: 1024px) {
+  .aboutalltext {
+    padding: 0 10%; } }
 @media (max-width: 630px) {
   .aboutalltext {
-    width: 80%;
-    text-align: left; }
+    padding: 0 5%; }
 
   .aboutalltext p {
     text-align: justify; }
@@ -283,7 +301,7 @@ section {
     width: 170px;
     height: 160px;
     padding: 7%;
-    padding-top: 18%; } }
+    padding-top: 25%; } }
 .titletext {
   color: #565656;
   font-family: "Roboto", sans-serif;
