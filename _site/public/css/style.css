@@ -162,7 +162,7 @@ section {
     max-width: 700px;
     width: 87%; }
     .secondsection .projectcontainer .project {
-      height: 200px; }
+      height: 180px; }
       .secondsection .projectcontainer .project a {
         font-family: "Roboto", sans-serif;
         color: #77767d;
@@ -197,7 +197,7 @@ section {
       -webkit-transition: opacity 500ms ease .01s;
       -moz-transition: opacity 500ms ease .01s;
       transition: opacity 500ms ease .01s;
-      border-radius: 30px; }
+      border-radius: 60px; }
     .secondsection .projectcontainer .project a img {
       opacity: 1;
       -webkit-transition: opacity 500ms ease .01s;
