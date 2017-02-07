@@ -164,11 +164,9 @@ section {
       .secondsection .projectcontainer .project a {
         font-family: "Roboto", sans-serif;
         color: #77767d;
-        text-align: center;
+        text-align: left;
         text-decoration: none;
-        text-transform: none;
-        font-weight: 900;
-        text-transform: uppercase; }
+        text-transform: none; }
         .secondsection .projectcontainer .project a img {
           width: 270px;
           height: 170px;
