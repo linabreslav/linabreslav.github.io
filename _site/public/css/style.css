@@ -194,8 +194,7 @@ section {
       opacity: .06;
       -webkit-transition: opacity 500ms ease .01s;
       -moz-transition: opacity 500ms ease .01s;
-      transition: opacity 500ms ease .01s;
-      border-radius: 60px; }
+      transition: opacity 500ms ease .01s; }
     .secondsection .projectcontainer .project a img {
       opacity: 1;
       -webkit-transition: opacity 500ms ease .01s;
