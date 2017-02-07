@@ -111,7 +111,7 @@ nav {
       -moz-transition: color 500ms ease .01s;
       transition: color 500ms ease .01s; }
 
-.wrapper {
+.mainpagewrap {
   display: flex;
   flex-direction: row; }
 
@@ -207,7 +207,7 @@ section {
       font-family: "Roboto", sans-serif; }
 
 @media (min-width: 631px) and (max-width: 1024px) {
-  .wrapper {
+  .mainpagewrap {
     flex-wrap: wrap; }
 
   nav {
@@ -230,7 +230,7 @@ section {
     height: 190px;
     margin: 0 auto; } }
 @media (max-width: 630px) {
-  .wrapper {
+  .mainpagewrap {
     max-width: none;
     flex-wrap: wrap; }
 
@@ -276,9 +276,7 @@ section {
 .aboutalltext {
   padding-top: 1%;
   padding-bottom: 5%;
-  padding: 0 25%;
-  display: block;
-  margin: 0 auto; }
+  padding: 0 20%; }
   .aboutalltext .aboutphoto img {
     height: 210px;
     display: block;
@@ -302,7 +300,7 @@ section {
 
 @media (min-width: 631px) and (max-width: 1024px) {
   .aboutalltext {
-    padding: 0 10%; } }
+    width: 100%; } }
 @media (max-width: 630px) {
   .aboutalltext {
     padding: 0 5%; }
