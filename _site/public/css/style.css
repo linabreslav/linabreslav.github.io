@@ -118,15 +118,15 @@ nav {
 
 section {
   display: block;
-  width: 25%;
-  padding-left: 10.5%; }
+  width: 30%;
+  padding-left: 11%; }
   section .meblurb {
     color: #77767d;
     font-family: "Roboto", sans-serif;
     font-size: 15px;
     text-align: justify;
     padding: 7% 0;
-    padding-top: 16%;
+    padding-top: 10.5%;
     line-height: 1.6; }
     section .meblurb .clickabletext {
       padding-top: 2%;
@@ -152,73 +152,83 @@ section {
   margin: 0 auto;
   padding-bottom: 5%;
   margin: 1%; }
-  .secondsection .projectstitle {
-    font-family: "Roboto", sans-serif;
-    color: #77767d;
-    font-size: 20px;
-    text-align: center;
-    text-transform: uppercase;
-    padding-bottom: 2%; }
   .secondsection .projectcontainer {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: flex-end;
-    padding-top: 4.5%;
-    padding-right: 2%;
-    max-width: 700px; }
+    justify-content: center;
+    padding-top: 4%;
+    padding-left: 2%;
+    max-width: 700px;
+    width: 87%; }
     .secondsection .projectcontainer .project {
-      padding-bottom: 5%; }
-      .secondsection .projectcontainer .project .projecttext {
-        color: #77767d;
-        text-align: left;
-        font-size: 17px; }
-      .secondsection .projectcontainer .project img {
-        width: 307px;
-        height: 200px;
-        text-align: center;
-        object-fit: cover;
-        padding: 3%;
-        cursor: pointer; }
-      .secondsection .projectcontainer .project .projecttitlelink {
-        border-bottom: 2px dashed #ff5A5F; }
+      height: 220px; }
       .secondsection .projectcontainer .project a {
         font-family: "Roboto", sans-serif;
         color: #77767d;
-        font-size: 17px;
         text-align: center;
         text-decoration: none;
         text-transform: none;
         font-weight: 900;
         text-transform: uppercase; }
-      .secondsection .projectcontainer .project a:hover {
-        color: #ff5A5F;
-        -webkit-transition: color 500ms ease .01s;
-        -moz-transition: color 500ms ease .01s;
-        transition: color 500ms ease .01s; }
-      .secondsection .projectcontainer .project p {
-        font-family: "Roboto", sans-serif;
-        font-size: 20px;
-        text-align: center;
-        text-transform: none;
-        font-weight: 200; }
+        .secondsection .projectcontainer .project a img {
+          width: 270px;
+          height: 170px;
+          text-align: center;
+          object-fit: cover;
+          padding: 2%;
+          cursor: pointer; }
+      .secondsection .projectcontainer .project .text {
+        position: relative;
+        bottom: 87%;
+        left: 14%;
+        width: 200px;
+        text-align: left;
+        cursor: pointer; }
+    .secondsection .projectcontainer .project:hover .text .content p {
+      position: absolute;
+      opacity: 1;
+      left: -10%;
+      -webkit-transition: opacity 500ms ease .01s;
+      -moz-transition: opacity 500ms ease .01s;
+      transition: opacity 500ms ease .01s; }
+    .secondsection .projectcontainer .project:hover a img {
+      opacity: .06;
+      -webkit-transition: opacity 500ms ease .01s;
+      -moz-transition: opacity 500ms ease .01s;
+      transition: opacity 500ms ease .01s;
+      border-radius: 30px; }
+    .secondsection .projectcontainer .project a img {
+      opacity: 1;
+      -webkit-transition: opacity 500ms ease .01s;
+      -moz-transition: opacity 500ms ease .01s;
+      transition: opacity 500ms ease .01s; }
+    .secondsection .projectcontainer .text .content p {
+      opacity: 0;
+      color: #77767d;
+      font-size: 18px;
+      font-family: "Roboto", sans-serif; }
 
 @media (min-width: 631px) and (max-width: 1024px) {
   nav {
     padding-top: 6%; }
 
   section {
-    width: 65%;
+    width: 75%;
     margin: 0 auto;
     padding-left: 0; }
 
-  .projectcontainer {
-    margin: 0 auto; }
+  .secondsection .projectcontainer {
+    justify-content: center;
+    max-width: none; }
 
   .secondsection .projectcontainer .project img {
     width: 290px;
     height: 190px; } }
 @media (max-width: 630px) {
+  .wrapper {
+    max-width: none; }
+
   nav ul {
     text-align: center;
     padding-top: 10%;
@@ -254,12 +264,13 @@ section {
   .secondsection .projectcontainer {
     padding-bottom: 7%;
     padding-left: 0;
-    width: 80%; }
+    padding-right: 12%; }
 
-  .secondsection .projectcontainer .project img {
-    width: 99%;
-    height: 150px;
-    padding-left: 15%; } }
+  .secondsection .projectcontainer .project a img {
+    width: 100%;
+    height: 187px;
+    margin: 0;
+    padding-left: 8%; } }
 .aboutalltext {
   padding-top: 1%;
   padding-bottom: 5%;
