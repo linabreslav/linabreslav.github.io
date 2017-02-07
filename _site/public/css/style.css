@@ -125,7 +125,7 @@ section {
     font-size: 15px;
     text-align: justify;
     padding: 7% 0;
-    padding-top: 10.5%;
+    padding-top: 8%;
     line-height: 1.6; }
     section .meblurb .clickabletext {
       padding-top: 2%;
@@ -149,8 +149,7 @@ section {
 .secondsection {
   display: block;
   margin: 0 auto;
-  padding-bottom: 5%;
-  margin: 1%; }
+  padding-bottom: 5%; }
   .secondsection .projectcontainer {
     display: flex;
     flex-direction: row;
@@ -223,12 +222,14 @@ section {
   .secondsection .projectcontainer {
     justify-content: center;
     align-items: flex-end;
-    max-width: 750px;
-    padding-left: 7.5%; }
+    max-width: 890px;
+    margin: 0 auto;
+    padding-left: 0; }
 
   .secondsection .projectcontainer .project img {
     width: 300px;
-    height: 190px; } }
+    height: 190px;
+    margin: 0 auto; } }
 @media (max-width: 630px) {
   .wrapper {
     max-width: none;
