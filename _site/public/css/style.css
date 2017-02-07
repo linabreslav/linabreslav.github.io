@@ -19,7 +19,7 @@ html, body, ul, li, h1, h2, h3, a {
 
 header {
   position: relative;
-  background-color: #3A3A3C;
+  background-color: #f3f3f2;
   padding-top: 2%; }
   header .headname {
     text-align: center; }
@@ -32,7 +32,7 @@ header {
       font-weight: 900;
       text-decoration: none;
       text-transform: uppercase;
-      color: white; }
+      color: #3A3A3C; }
     header .headname a:hover {
       color: #ff5A5F;
       -webkit-transition: color 500ms ease .01s;
@@ -40,7 +40,7 @@ header {
       transition: color 500ms ease .01s; }
     header .headname h2 {
       font-family: "Roboto", sans-serif;
-      color: white;
+      color: #3A3A3C;
       font-weight: 200;
       font-size: 20px; }
 
@@ -88,11 +88,10 @@ header {
 
 nav {
   text-align: center;
-  background-color: #3A3A3C;
+  background-color: #f3f3f2;
   padding-top: 3%;
   padding-bottom: 1%;
-  width: 100%;
-  border-bottom: 10px solid #ff5A5F; }
+  width: 100%; }
   nav ul li {
     display: inline;
     list-style: none;
@@ -100,7 +99,7 @@ nav {
     nav ul li a {
       text-decoration: none;
       display: inline-block;
-      color: white;
+      color: #3A3A3C;
       font-family: "Roboto", sans-serif;
       padding: 0 1%;
       font-size: 17px;
