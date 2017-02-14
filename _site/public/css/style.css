@@ -22,13 +22,20 @@ header {
   background-color: #f3f3f2;
   padding-top: 2%; }
   header .headname {
-    text-align: center; }
-    header .headname .nameslogan {
-      padding-top: 3.5%; }
+    text-align: center;
+    padding-top: 2.5%; }
+    header .headname .nameslogan .frenchpresslogo {
+      height: 90px;
+      width: auto;
+      display: inline-block;
+      margin: 0 auto;
+      padding: 1%;
+      padding-top: 2%;
+      z-index: 100; }
     header .headname a {
       text-decoration: none;
       font-family: "cajito", "Roboto", sans-serif;
-      font-size: 70px;
+      font-size: 80px;
       font-weight: 900;
       text-decoration: none;
       text-transform: uppercase;
@@ -89,7 +96,7 @@ header {
 nav {
   text-align: center;
   background-color: #f3f3f2;
-  padding-top: 3%;
+  padding-top: 2%;
   padding-bottom: 1%;
   width: 100%; }
   nav ul li {
@@ -233,19 +240,25 @@ section {
 
   nav ul {
     text-align: center;
-    padding-top: 10%;
     padding-bottom: 5%; }
 
   header {
-    height: 155px; }
+    height: 210px; }
 
   header .headname .nameslogan {
-    padding-top: 7%; }
+    padding-top: 2%; }
+    header .headname .nameslogan .frenchpresslogo {
+      height: 60px;
+      padding-top: 5%;
+      padding-bottom: 5%; }
 
   header .headname a {
-    font-size: 42px;
+    font-size: 38px;
     padding: 1%;
     padding-top: 3%; }
+
+  header .headname h2 {
+    font-size: 15px; }
 
   p {
     margin: 0; }
