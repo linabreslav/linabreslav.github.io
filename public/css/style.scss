@@ -355,11 +355,11 @@ section {
   }
   nav ul {
       text-align: center;
-      padding-bottom: 1%;
+      padding-bottom: .5%;
   }
 
   header {
-    height: 190px;
+    height: 200px;
   }
   // header .headname {
   //   padding: 0;
@@ -369,7 +369,7 @@ section {
   header .headname .nameslogan {
     padding-top: .5%;
     .titleicons {
-      height: 40px;
+      height: 35px;
       padding-top: 5%;
       padding-bottom: 5%;
     }
@@ -462,9 +462,9 @@ section {
 
 // ABOUT TABLET MEDIA QUERY
 @media (min-width: 631px) and (max-width: 1024px) {
-  .aboutalltext {
-    width: 100%;
-  }
+  // .aboutalltext {
+  //   width: 100%;
+  // }
 }
 
 // ABOUT MOBILE MEDIA QUERY
@@ -479,7 +479,7 @@ section {
     width: 170px;
     height: 160px;
     padding: 7%;
-    padding-top: 25%;
+    padding-top: 10%;
   }
 }
 
