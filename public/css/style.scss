@@ -64,7 +64,7 @@ header {
     .nameslogan {
       // padding-top: 3.5%;
       .titleicons{
-        height: 60px;
+        height: 50px;
         width: auto;
         display: inline-block;
         margin: 0 auto;
@@ -145,7 +145,6 @@ header {
   font-size: 17px;
   text-decoration: none;
   color: #77767d;
-  text-transform: uppercase;
 }
 .emailme p a:hover {
   color: $coral;
@@ -370,7 +369,7 @@ section {
   header .headname .nameslogan {
     padding-top: .5%;
     .titleicons {
-      height: 45px;
+      height: 40px;
       padding-top: 5%;
       padding-bottom: 5%;
     }

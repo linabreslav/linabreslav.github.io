@@ -25,7 +25,7 @@ header {
     text-align: center;
     padding-top: 2.5%; }
     header .headname .nameslogan .titleicons {
-      height: 60px;
+      height: 50px;
       width: auto;
       display: inline-block;
       margin: 0 auto;
@@ -84,8 +84,7 @@ header {
   font-family: "Roboto", sans-serif;
   font-size: 17px;
   text-decoration: none;
-  color: #77767d;
-  text-transform: uppercase; }
+  color: #77767d; }
 
 .emailme p a:hover {
   color: #ff5A5F;
@@ -248,7 +247,7 @@ section {
   header .headname .nameslogan {
     padding-top: .5%; }
     header .headname .nameslogan .titleicons {
-      height: 45px;
+      height: 40px;
       padding-top: 5%;
       padding-bottom: 5%; }
 
