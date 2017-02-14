@@ -25,7 +25,7 @@ header {
     text-align: center;
     padding-top: 2.5%; }
     header .headname .nameslogan .titleicons {
-      height: 80px;
+      height: 60px;
       width: auto;
       display: inline-block;
       margin: 0 auto;
@@ -96,7 +96,7 @@ header {
 nav {
   text-align: center;
   background-color: #f3f3f2;
-  padding-top: 4%;
+  padding-top: 1%;
   padding-bottom: 1%;
   width: 100%; }
   nav ul li {
@@ -247,7 +247,7 @@ section {
 
   header .headname .nameslogan {
     padding-top: 2%; }
-    header .headname .nameslogan .titleicons {
+    header .headname .nameslogan .frenchpresslogo {
       height: 60px;
       padding-top: 5%;
       padding-bottom: 5%; }
