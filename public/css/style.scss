@@ -157,7 +157,7 @@ header {
 nav {
   text-align: center;
   background-color: $lightgray;
-  padding-top: 1%;
+  padding-top: 4%;
   padding-bottom: 1%;
   width: 100%;
   ul {
@@ -356,10 +356,11 @@ section {
   nav ul {
       text-align: center;
       padding-bottom: .5%;
+      padding-top: 4%;
   }
 
   header {
-    height: 200px;
+    height: 120px;
   }
   // header .headname {
   //   padding: 0;
@@ -375,7 +376,7 @@ section {
     }
   }
   header .headname a {
-    font-size: 38px;
+    font-size: 45px;
     padding: 1%;
     padding-top: 3%;
   }

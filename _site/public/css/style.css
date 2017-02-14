@@ -95,7 +95,7 @@ header {
 nav {
   text-align: center;
   background-color: #f3f3f2;
-  padding-top: 1%;
+  padding-top: 4%;
   padding-bottom: 1%;
   width: 100%; }
   nav ul li {
@@ -239,10 +239,11 @@ section {
 
   nav ul {
     text-align: center;
-    padding-bottom: .5%; }
+    padding-bottom: .5%;
+    padding-top: 4%; }
 
   header {
-    height: 200px; }
+    height: 120px; }
 
   header .headname .nameslogan {
     padding-top: .5%; }
@@ -252,7 +253,7 @@ section {
       padding-bottom: 5%; }
 
   header .headname a {
-    font-size: 38px;
+    font-size: 45px;
     padding: 1%;
     padding-top: 3%; }
 
