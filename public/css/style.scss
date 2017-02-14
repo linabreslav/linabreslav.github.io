@@ -430,7 +430,7 @@ section {
 .aboutalltext {
   padding-top: 1%;
   padding-bottom: 5%;
-  padding: 0 30%;
+  padding: 0 25%;
   .aboutphoto img {
       height: 210px;
       display: block;
@@ -462,9 +462,6 @@ section {
 
 // ABOUT TABLET MEDIA QUERY
 @media (min-width: 631px) and (max-width: 1024px) {
-  // .aboutalltext {
-  //   width: 100%;
-  // }
 }
 
 // ABOUT MOBILE MEDIA QUERY
