@@ -3,6 +3,7 @@
 
 
 $bodyfont: 'Roboto', sans-serif;
+$bodygray: #77767d;
 
 
 @font-face {
@@ -38,6 +39,7 @@ body {
     max-width: 1440px;
   }
 }
+
 
 // VARIABLES
 $gray: #3A3A3C;
@@ -488,9 +490,9 @@ section {
   font-family: $bodyfont;
   text-align: center;
   text-transform: uppercase;
-  font-size: 1.5vw;
+  font-size: 1.4vw;
   background-color: #f9f9f9;
-  padding-top: 6%;
+  padding-top: 3%;
   padding-bottom: 1%;
 }
 .subtitle {
@@ -648,4 +650,47 @@ section {
   background-color: #f9f9f9;
 }
 
-// BRANCHLESS BANK
+// DETAIL ORIENTED
+
+// flowers illustrator project detail-oriented
+
+.dodescription {
+  h3 {
+    font-family: $bodyfont;
+    color: $bodygray;
+    padding: 0 15%;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: justify;
+  }
+}
+.docontainer {
+  padding: 2% 15%;
+  .flowercontainer {
+    p {
+      width: 45%;
+      font-family: $bodyfont;
+      color: $bodygray;
+      font-size: 14px;
+      text-align: justify;
+      margin: 0;
+    }
+    .doflowers{
+      width: 45%;
+      height: auto;
+    }
+  }
+}
+
+//MOBILE DETAIL ORIENTED
+
+@media (max-width: 630px) {
+  .docontainer .flowercontainer .doflowers {
+    width: 100%;
+    height: auto;
+    padding-top: 10%;
+  }
+  .docontainer .flowercontainer p {
+    width: 100%;
+  }
+}

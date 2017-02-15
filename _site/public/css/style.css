@@ -325,9 +325,9 @@ section {
   font-family: "Roboto", sans-serif;
   text-align: center;
   text-transform: uppercase;
-  font-size: 1.5vw;
+  font-size: 1.4vw;
   background-color: #f9f9f9;
-  padding-top: 6%;
+  padding-top: 3%;
   padding-bottom: 1%; }
 
 .subtitle {
@@ -458,3 +458,33 @@ section {
   height: 80px;
   clear: both;
   background-color: #f9f9f9; }
+
+.dodescription h3 {
+  font-family: "Roboto", sans-serif;
+  color: #77767d;
+  padding: 0 15%;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: justify; }
+
+.docontainer {
+  padding: 2% 15%; }
+  .docontainer .flowercontainer p {
+    width: 45%;
+    font-family: "Roboto", sans-serif;
+    color: #77767d;
+    font-size: 14px;
+    text-align: justify;
+    margin: 0; }
+  .docontainer .flowercontainer .doflowers {
+    width: 45%;
+    height: auto; }
+
+@media (max-width: 630px) {
+  .docontainer .flowercontainer .doflowers {
+    width: 100%;
+    height: auto;
+    padding-top: 10%; }
+
+  .docontainer .flowercontainer p {
+    width: 100%; } }
