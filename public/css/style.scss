@@ -685,10 +685,14 @@ section {
 //MOBILE DETAIL ORIENTED
 
 @media (max-width: 630px) {
+  .flowercontainer {
+    padding-bottom: 10%;
+  }
   .docontainer .flowercontainer .doflowers {
     width: 100%;
     height: auto;
     padding-top: 10%;
+    padding-bottom: 2%;
   }
   .docontainer .flowercontainer p {
     width: 100%;
