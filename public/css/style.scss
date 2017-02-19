@@ -541,6 +541,19 @@ section {
   }
 }
 
+.screenshotsbranchless {
+  display: block;
+  margin: 0 auto;
+  float: right;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: left;
+  align-items: left;
+  padding-right: 15%;
+  padding-left: 2%;
+}
+
 .projectinfo {
   line-height: 1.6;
   width: 40%;
