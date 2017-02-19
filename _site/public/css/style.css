@@ -34,9 +34,9 @@ header {
       z-index: 100; }
     header .headname a {
       text-decoration: none;
-      font-family: "cajito", "Roboto", sans-serif;
+      font-family: 'cajito', sans-serif;
       font-size: 80px;
-      font-weight: 900;
+      font-weight: 200;
       text-decoration: none;
       text-transform: uppercase;
       color: #3A3A3C; }
@@ -46,7 +46,7 @@ header {
       -moz-transition: color 500ms ease .01s;
       transition: color 500ms ease .01s; }
     header .headname h2 {
-      font-family: "Roboto", sans-serif;
+      font-family: "Raleway", sans-serif;
       color: #3A3A3C;
       font-weight: 200;
       font-size: 20px; }
@@ -76,12 +76,12 @@ header {
 .emailme p {
   margin: 0;
   padding-bottom: 2%;
-  font-family: "Roboto", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 12px;
   color: #77767d; }
 
 .emailme p a {
-  font-family: "Roboto", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 17px;
   text-decoration: none;
   color: #77767d; }
@@ -106,7 +106,7 @@ nav {
       text-decoration: none;
       display: inline-block;
       color: #3A3A3C;
-      font-family: "Roboto", sans-serif;
+      font-family: "Raleway", sans-serif;
       padding: 0 1%;
       font-size: 17px;
       text-transform: uppercase; }
@@ -126,7 +126,7 @@ section {
   padding-left: 11%; }
   section .meblurb {
     color: #77767d;
-    font-family: "Roboto", sans-serif;
+    font-family: "Raleway", sans-serif;
     font-size: 15px;
     text-align: justify;
     padding: 7% 0;
@@ -167,7 +167,7 @@ section {
     .secondsection .projectcontainer .project {
       height: 181px; }
       .secondsection .projectcontainer .project a {
-        font-family: "Roboto", sans-serif;
+        font-family: "Raleway", sans-serif;
         color: #77767d;
         text-align: left;
         text-decoration: none;
@@ -207,7 +207,7 @@ section {
       opacity: 0;
       color: #77767d;
       font-size: 18px;
-      font-family: "Roboto", sans-serif; }
+      font-family: "Raleway", sans-serif; }
 
 @media (min-width: 631px) and (max-width: 1024px) {
   .mainpagewrap {
@@ -294,7 +294,7 @@ section {
     padding-top: 8%; }
   .aboutalltext p {
     color: #77767d;
-    font-family: "Roboto", sans-serif;
+    font-family: "Raleway", sans-serif;
     font-size: 16px;
     line-height: 1.6;
     text-align: justify;
@@ -304,7 +304,7 @@ section {
   display: flex;
   justify-content: space-between; }
   .skillscontainer .skills p {
-    font-family: "Roboto", sans-serif;
+    font-family: "Raleway", sans-serif;
     font-size: 15px;
     text-align: left; }
 
@@ -322,7 +322,7 @@ section {
     padding-top: 10%; } }
 .titletext {
   color: #565656;
-  font-family: "Roboto", sans-serif;
+  font-family: "Raleway", sans-serif;
   text-align: center;
   text-transform: uppercase;
   font-size: 1.4vw;
@@ -333,7 +333,7 @@ section {
 .subtitle {
   text-transform: none;
   font-size: 20px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: lighter;
   text-align: center;
   padding: 1% 2% 1% 2%;
@@ -341,7 +341,7 @@ section {
 
 .livelink {
   color: #77767d;
-  font-family: "Roboto", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 15px;
   text-align: left;
   margin: .2%; }
@@ -379,7 +379,7 @@ section {
   padding-left: 15%;
   padding-bottom: 10%;
   padding-top: 2%;
-  font-family: "Roboto", sans-serif;
+  font-family: "Raleway", sans-serif;
   color: #77767d;
   text-align: justify; }
   .projectinfo .toolsprocess {
@@ -459,7 +459,7 @@ section {
   background-color: #f9f9f9; }
 
 .dodescription h3 {
-  font-family: "Roboto", sans-serif;
+  font-family: "Raleway", sans-serif;
   color: #77767d;
   padding: 0 15%;
   font-size: 16px;
@@ -470,7 +470,7 @@ section {
   padding: 2% 15%; }
   .docontainer .flowercontainer p {
     width: 45%;
-    font-family: "Roboto", sans-serif;
+    font-family: "Raleway", sans-serif;
     color: #77767d;
     font-size: 14px;
     text-align: justify;

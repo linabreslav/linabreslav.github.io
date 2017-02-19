@@ -2,9 +2,8 @@
 ---
 
 
-$bodyfont: 'Roboto', sans-serif;
+$bodyfont: 'Raleway', sans-serif;
 $bodygray: #77767d;
-
 
 @font-face {
     font-family: 'cajito';
@@ -77,9 +76,9 @@ header {
     }
     a {
         text-decoration: none;
-        font-family:'cajito', $bodyfont;
+        font-family: 'cajito', sans-serif;
         font-size: 80px;
-        font-weight: 900;
+        font-weight: 200;
         text-decoration: none;
         text-transform: uppercase;
         color: $gray;
