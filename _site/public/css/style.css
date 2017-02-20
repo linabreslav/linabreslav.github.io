@@ -356,6 +356,7 @@ section {
     transition: color 500ms ease .01s; }
 
 .screenshots {
+  position: relative;
   display: block;
   margin: 0 auto;
   float: right;
@@ -367,13 +368,18 @@ section {
   padding-right: 15%;
   padding-left: 2%;
   margin-bottom: 5%; }
+  .screenshots .branchlessprototype {
+    margin-top: 8%;
+    width: 350px;
+    padding: .5%;
+    object-fit: cover; }
   .screenshots img {
     margin-top: 8%;
     width: 350px;
     padding: .5%;
     object-fit: cover; }
 
-.projectinfo {
+.projectinfo, .projectinfobranchless {
   line-height: 1.6;
   width: 40%;
   padding-left: 15%;
@@ -382,14 +388,14 @@ section {
   font-family: "Raleway", sans-serif;
   color: #77767d;
   text-align: justify; }
-  .projectinfo .toolsprocess {
+  .projectinfo .toolsprocess, .projectinfobranchless .toolsprocess {
     text-align: left; }
-    .projectinfo .toolsprocess p a {
+    .projectinfo .toolsprocess p a, .projectinfobranchless .toolsprocess p a {
       border-bottom: 2px dashed #ff5A5F;
       font-weight: bold;
       text-decoration: none;
       color: #77767d; }
-    .projectinfo .toolsprocess p a:hover {
+    .projectinfo .toolsprocess p a:hover, .projectinfobranchless .toolsprocess p a:hover {
       color: #ff5A5F;
       -webkit-transition: color 500ms ease .01s;
       -moz-transition: color 500ms ease .01s;
@@ -415,7 +421,7 @@ section {
   .screenshots img {
     width: 355px; }
 
-  .projectinfo {
+  .projectinfo .projectinfobranchless {
     padding-left: 3%;
     width: 50%; }
 
@@ -441,7 +447,7 @@ section {
       display: block;
       margin: 0 auto; }
 
-  .projectinfo {
+  .projectinfo, .projectinfobranchless {
     width: 80%;
     padding-bottom: 100px;
     padding-left: 10%;
