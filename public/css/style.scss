@@ -266,7 +266,7 @@ section {
       text-transform: none;
       img {
         width: 270px;
-        height: 170px;
+        height: 160px;
         text-align: center;
         object-fit: cover;
         padding: 2%;
@@ -537,8 +537,6 @@ section {
   padding-right: 5%;
   padding-left: 2%;
   margin-bottom: 5%;
-  overflow-y: scroll;
-  height: 1000px;
   .branchlessprototype {
     margin-top: 8%;
     width: 350px;
@@ -640,9 +638,7 @@ section {
     margin: 0 auto;
   }
  }
- .screenshotsembark {
-    height: 4300px;
- }
+
  .projectinfo, .projectinfobranchless {
    width: 80%;
    padding-bottom: 100px;
