@@ -534,9 +534,11 @@ section {
   flex-direction: column;
   justify-content: left;
   align-items: left;
-  padding-right: 15%;
+  padding-right: 5%;
   padding-left: 2%;
   margin-bottom: 5%;
+  overflow-y: scroll;
+  height: 1200px;
   .branchlessprototype {
     margin-top: 8%;
     width: 350px;
