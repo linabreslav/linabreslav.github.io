@@ -24,6 +24,69 @@ header {
   header .headname {
     text-align: center;
     padding-top: 2.5%; }
+    header .headname .nameslogan .animate-reveal {
+      opacity: 0;
+      -webkit-animation: reveal 2s cubic-bezier(0, 1, 0.5, 1) 1 normal forwards;
+      -moz-animation: reveal 2s ease-in 1 normal forwards;
+      -o-animation: reveal 2s cubic-bezier(0, 1, 0.5, 1) 1 normal forwards;
+      animation: reveal 2s cubic-bezier(0, 1, 0.5, 1) 1 normal forwards; }
+    header .headname .nameslogan .animate-second {
+      -webkit-animation-delay: 600ms;
+      -moz-animation-delay: 600ms;
+      -o-animation-delay: 600ms;
+      animation-delay: 600ms; }
+@-webkit-keyframes reveal {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(100%);
+    -moz-transform: translateY(100%);
+    -o-transform: translateY(100%);
+    transform: translateY(100%); }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -o-transform: translateY(0);
+    transform: translateY(0); } }
+@-moz-keyframes reveal {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(100%);
+    -moz-transform: translateY(100%);
+    -o-transform: translateY(100%);
+    transform: translateY(100%); }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -o-transform: translateY(0);
+    transform: translateY(0); } }
+@-o-keyframes reveal {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(100%);
+    -moz-transform: translateY(100%);
+    -o-transform: translateY(100%);
+    transform: translateY(100%); }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -o-transform: translateY(0);
+    transform: translateY(0); } }
+@keyframes reveal {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(100%);
+    -moz-transform: translateY(100%);
+    -o-transform: translateY(100%);
+    transform: translateY(100%); }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -o-transform: translateY(0);
+    transform: translateY(0); } }
     header .headname .nameslogan .titleicons {
       height: 50px;
       width: auto;
@@ -174,7 +237,7 @@ section {
         text-transform: none; }
         .secondsection .projectcontainer .project a img {
           width: 270px;
-          height: 160px;
+          height: 159px;
           text-align: center;
           object-fit: cover;
           padding: 2%;
