@@ -329,6 +329,8 @@ section {
   background-color: #f9f9f9;
   padding-top: 3%;
   padding-bottom: 1%; }
+  .titletext img {
+    width: 55%; }
 
 .subtitle {
   text-transform: none;
